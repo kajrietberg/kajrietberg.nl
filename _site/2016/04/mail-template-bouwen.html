@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="page  article">
+
+  
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+        <title>Mail template bouwen - Front-end developer, photographer, mountainbiker | Kaj Rietberg</title>
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+        <meta name="description" content=" ">
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="Kaj Rietberg">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="http://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+        <link href="/css/style.min.css" rel="stylesheet">
+
+        <!-- apple-touch-icon.png toevoegen -->
+        <!-- Toevoegen html5shiv of modernizr -->
+
+    </head>
+
+    <body>
+
+          <header>
+
+  	<div class="wrapper">
+  
+    	<h2><a href="/">Kaj Rietberg</a></h2>
+    	<h3>CSS Developer</h3>
+
+    	<nav class="nav-primary">
+
+   <ul class="nav-primary__list">
+      <li class="nav-primary__item">
+        <a href="/">Home</a>
+      </li>
+
+      <li class="nav-primary__item">
+        <a href="/about-kaj-rietberg.html">About</a>
+      </li>
+
+      <li class="nav-primary__item">
+        <a href="/webdev-articles.html">Webdev Articles</a> 
+      </li> 
+      
+      <li class="nav-primary__item">
+        <a href="/photography.html">Photo's</a>
+      </li>
+    </ul>
+    
+</nav>
+    </div>	
+    
+  </header>
+
+
+        <main role="main"> 
+            <article>
+            	<h1>Mail template bouwen</h1>
+
+                <time class="post__date" datetime="2016-04-05">5 April, 2016</time>                
+
+                <h2 id="inleiding">Inleiding</h2>
+
+<p>Email is nog steeds of weer een belangrijk communicatiemiddel. Het leek een tijdje er op dat we het minder gingen gebruiken. Maar in de stroom van sociale media is mail juist weer belangrijker geworden, je kan het makkelijker bewaren. Bedrijven sturen steeds meer post via de mail ipv briefpapier. En we abonneren ons liever op een nieuwsbrief dan constant maar alle sociale media af te lopen om bij te blijven. 
+Het sturen van een goed leesbare mail en dan heb ik het niet over inhoudelijk maar over het uiterlijk is goed te doen, als je maar weet hoe. En dit hoe is anders dan het bouwen van een website. Het is zoals velen zeggen zoals in de begintijd dat tabellen gebruikt werden voor het uiterlijk van je website. Het is weer terug in de tijd. 
+De reden hiervoor ligt aan het feit dat er veel mail-clients zijn. De bedrijven die mailclients bouwen vinden het niet belangrijk genoeg om deze net zo vaak te updaten als met een webbrowser. Iets wat ik mij ook kan voorstellen.</p>
+
+<p>Om voor onze klanten beter beslagen ten ijs te komen heb ik mij verdiept in het bouwen van mail-templates. De informatie die ik verzameld heb wil ik hier met jullie delen.</p>
+
+<p>Door je te verdiepen in het bouwen van mail templates kan je klanten vertellen wat wel en niet mogelijk is. Zij weten vaak niet wat wel en niet kan en verwachten hierdoor dat bijvoorbeeld knoppen altijd rond zullen zijn. Wat dus niet zo is.</p>
+
+<h2 id="algemeen">Algemeen</h2>
+<p>Om de boodschap, wat heb je besteld, voor wie en wat zijn de gegevens van deze personen, over te brengen lijkt een single column layout het beste te werken. De boodschap moet duidelijk leesbaar zijn.</p>
+
+<p>Een link in de mail met: “Lees in de browser” zou mooi zijn, mocht de mail niet duidelijk leesbaar zijn kan iemand er voor kiezen om de link in de browser te lezen. Maar dit zou betekenen dat de mail ook online zou moeten staan. Ivm de privacy kan dit niet altijd.</p>
+
+<p>Belangrijke boodschap bovenaan zetten ivm afbreken van een mail in een mail-client. Gebeurt vaak op mobiel.
+Pixel perfect design in elke mail-client lukt je niet.</p>
+
+<p>Melding op bedankt pagina dat mensen een bepaald mailadres toevoegen aan hun adressenbestand zodat de mail niet in de spamfilter terecht komt.</p>
+
+<h2 id="bouwen">Bouwen</h2>
+<p>Voor de opbouw van email templates wordt een <code class="highlighter-rouge">&lt;table&gt;</code> element gebruikt met daarnaast een <code class="highlighter-rouge">&lt;tr&gt;</code> en een <code class="highlighter-rouge">&lt;td&gt;</code>. Meer heb je niet nodig. Hiermee kan je makkelijk alles op de goede plek zetten en weet je dat in de meeste mail-clients de mail goed staat.En dit laatste daar gaat het om. Je kan ook gebruik maken van meer semantische HTML tags zoals een <code class="highlighter-rouge">div, p, h1-h6,</code> maar je hebt dan grote kans dat er verschillende mail-clients zijn die de styling daaraan gekoppeld niet toont. Zo heeft Outlook 2007+ moeite met het tonen van de padding op een p en een div.
+Op elke <code class="highlighter-rouge">&lt;table&gt;</code> en bijna elke <code class="highlighter-rouge">&lt;td&gt;</code> kan of moet je gebruik maken van een aantal attributen namelijk:</p>
+
+<ul>
+  <li>align</li>
+  <li>bgcolor</li>
+  <li>border</li>
+  <li>cellspacing</li>
+  <li>cellpadding</li>
+  <li>width</li>
+  <li>height</li>
+</ul>
+
+<p>Gebruik voor elk element een eigen <code class="highlighter-rouge">&lt;table&gt;</code>, dit is modulair opbouwen van je mail. Hierdoor kan je een element makkelijk verplaatsen, toevoegen of verwijderen. Hierdoor krijg je ook natuurlijke breekpunten die belangrijk zijn voor Outlook, in lange emails zet Outlook die anders zelf en dan kan het op een plek komen waar je het niet wilt. Visuele problemen zie je hierdoor ook sneller en zijn makkelijker op te lossen.</p>
+
+<p>Gebruik de overall table voor de achtergrond kleur, body wordt door sommige mail-clients genegeerd. Gebruik onderstaande manier:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;table cellspacing="0" cellpadding="0" border="0" width="100%"&gt;
+    &lt;tr&gt;
+	  &lt;td bgcolor=”#000000”&gt;
+		Your email code goes here.
+	&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+</div>
+
+<p>Je kan shorthand attributes gebruiken, maar schrijf dan wel de waardes voor elke kant voluit.</p>
+
+<p>Reken bij meerdere kolommen iets minder % dan 100% bij elkaar opgeteld, dan weet je zeker dat het naast elkaar blijft staan. Outlook plaatst soms wat extra ruimte en dan komen ze niet naast elkaar te staan.</p>
+
+<p>Je kan een mailtemplate zelf opbouwen. Maar om je werk uit handen te nemen kan je ook gebruik maken van een mail-template. Ik heb hieronder een aantal opgenoemd.</p>
+
+<p>Templates</p>
+
+<ul>
+  <li><a href="http://foundation.zurb.com/emails.html">Foundation for email</a></li>
+  <li><a href="https://github.com/rodriguezcommaj/salted">Salted van Litmus</a></li>
+  <li><a href="https://github.com/mailchimp/email-blueprints">Blueprints van Mailchimp</a></li>
+</ul>
+
+<p>Er zijn meer templates te vinden, maar verschillende zijn 3 of meer jaar niet aangepast (Blue-print van Mailchimp krijgt binnenkort een update volgens de Github eigenaar). Er zijn zeker wel wat veranderingen geweest in de mail-client wereld. Dus die heb ik hier weggelaten .</p>
+
+<h2 id="design">Design</h2>
+
+<p>Voorbeelden:</p>
+
+<ul>
+  <li><a href="http://inspiration.mailchimp.com/#all">Mailchimp voorbeelden</a></li>
+  <li><a href="https://www.campaignmonitor.com/best-email-marketing-campaigns/">Campainmonitor</a></li>
+  <li><a href="http://reallygoodemails.com/">Really Good Emails</a></li>
+</ul>
+
+<p>Maak de mail maximaal 600 - 800px breed. De schermen waarin je de mail krijgt te zien zijn niet breder.
+Je nest verschillende tables. De eerste heeft een breedte van 100%, de tweede een breedte van 600px. Degene die daar dan inkomen zijn de elementen van de mail. Deze geef je dan een breedte van 100% of een andere breedte als je met verschillende columns wilt werken.</p>
+
+<h2 id="typografie">Typografie</h2>
+
+<p>Zet alle tekst in een <code class="highlighter-rouge">td</code>. Zoals eerder benoemd kan semantische HTML tags, maar is niet gegarandeerd dat elke mail-client ze weergeeft.</p>
+
+<p>Geef elke td een inline styling met:
+* color: ; Beste is hexidecimaal met 6 tekens. Meeste garantie.
+* font-family: ; Zet bij font bestaande uit meerdere woorden wel ‘ ‘ er om.
+* font-size: ;  Gebruik px. Bij iOs wordt alles onder de 14px weergegeven als 14px of je moet - webkit-text- size-adjust: 100% en -ms -text sizeadjust: 100% toepassen. Voor mobiel maak je tekst 16-18px. Maak kopteksten niet te groot
+* font-weight: ; Je kan woorden of de getallen gebruiken.
+* line-height: ; Voor gewone tekst gebruik je het beste 4px meer dan font-size is. Bij een heading zelfde of zelfs iets minder. Maar kijk vooral wat goed staat en leesbaar is.</p>
+
+<p>Je kan bovenstaande op een table zetten, maar het is niet gegarandeerd dat een td de styling meekrijgt van de table zoals het geval is bij webbrowsers.</p>
+
+<p>Elke mail-client toont teksten. Deze zijn ook belangrijk in je mail. Je wilt een boodschap overbrengen. Web safe fonts van 16px zijn het beste te gebruiken. Zie een typography overzicht bij <a href="http://templates.mailchimp.com/design/typography/">Mailchimp</a>. Zorg er qua styling voor dat jezelf alles bepaalt en niet de mail-client, dan weet je zeker dat het er uitziet zoals je bedoelde. Gebruik geen afbeelding als fallback om een font te laten zien. Veel clients blokkeren afbeeldingen op default. Gebruik dan fonts die erg lijken op jouw font, kijk op <a href="http://ffffallback.com">ffffallback.com</a>.
+Je kan web-fonts inladen via <code class="highlighter-rouge">@font-face</code>, <code class="highlighter-rouge">&lt;link&gt;</code> en <code class="highlighter-rouge">@import</code> in een style block in de header. De laatste werkt het beste, maar heeft ook beperkingen.</p>
+
+<h2 id="responsive">Responsive</h2>
+
+<p>Zorg er voor dat je mail mobiel vriendelijk is. Mails worden tegenwoordig veel op mobiel bekijken. Je kan media-queries gebruiken, maar niet alle mail-clients kunnen er mee overweg. Grootste deel wel. De mediaqueries kunnen in de head gezet worden, want de mailclients die de head laten staan, zijn ook degene die overweg kunnen met mediaqueries.</p>
+
+<p>De 2de table element in de template heeft een vaste breedte omdat sommige mailclients (o.a. veel Outlook) niet met percentage kunnen omgaan. Om er voor te zorgen dat deze vaste breedte op mobiel overschreven wordt zetten wij in een mediaquerie:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>@media screen and (max-width: 600px) {            
+   table[class="fluid-table"] {
+	   width: 100% !important;
+    }
+}
+</code></pre>
+</div>
+
+<p>De table die de vaste waarde van bijvoorbeeld 600px heeft gekregen, krijgt ook <code class="highlighter-rouge">class="fluid-table"</code>.
+Voor mail op mobiel kan je verder nog kijken of je lettertype juist groter maakt en bepaalde ruimtes tussen linkjes en logo’s ook groter.
+De belangrijkste mail-client die niet om kan gaan met mediaqueries op elk platform is:
+<strong>Gmail</strong></p>
+
+<h3 id="artikelen">Artikelen:</h3>
+
+<ul>
+  <li><a href="http://alistapart.com/article/can-email-be-responsive">Can email be responsive</a></li>
+  <li><a href="http://labs.actionrocket.co/the-hybrid-coding-approach">The hybrid coding approach</a></li>
+</ul>
+
+<h2 id="afbeeldingen">Afbeeldingen</h2>
+
+<p>Gebruik:</p>
+
+<ul>
+  <li>jpg. Wordt goed ondersteund.</li>
+  <li>png. Voor transparante afbeelding deze gebruiken. Vaak iets groter dan jpg</li>
+  <li>gif. Voor animatie deze gebruiken. Nadeel is dat ze vaak erg groot worden.</li>
+</ul>
+
+<p>Afbeeldingen worden vaak geblokt, zorg er voor dat ze niet belangrijk zijn voor je verhaal en plaats een alt-text die je ook styling meegeeft door inline styling op het img element te plaatsen. Het beste is ze in te laden met een absoluut pad. Zet ze dus ergens op je server.
+Verschillende mail clients zetten ruimte om een afbeelding, daarom display: block; toepassen op een afbeelding.
+Voor retina kan je het beste een afbeelding dat 2x zo groot is nemen en op de img de juiste breedte meegeven. Zorg voor compressie via software voor dat je de afbeelding online zet.</p>
+
+<p>Gebruik <code class="highlighter-rouge">vspace="10" hspace="10"</code> voor padding om afbeeldingen heen in Outlook.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;img src="img/fluid-images.jpg" width="240" height="130" style="display: block; color: #666666; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 240px; height: 130px;" alt="Fluid images" border="0" class="fluid-image"&gt;
+
+&lt;img src="responsive-email.jpg" width="500" height="200" border="0" alt="Can an email really be responsive?" style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="fluid-image"&gt;
+</code></pre>
+</div>
+
+<p>We kunnen deze afbeelding schaalbaar maken door het volgende in een mediaquerie en de head van de template te stoppen:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>img[class="fluid-image”] {
+   width:100% !important; 
+   height: auto !important;
+}
+</code></pre>
+</div>
+
+<h2 id="links">Links</h2>
+
+<p>Zet links niet te dicht op elkaar, op mobiel kan je dan niet goed de juiste link klikken. Je kan het font iets groter maken of de line-height iets hoger zodat er meer ruimte om een link zit om aan te klikken.</p>
+
+<p>iOs maakt van onderstaande elementen een link die aanklikbaar is, hierdoor krijgt het de standaard styling van een link. Je kan dit ondervangen door een span met een class er op om heen te zetten. Geef de class in je style block in de header de styling mee die je graag wilt zien. Plaats ook een !important er achter zodat je zeker weet dat inline styling overschreven wordt.</p>
+
+<ul>
+  <li>data (lijkt er op dat alleen data in de toekomst dit doen)</li>
+  <li>telefoonnummers</li>
+  <li>adressen</li>
+  <li>tijd</li>
+  <li>email-adressen</li>
+</ul>
+
+<p>Deze kan je ook niet laten detecteren en dan gebruik je:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;meta name="format-detection" content="telephone=no"&gt;
+&lt;meta name="format-detection" content="telephone=no"&gt;
+&lt;meta name="format-detection" content="date=no"&gt;
+&lt;meta name="format-detection" content="address=no"&gt;
+&lt;meta name="format-detection" content="email=no"&gt;
+</code></pre>
+</div>
+
+<p>Gebruik je bovenstaande manier, dan haal je styling en functie weg, dus zijn de links ook niet meer aanklikbaar.</p>
+
+<p>Voor alleen telefoonnummers kan je in de style tags in de head zetten:</p>
+
+<p><code class="highlighter-rouge">a[href^=tel]{ color:#F00  ; text-decoration:none ;}</code></p>
+
+<p>Volgens Litmus is de beste manier om spans met een class er om heen te zetten en die dan te stylen.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>.appleLinksWhite a {color: #ffffff !important ; text-decoration: underline ;}  .appleLinksBlack a {color: #000000 !important ; text-decoration: none ;}
+&lt;span class=”appleLinksBlack”&gt;+32(0)612345678&lt;/span&gt;   
+</code></pre>
+</div>
+
+<p>Mijn ervaring van het zetten van een border-bottom via een span is dat Outlook er een hele border van maakt en niet alleen op de bottom. Voor een rij getallen die je onder elkaar zet en wilt tonen als optelling werkt deze techniek niet.</p>
+
+<h2 id="buttons">Buttons</h2>
+
+<p>Gebruik voor buttons geen afbeeldingen, die worden geblokt en weg is je knop op het eerste gezicht. Je kan VML-based knoppen maken. Nadeel hiervan is dat ze niet makkelijk aan te passen zijn, niet onderhoudbaar zijn, slecht leesbaar voor een designer/ ontwikkelaar. (Zie bij tools bulletproof email buttons). Handiger is in een td een anchor link te plaatsen en de styling op de td te zetten met een padding. Nadeel is dat niet elke mail-client padding accepteert en de link is alleen aanklikbaar en niet de hele knop. (Foundation for email; http://foundation.zurb.com/emails/docs.html#buttons). Of een anchor link in een td plaatsen en op de link dikke borders plaatsen. Te dikke borders worden niet geaccepteerd door Outlook. Maak ze dus niet te dik of probeer een variant van laatst genoemde en bovenstaande.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;table border="0" cellspacing="0" cellpadding="0" class="responsive-table"&gt;
+    &lt;tr&gt;
+        &lt;td align="center"&gt;
+            &lt;a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #666666; text-decoration: none; background-color: #5D9CEC; border-top: 15px solid #5D9CEC; border-bottom: 15px solid #5D9CEC; border-left: 25px solid #5D9CEC; border-right: 25px solid #5D9CEC; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button"&gt; Learn More → &lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+</div>
+
+<h2 id="html-en-css-en-js">HTML en CSS en JS</h2>
+
+<p>Gebruik tables voor neerzetten van je email. Gebruik simpele CSS, veel CSS3 wordt niet ondersteund door verschillende mail-clients.
+De nieuwere Outlook’s ondersteunen CSS zeer slecht. Pixel perfect stylen gaat je waarschijnlijk niet lukken of na veel extra tijd.
+Zet de styling in de head en inline of alleen inline. Gmail stript de <code class="highlighter-rouge">&lt;head&gt;</code> en dus ook de <code class="highlighter-rouge">&lt;link&gt;</code>  en <code class="highlighter-rouge">&lt;style&gt;</code> tag.
+Geen shorthand bij schrijven van CSS. Schrijf het vol uit, dit geeft de meeste garantie dat het getoond wordt.</p>
+
+<h3 id="css3">CSS3:</h3>
+<p>Van CSS3 kan je gebruiken:</p>
+
+<ul>
+  <li>border-radius</li>
+  <li>box-shadow</li>
+  <li>text-shadow</li>
+  <li>transform (voor aanpassingen aan de grote of iets scheef laten staan)</li>
+  <li>animation: Met transition of @keyframes, beide in de head plaatsen. Of gebruik een gif, denk aan grote en outlook toont 1 beeld.</li>
+</ul>
+
+<p>JavaScript: niet gebruiken omdat email clients dit er uit halen vanwege veiligheid.</p>
+
+<h2 id="reset-styles">Reset styles</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>   &lt;style type="text/css"&gt;       
+    /*////// RESET STYLES //////*/       
+        p{margin:0 0 10px 0;} 
+        a{word-wrap:break-word;}  
+        table{border-collapse:collapse;}        
+        h1, h2, h3, h4, h5, h6{display:block; margin:0; padding:0;}       
+        img, a img{border:0; height:auto; outline:none; text-decoration:none;}        
+        body, #bodyTable, #bodyCell{height:100%; margin:0; padding:0; width:100%;}
+
+    /*////// CLIENT-SPECIFIC STYLES //////*/
+        #outlook a{padding:0;}      /* Force Outlook 2007 and up to provide a "view in browser" message. */
+        @-ms-viewport{width:device-width;}      /* Force IE "snap mode" to render widths normally. */
+        img{-ms-interpolation-mode:bicubic;}        /* Force IE to smoothly render resized images. */      
+        table{mso-table-lspace:0pt; mso-table-rspace:0pt;}      /* Remove spacing between tables in Outlook Desktop. */   
+        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}       /* Force Outlook.com to display emails at full width. */       
+        p, a, li, td, blockquote{mso-line-height-rule:exactly;}     /* Force Outlook Desktop to render line heights as they're originally set. */
+        a[href^="tel"], a[href^="sms"]{color:inherit; cursor:default; text-decoration:none;}    /* Force mobile devices to inherit declared link styles. */       
+        p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}    /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */        
+        .ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}    /* Force Outlook.com to display line heights normally. */
+        a[x-apple-data-detectors]{color:inherit !important; text-decoration:none !important; font-size:inherit !important; font-family:inherit !important; font-weight:inherit !important; line-height:inherit !important;}     /* Force iOS devices to heed link styles set in CSS. */
+    &lt;/style&gt;    
+</code></pre>
+</div>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>Outlook 2007+ op Windows hebben Word als hun rendering engine en daardoor is het een beperkte mail client. Die op de Mac heeft daar geen last van, die is gebaseerd op webkit. Om te zorgen dat Outlook mee werkt kan je conditinal comments gebruiken. Zie http://templates.mailchimp.com/development/css/outlook-conditional-css/.</p>
+
+<p>Outlook toont geen gif’s, alleen het eerste frame.
+Outlook.com filtert the CSS background-image property.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;!--[if mso]&gt;
+   /* Plaats HTML en CSS hier */
+&lt;![endif]--&gt;
+&lt;!--[if (IE)]&gt;
+   /* Plaats HTML en CSS hier */
+&lt;![endif]--&gt;
+</code></pre>
+</div>
+
+<p>Outlook.com targeting is ook met:</p>
+
+<p><code class="highlighter-rouge">.ExternalClass div[class="ecxmyclass"]</code></p>
+
+<h2 id="gmail">Gmail</h2>
+
+<p>Filtert id’s en classes en verwijderd de style tag uit de header. Vanwege deze mailclient is het gebruik van inline styling zo belangrijk. Hierdoor kan je ook geen mediaqueries gebruiken, want die staan in je style tag in de header en worden er dus uitgesloopt.</p>
+
+<h2 id="ios">iOs</h2>
+
+<p>In iOs krijgen linkjes voor adres, telefoonnummer, mailadres een blauwe kleur. Als je dit niet wilt zijn er verschillende oplossingen. Deze staan hier beschreven: https://litmus.com/blog/update-banning-blue-links-on-ios-devices. De handigste is:</p>
+
+<p>In de header:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">.appleLinksWhite a {color: #ffffff !important; text-decoration: underline;}</code></li>
+  <li><code class="highlighter-rouge">.appleLinksBlack a {color: #000000 !important; text-decoration: none;}</code></li>
+</ul>
+
+<p>In de table:</p>
+
+<p><code class="highlighter-rouge">&lt;span class=”appleLinksBlack”&gt;866-787-7030&lt;/span&gt;</code></p>
+
+<h2 id="standaard">Standaard</h2>
+
+<p>Er is geen email standaard. Alles gebeurd op basis van good practices. Er zijn verschillende pogingen ondernomen om tot een standaard te komen maar de mail-client bouwers gaan er niet in mee.</p>
+
+<h2 id="tools">Tools</h2>
+
+<ul>
+  <li><a href="http://buttons.cm/">Bulletproof email buttons</a></li>
+  <li><a href="http://ffffallback.com/">Fallback font zoeken</a></li>
+  <li><a href="https://litmus.com/builder/">Email builder en inliner</a></li>
+  <li><a href="https://litmus.com/scope/">Code bekijken van gekregen email met Litmus Scope</a></li>
+</ul>
+
+<h2 id="testen">Testen</h2>
+
+<p>Bij de mail heb je verschillende mailclients. Deze tonen niet alle CSS die je gebuikt. Dit verschilt per client. Het verschil hierbij is veel groter dan bij de browsers. Er zijn ook meer clients die gebruikt worden. We spreken dan over desktop en mobiel.
+Om er voor te zorgen dat de mail in de meest gebruikte clients goed toonbaar is kan je allemaal clients installeren. Dit zal je nooit helemaal lukken. Verschillende apparaten zorgen voor verschillende clients. Dat zijn er uiteindelijk zoveel dat het te kostbaar wordt.
+Je kan een abonnement nemen op <a href="https://litmus.com/email-testing">Litmus email testing</a> of <a href="http://www.emailonacid.com/">Email on Acid</a> (bij acid kan je credits kopen om per keer een mailtemplate te testen). Hier kan je makkelijk een mail template testen. Of neem een gratis account op Mailchimp. Zet daar je template in en laat je template testen voor $3,- per test. Dit kan goedkoper zijn dan een abonnement op een test applicatie (zie http://mailchimp.com/features/inbox-inspector/).</p>
+
+<h3 id="mailchimp-test-route">Mailchimp test route</h3>
+
+<p>Bij Mailchimp kan je een gratis account aanmaken. Hier kan je een account aanmaken. De template die je hebt gebouwd kan je hier inplakken, aanpassen op basis van de preview die je ziet en daarna kan je deze via de knop Run inbox inspection laten testen. Je kan een abonnement nemen van $10,- p/m en dan is het gratis. Of een eenmalige test kopen voor $3,-. Voordeel van dit laatste is dat je niet aan een abonnement vast zit. Nadeel is dat je na 1x testen en nog aanpassingen maken nog een x zou moeten testen en je kan maximaal 10 clients kiezen. En dat zou weer geld kosten.</p>
+
+<h2 id="mail-clients">Mail-clients</h2>
+
+<p>Op <a href="http://emailclientmarketshare.com/">Email Market Share</a> kan je zien welke mail-clients welk aandeel hebben qua gebruik. Mail-clients veranderen eens in de zoveel tijd. Handig is om de zoveel tijd je mail-templates te testen.</p>
+
+<h3 id="meest-gebruikte-mail-clients-in-nederland">Meest gebruikte mail clients in Nederland</h3>
+<p>Hier ben ik nog niet achter. Ik denk dat het vrij gelijk loopt met die wereldwijd.</p>
+
+<h2 id="spam-filters">Spam filters</h2>
+
+<p>Check de woorden in je mail bericht ivm dat je in een <a href="http://templates.mailchimp.com/concepts/spam-filters/">spam-filter</a> kan komen.</p>
+
+<h2 id="handige-theorie-linkjes">Handige theorie linkjes</h2>
+
+<ul>
+  <li>Boek: <a href="http://modernhtmlemail.com/">Modern HTML email</a> (vooor beginners volgens de schrijver)</li>
+  <li>Boek: <a href="http://professionalemaildesign.com/">Professional email design</a></li>
+  <li>Tips voor het bouwen van een <a href="https://litmus.com/blog/html-email-coding-101-infographic">template voor de te gebruiken html en css</a></li>
+  <li><a href="https://www.campaignmonitor.com/dev-resources/">Tools for coding HTML emails</a></li>
+  <li><a href="http://responsiveemailresources.com/">Responsive email resources</a></li>
+  <li><a href="http://responsiveemailpatterns.com/">Responsive email patterns</a></li>
+  <li><a href="http://templates.mailchimp.com/">Overzicht van Mailchimp</a> (aanrader!)</li>
+  <li><a href="http://webdesign.tutsplus.com/series/mastering-html-email--webdesign-17696">Verschillende artikelen over bouwen en designen van email</a></li>
+  <li><a href="http://www.benjystanton.co.uk/blog/making-responsive-html-emails/">Workflow voor bouwen van een mail</a></li>
+  <li><a href="https://litmus.com/community/learning">Litmus community learning</a></li>
+  <li><a href="https://litmus.com/blog/a-guide-to-css-inlining-in-email">Overzicht voor code inliners</a></li>
+</ul>
+
+<h3 id="overig">Overig</h3>
+<ul>
+  <li><a href="https://litmus.com/community">Email community</a></li>
+  <li><a href="https://www.w3.org/community/htmail/">HTML for email group van de W3C</a></li>
+</ul>
+
+<h2 id="people-to-follow">People to follow</h2>
+<ul>
+  <li><a href="https://twitter.com/flcarneiro">Fabio Carneiro</a></li>
+  <li><a href="https://twitter.com/iamelliot">Elliot Ross</a></li>
+  <li><a href="https://twitter.com/moonstrips">Nicole Merlin</a></li>
+</ul>
+
+<h2 id="bedrijven-om-te-volgen">Bedrijven om te volgen</h2>
+<ul>
+  <li><a href="http://actionrocket.co/">Action Rocket</a></li>
+  <li><a href="https://www.displayblock.com/">Display:Block</a></li>
+</ul>
+
+<h2 id="cursussen">Cursussen</h2>
+<p>Om meer te leren over het bouwen van mail templates heb je verschillende cursussen en een conferentie.</p>
+
+<ul>
+  <li><a href="http://zurb.com/university/responsive-emails-intro">Introduction to responsive email</a></li>
+  <li><a href="https://litmus.com/conference">Email design conference van Litmus</a></li>
+</ul>
+
+<h2 id="conclusie">Conclusie</h2>
+<p>De wereld van email-design en coding is een wereld apart. Je kan hiervan je werkgebied maken zonder dat je verder bezig hoeft te houden met het bouwen van websites. Het is een werkgebied dat ook zeker in ontwikkeling is, helaas minder snel dan de mensen die er in werken zouden willen. Maar er gebeurt genoeg.
+Naar mijn idee is dit ook voor front-end ontwikkelaars een tof vakgebied.</p>
+
+
+
+            </article>
+
+        </main>
+
+
+	<footer class="footer-primary">
+    <div class="wrapper">
+
+     
+
+      <ul class="social-media">
+        <li class="social-media__item">
+          <a href="http://twitter.com/Kajrietberg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M25 5.527c-.918.41-1.91.684-2.944.806 1.06-.635 1.87-1.64 2.256-2.837-.99.586-2.09 1.016-3.257 1.245-.938-.995-2.27-1.615-3.745-1.615-2.832 0-5.127 2.295-5.127 5.127 0 .4.044.79.132 1.167-4.263-.216-8.042-2.257-10.57-5.362-.44.757-.694 1.64-.694 2.578 0 1.777.904 3.35 2.28 4.268-.84-.024-1.63-.26-2.323-.64v.063c0 2.485 1.768 4.56 4.116 5.03-.43.116-.884.18-1.353.18-.332 0-.65-.034-.967-.093.654 2.036 2.55 3.52 4.79 3.564-1.758 1.377-3.965 2.197-6.372 2.197-.414 0-.82-.024-1.225-.073 2.275 1.46 4.97 2.305 7.866 2.305 9.435 0 14.596-7.817 14.596-14.595 0-.225-.005-.444-.015-.664 1.002-.718 1.87-1.62 2.56-2.65z"/></svg>
+          </a>
+        </li>
+
+        <li class="social-media__item">
+          <a href="https://www.flickr.com/photos/rietberg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M12.5 0C5.596 0 0 5.635 0 12.585S5.596 25.17 12.5 25.17 25 19.535 25 12.585 19.404 0 12.5 0zM7.03 16.406c-2.156 0-3.905-1.75-3.905-3.906s1.75-3.906 3.906-3.906 3.907 1.75 3.907 3.906c0 2.157-1.75 3.906-3.906 3.906zm10.94 0c-2.158 0-3.907-1.75-3.907-3.906s1.75-3.906 3.906-3.906 3.905 1.75 3.905 3.906c0 2.157-1.75 3.906-3.906 3.906z"/></svg>
+          </a>
+        </li>
+
+        <li class="social-media__item">
+          <a href="https://github.com/kajrietberg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M12.5.31C5.597.31 0 5.904 0 12.81c0 5.522 3.582 10.207 8.548 11.86.625.116.854-.27.854-.6 0-.3-.012-1.284-.017-2.328-3.478.756-4.212-1.475-4.212-1.475-.568-1.445-1.388-1.83-1.388-1.83-1.134-.775.086-.76.086-.76 1.256.09 1.917 1.29 1.917 1.29 1.115 1.91 2.924 1.357 3.638 1.038.112-.808.436-1.36.794-1.67-2.778-.317-5.696-1.39-5.696-6.18 0-1.364.488-2.48 1.288-3.354-.13-.314-.558-1.585.12-3.307 0 0 1.05-.336 3.44 1.28.996-.276 2.065-.415 3.128-.42 1.062.005 2.132.144 3.13.42 2.387-1.616 3.435-1.28 3.435-1.28.68 1.722.253 2.993.123 3.308.8.876 1.286 1.992 1.286 3.356 0 4.8-2.924 5.858-5.708 6.168.448.388.848 1.15.848 2.315 0 1.672-.015 3.018-.015 3.43 0 .332.224.722.858.6 4.964-1.656 8.54-6.34 8.54-11.86C25 5.904 19.403.31 12.5.31z"/></svg>
+          </a>
+        </li>
+      </ul>
+
+      <p class="copyright">Copyright &copy; kajrietberg.nl sinds 2015</p>
+
+    </div>
+
+  </footer>
+
+ 
+
+
+
+
+
+
+ 		
+
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-1815484-2', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+
+        
+    </body>
+</html>

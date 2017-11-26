@@ -1,0 +1,22 @@
+/*------------------------------------*\
+                #LAYOUT
+\*------------------------------------*/
+
+
+.wrapper,
+article {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    @include breakpoint($breakpoint-two) {
+        width: 770px;
+    }
+    @include breakpoint($breakpoint-three) {
+        width: 1023px;
+    }
+}
+
+
+
+

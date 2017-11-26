@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+	{% include header.html %}
+
+		<main role="main"> 
+			<div class="wrapper">
+
+				<section>
+					<h1 class="page-title">{{ page.title }}</h1>
+
+	            {{ content }}
+
+        </main>
+        
+        {% if page.show-modal-photo == true %}
+
+            {% include modal-photo.html %}
+
+        {% endif %}
+
+
+	{% include footer.html %}

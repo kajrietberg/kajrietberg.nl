@@ -1,0 +1,14 @@
+/*------------------------------------*\
+                #MIXINS
+\*------------------------------------*/
+
+
+
+
+// Media queries
+// Example: @include breakpoint($breakpoint-two) { your properties }
+@mixin breakpoint($breakpoint) {
+    @media ($breakpoint-property: $breakpoint / $font-size +em) {
+        @content;
+    }
+}

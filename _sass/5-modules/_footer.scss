@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    			#FOOTER
+\*------------------------------------*/
+
+footer {
+    clear: both;
+
+    border-top: 1px solid #eee;
+    
+}
+
+
+
+
+
+/*------------------------------------*\
+    			#COPYRIGHT
+\*------------------------------------*/
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    @include breakpoint($breakpoint-two) {
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+            #SOCIALMEDIA-ICONS
+\*------------------------------------*/
+
+.social-media {
+        width: 100%;
+        list-style-type: none;
+
+        text-align: center;
+
+        margin: 0;
+        padding: 0;
+
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        @include breakpoint($breakpoint-two) {
+            float: left;
+            width: 50%;
+
+            text-align: right;
+            padding: 0 1rem 0;
+
+
+        }
+        li {
+            display: inline-block;
+            width: 100%;
+            
+            @include breakpoint($breakpoint-two) {
+            
+            text-align: left;
+            
+        }
+        }
+
+    }   

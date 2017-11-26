@@ -1,0 +1,69 @@
+/*------------------------------------*\
+            #HOME-PAGE
+\*------------------------------------*/
+.page--home {
+
+    main a {
+        color: #fff;
+        font-size: 1.15em;
+        &:hover {
+            color: #FF5D40;
+        }
+    }
+
+    
+    p {
+    color: #000;
+    }
+    
+
+    header h1 a {
+        color: #FF5D40;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+            #SECTIONS
+\*------------------------------------*/
+
+.page--home section:nth-of-type(1) {
+    background-color: #3498DB; 
+}
+.page--home section:nth-of-type(2) {
+    background-color: #3D7499; 
+}
+.page--home section:nth-of-type(3) {
+    background-color: #CC1614; 
+}
+
+
+
+
+
+/*------------------------------------*\
+            #LINK-LISTS
+\*------------------------------------*/
+
+.page--home ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    @include breakpoint($breakpoint-two) { 
+        
+    }
+        
+
+    li {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: $spacing/2;
+    }
+}
+
