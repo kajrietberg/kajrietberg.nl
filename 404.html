@@ -4,4 +4,12 @@ title: 404, not found
 page-class: page--404
 ---
 
-<p>This page is probably not the page you were looking for. Start over at the <a href="/">home page</a>.</p>
+<p>This page is probably not the page you were looking for. Start over at the <a href="/">home page</a>. Or look at one of my web dev articles in Dutch :-)</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}.html">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
