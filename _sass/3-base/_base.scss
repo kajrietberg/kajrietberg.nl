@@ -27,8 +27,8 @@ html {
     font: 300 $font-size-body $font-base;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    @include breakpoint($breakpoint-two) { font-size: .9em; }
-    @include breakpoint($breakpoint-three) { font-size: 1.0em; }
+    @include breakpoint($breakpoint-two) { font-size: 1rem; }
+    @include breakpoint($breakpoint-three) { font-size: 1.1rem; }
 }
 
 body {
