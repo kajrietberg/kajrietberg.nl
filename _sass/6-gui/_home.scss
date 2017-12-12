@@ -1,24 +1,10 @@
 /*------------------------------------*\
             #HOME-PAGE
 \*------------------------------------*/
-.page--home {
-
-    main a {
-        color: #fff;
-
-        &:hover {
-            color: #FF5D40;
-        }
-    }
-
-    
-    p {
-    color: #000;
-    }
-    
+.page--home {    
 
     header h1 a {
-        color: #FF5D40;
+        color: #F58DB6;
     }
 }
 
@@ -31,17 +17,17 @@
 \*------------------------------------*/
 
 .page--home section:nth-of-type(1) {
-    background-color: #3498DB; 
+    // background-color: #3498DB; 
 }
 .page--home section:nth-of-type(2) {
-    background-color: #fff; 
+    // background-color: #fff; 
 
     a {
-        color: #FF5D40;
+        // color: #FF5D40;
     }
 }
 .page--home section:nth-of-type(3) {
-    background-color: #CC1614; 
+    // background-color: #CC1614; 
 }
 
 

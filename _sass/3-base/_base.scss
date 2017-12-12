@@ -23,7 +23,7 @@ html {
 ::selection { background: lighten($black, 10%); color: $white; text-shadow: none; }
 
 html {
-    color: lighten($black, 10%);
+    color: #121259;
     font: 300 $font-size-body $font-base;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
@@ -46,15 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
-    font-size: 2.25em;  
+    font-size: 2.25rem;  
 }
 
 
 h2 { 
-    font-size: 1.4em;
-    .page--home & {
-        color: #000;
-    } 
+    font-size: 2rem;
 }
 
 h3 { font-size: 1.2em; }
@@ -72,7 +69,7 @@ p {
 
 
 a {
-    color: #FF5D40;
+    color: #F58DB6;
     text-decoration: none;
     &:hover { color: darken($color-brand, 50%); }
 }
