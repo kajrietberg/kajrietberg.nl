@@ -27,8 +27,10 @@ html {
     font: 300 $font-size-body $font-base;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    @include breakpoint($breakpoint-two) { font-size: 1rem; }
-    @include breakpoint($breakpoint-three) { font-size: 1.1rem; }
+
+    @include breakpoint($breakpoint-three) { 
+        font-size: 1.15rem; 
+    }
 }
 
 body {
@@ -55,10 +57,10 @@ h2 {
     font-size: 2rem;
 }
 
-h3 { font-size: 1.2em; }
-h4 { font-size: 1.1em; }
-h5 { font-size: 1.05em; }
-h6 { font-size: 1em; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h5 { font-size: 1.05rem; }
+h6 { font-size: 1rem; }
 
 p {
     margin-bottom: $vertical-spacing;
