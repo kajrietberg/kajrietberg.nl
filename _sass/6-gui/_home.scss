@@ -38,10 +38,9 @@
             #LINK-LISTS
 \*------------------------------------*/
 
-.page--home ul {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+.rechte-lijn {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding-left: 0;

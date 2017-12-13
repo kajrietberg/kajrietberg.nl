@@ -19,12 +19,8 @@ footer {
 
 .copyright {
     width: 100%;
-    text-align: center;
-    @include breakpoint($breakpoint-two) {
-        float: left;
-        width: 50%;
-        text-align: right;
-    }
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -36,35 +32,33 @@ footer {
 \*------------------------------------*/
 
 .social-media {
-        width: 100%;
-        list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 
-        text-align: center;
 
-        margin: 0;
-        padding: 0;
-
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
         @include breakpoint($breakpoint-two) {
-            float: left;
-            width: 50%;
-
             text-align: right;
-            padding: 0 1rem 0;
-
-
+            padding: 0;
         }
+        
         li {
             display: inline-block;
-            width: 100%;
+            margin-right: 10px;
+            margin-bottom: $spacing;
+
+            &:last-of-type {
+                margin-right: 0;
+            }           
             
             @include breakpoint($breakpoint-two) {
-            
-            text-align: left;
-            
-        }
+                text-align: left;
+            }
         }
 
     }   
