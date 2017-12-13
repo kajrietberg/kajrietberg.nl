@@ -4,17 +4,17 @@
 
 
 header {
-    height: 275px;
+    height: 290px;
     width: 100%;
     box-shadow: 0px 2px 5px #666;
     background-color: #121259;
     
     @include breakpoint($breakpoint-one) {
-        height: 200px; 
+        height: 215px; 
     }
 
     @include breakpoint($breakpoint-two) {
-        height: 130px; 
+        height: 145px; 
     }
 
 
