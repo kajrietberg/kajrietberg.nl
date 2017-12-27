@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mijn UX-Frontend toekomst: een maand later
+title: Mijn UX-Frontend toekomst een maand later
 tags: personal, ux, front-end
 page-class: article
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mijn nieuwe weg: User Experience
+title: Mijn nieuwe weg User Experience
 tags: personal, ux
 page-class: article
 ---

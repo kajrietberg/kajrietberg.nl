@@ -23,6 +23,7 @@ Ik heb een lijst samengesteld van vaardigheden die gevraagd worden van Front-end
 
 
 Naast de tools om mee te werken heb je als Front-end ontwikkelaar ook persoonlijke vaardigheden nodig zoals:
+
 * creatief denken
 * oprecht geïnteresseerd zijn in nieuwe technieken
 * klantvriendelijkheid
