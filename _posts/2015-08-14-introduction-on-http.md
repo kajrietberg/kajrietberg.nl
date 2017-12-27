@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mijn nieuwe weg: User Experience
-tags: personal, ux
+title: Introduction on HTPP
+tags: http, webserver, network
 page-class: article
 ---
 
