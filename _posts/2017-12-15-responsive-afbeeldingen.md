@@ -11,12 +11,12 @@ page-class: article
 Doordat we steeds o.a. meer verschillende schermgroottes hebben en andere type schermen is het tonen van afbeeldingen op je website ook veranderd. Soms wil je een kleinere afbeelding of een scherpere, soms een lichtere of een ander type.
 Hiervoor hebben we nog steeds de img tag, maar deze is uitgebreid met srcset en sizes. Zie het code voorbeeld:
 
-<code>
+```
 <img src="small.jpg"
      srcset="large.jpg 1024w, medium.jpg 640w, small.jpg 320w"
      sizes="(min-width: 36em) 33.3vw, 100vw"
      alt="A rad wolf">
-</code>
+```
 
 scrset zegt welke afbeelding wanneer getoond moet worden. Als er ruimte is voor een afbeelding van 1024px zal large.jpg getoond worden (1024w staat voor de breedte van de afbeelding, dus 1024px width). Je kan door achter de afbeeldingen 1x of 2x te zetten bepalen wanneer een afbeelding getoont moet worden bij schermen met een ander pixeldichtheid. Bij een pixeldichtheid van 2x zal dan die afbeelding getoond worden.
 sizes verteld hoeveel ruimte de afbeelding mag gebruiken. Hiervoor is een media-querie gebruikt, deze zegt dat bij een minimale schermbreedte van 36em de afbeelding 1/3 van de viewport moet gebruiken en anders altijd 100% van de viewport.
@@ -28,7 +28,7 @@ De picture element bevat 0 of meer source elementen en 1 img-tag waardoor je voo
 De picture-tag wordt ondersteund in alle webbrowsers behalve IE11 en Opera-mini [https://caniuse.com/#feat=srcset](https://caniuse.com/#feat=picture)
 
 Voorbeeld van de picture-tag
-<code>
+```
 	<picture>
 	  <source media="(min-width: 40em)"
 	    srcset="big.jpg 1x, big-hd.jpg 2x">
@@ -36,7 +36,7 @@ Voorbeeld van de picture-tag
 	    srcset="small.jpg 1x, small-hd.jpg 2x">
 	  <img src="fallback.jpg" alt="">
 	</picture>
-</code> 
+``` 
  
 Het gebruik van de img tag prefereert de voorkeur tov de nieuwe Picture-tag. De reden hiervoor is dat de img tag flexibeler is, die laat de keuze aan de browser over om te bekijken wat het beste past. Bij de picture-tag gebruik je een source en de eerste scourse die de browser tegen komt wordt gekozen door de browser. En dat hoeft niet de best passende keuze zijn.
 Gebruik de picture element als het om art-direction gaat. Of als je verschillende file-types wil tonen.
