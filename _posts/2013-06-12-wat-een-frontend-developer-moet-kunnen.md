@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wat een front-end ontwikkelaar moet kunnen
+title: Wat een front-end ontwikkelaar moet kunnen in 2015
 tags: personal, front-end
 page-class: article
 ---
