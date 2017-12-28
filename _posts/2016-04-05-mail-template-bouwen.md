@@ -5,14 +5,16 @@ tags: front-end, mail
 page-class: article
 ---
 
-##Inleiding
+
 Email is nog steeds of weer een belangrijk communicatiemiddel. Het leek een tijdje er op dat we het minder gingen gebruiken. Maar in de stroom van sociale media is mail juist weer belangrijker geworden, je kan het makkelijker bewaren. Bedrijven sturen steeds meer post via de mail ipv briefpapier. En we abonneren ons liever op een nieuwsbrief dan constant maar alle sociale media af te lopen om bij te blijven. 
-Het sturen van een goed leesbare mail en dan heb ik het niet over inhoudelijk maar over het uiterlijk is goed te doen, als je maar weet hoe. En dit hoe is anders dan het bouwen van een website. Het is zoals velen zeggen zoals in de begintijd dat tabellen gebruikt werden voor het uiterlijk van je website. Het is weer terug in de tijd. 
+Het sturen van een goed leesbare mail en dan heb ik het niet over inhoudelijk maar over het uiterlijk is goed te doen, als je maar weet hoe. En dit hoe is anders dan het bouwen van een website. Zoals velen zeggen is het net zoals in de begintijd dat tabellen gebruikt werden voor het uiterlijk van je website. Het is weer terug in de tijd. 
 De reden hiervoor ligt aan het feit dat er veel mail-clients zijn. De bedrijven die mailclients bouwen vinden het niet belangrijk genoeg om deze net zo vaak te updaten als met een webbrowser. Iets wat ik mij ook kan voorstellen.
 
 Om voor onze klanten beter beslagen ten ijs te komen heb ik mij verdiept in het bouwen van mail-templates. De informatie die ik verzameld heb wil ik hier met jullie delen.
 
 Door je te verdiepen in het bouwen van mail templates kan je klanten vertellen wat wel en niet mogelijk is. Zij weten vaak niet wat wel en niet kan en verwachten hierdoor dat bijvoorbeeld knoppen altijd rond zullen zijn. Wat dus niet zo is. 
+
+<strong>Denk er aan: dit artikel is geschreven in april 2016.</strong> De ontwikkelingen gaan gestaag in de mail-wereld, maar ze zijn er wel. Er zullen betere en nieuwere technieken zijn. Bekijk de links onder aan het artikel voor plekken om deze nieuwere informatie te bekijken.
 
 
 ##Algemeen
@@ -26,7 +28,7 @@ Pixel perfect design in elke mail-client lukt je niet.
 Melding op bedankt pagina dat mensen een bepaald mailadres toevoegen aan hun adressenbestand zodat de mail niet in de spamfilter terecht komt.
 
 ##Bouwen
-Voor de opbouw van email templates wordt een `<table>` element gebruikt met daarnaast een `<tr>` en een `<td>`. Meer heb je niet nodig. Hiermee kan je makkelijk alles op de goede plek zetten en weet je dat in de meeste mail-clients de mail goed staat.En dit laatste daar gaat het om. Je kan ook gebruik maken van meer semantische HTML tags zoals een `div, p, h1-h6,` maar je hebt dan grote kans dat er verschillende mail-clients zijn die de styling daaraan gekoppeld niet toont. Zo heeft Outlook 2007+ moeite met het tonen van de padding op een p en een div.
+Voor de opbouw van email templates wordt een `<table>` element gebruikt met daarnaast een `<tr>` en een `<td>`. Meer heb je niet nodig. Hiermee kan je makkelijk alles op de goede plek zetten en weet je dat in de meeste mail-clients de mail goed staat. En dit laatste daar gaat het om. Je kan ook gebruik maken van meer semantische HTML tags zoals een `div, p, h1-h6,` maar je hebt dan grote kans dat er verschillende mail-clients zijn die de styling daaraan gekoppeld niet toont. Zo heeft Outlook 2007+ moeite met het tonen van de padding op een p en een div.
 Op elke `<table>` en bijna elke `<td>` kan of moet je gebruik maken van een aantal attributen namelijk:
 
  * align
@@ -59,9 +61,8 @@ Templates
 
 * [Foundation for email](http://foundation.zurb.com/emails.html)
 * [Salted van Litmus](https://github.com/rodriguezcommaj/salted)
-* [Blueprints van Mailchimp](https://github.com/mailchimp/email-blueprints)
 
-Er zijn meer templates te vinden, maar verschillende zijn 3 of meer jaar niet aangepast (Blue-print van Mailchimp krijgt binnenkort een update volgens de Github eigenaar). Er zijn zeker wel wat veranderingen geweest in de mail-client wereld. Dus die heb ik hier weggelaten .
+Er zijn meer templates te vinden, maar verschillende zijn 3 of meer jaar niet aangepast. Er zijn zeker wel wat veranderingen geweest in de mail-client wereld. Dus die heb ik hier weggelaten .
 
 ##Design
 
@@ -79,6 +80,7 @@ Je nest verschillende tables. De eerste heeft een breedte van 100%, de tweede ee
 Zet alle tekst in een `td`. Zoals eerder benoemd kan semantische HTML tags, maar is niet gegarandeerd dat elke mail-client ze weergeeft.
 
 Geef elke td een inline styling met:
+
 * color: ; Beste is hexidecimaal met 6 tekens. Meeste garantie.
 * font-family: ; Zet bij font bestaande uit meerdere woorden wel ' ' er om.
 * font-size: ;  Gebruik px. Bij iOs wordt alles onder de 14px weergegeven als 14px of je moet - webkit-text- size-adjust: 100% en -ms -text sizeadjust: 100% toepassen. Voor mobiel maak je tekst 16-18px. Maak kopteksten niet te groot
@@ -93,7 +95,7 @@ Je kan web-fonts inladen via `@font-face`, `<link>` en `@import` in een style bl
 
 ##Responsive
 
-Zorg er voor dat je mail mobiel vriendelijk is. Mails worden tegenwoordig veel op mobiel bekijken. Je kan media-queries gebruiken, maar niet alle mail-clients kunnen er mee overweg. Grootste deel wel. De mediaqueries kunnen in de head gezet worden, want de mailclients die de head laten staan, zijn ook degene die overweg kunnen met mediaqueries.
+Zorg er voor dat je mail mobiel vriendelijk is. Mails worden tegenwoordig veel op mobiel bekeken. Je kan media-queries gebruiken, maar niet alle mail-clients kunnen er mee overweg. Grootste deel wel. De media-queries kunnen in de head gezet worden, want de mailclients die de head laten staan, zijn ook degene die overweg kunnen met media-queries.
 
 De 2de table element in de template heeft een vaste breedte omdat sommige mailclients (o.a. veel Outlook) niet met percentage kunnen omgaan. Om er voor te zorgen dat deze vaste breedte op mobiel overschreven wordt zetten wij in een mediaquerie:
 
@@ -106,7 +108,7 @@ De 2de table element in de template heeft een vaste breedte omdat sommige mailcl
 
 De table die de vaste waarde van bijvoorbeeld 600px heeft gekregen, krijgt ook `class="fluid-table"`.
 Voor mail op mobiel kan je verder nog kijken of je lettertype juist groter maakt en bepaalde ruimtes tussen linkjes en logo's ook groter.
-De belangrijkste mail-client die niet om kan gaan met mediaqueries op elk platform is:
+De belangrijkste mail-client die niet om kan gaan met media-queries op elk platform is:
 **Gmail**
 
 ###Artikelen:
@@ -132,7 +134,7 @@ Gebruik `vspace="10" hspace="10"` voor padding om afbeeldingen heen in Outlook.
 
     <img src="responsive-email.jpg" width="500" height="200" border="0" alt="Can an email really be responsive?" style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="fluid-image">
 
-We kunnen deze afbeelding schaalbaar maken door het volgende in een mediaquerie en de head van de template te stoppen:
+We kunnen deze afbeelding schaalbaar maken door het volgende in een media-querie en de head van de template te stoppen:
 
     img[class="fluid-image”] {
 	   width:100% !important; 
@@ -193,7 +195,7 @@ De nieuwere Outlook's ondersteunen CSS zeer slecht. Pixel perfect stylen gaat je
 Zet de styling in de head en inline of alleen inline. Gmail stript de `<head>` en dus ook de `<link>`  en `<style>` tag.
 Geen shorthand bij schrijven van CSS. Schrijf het vol uit, dit geeft de meeste garantie dat het getoond wordt.
 
-###CSS3:
+###CSS3
 Van CSS3 kan je gebruiken:
 
 * border-radius
@@ -230,7 +232,7 @@ JavaScript: niet gebruiken omdat email clients dit er uit halen vanwege veilighe
 
 ##Outlook
 
-Outlook 2007+ op Windows hebben Word als hun rendering engine en daardoor is het een beperkte mail client. Die op de Mac heeft daar geen last van, die is gebaseerd op webkit. Om te zorgen dat Outlook mee werkt kan je conditinal comments gebruiken. Zie http://templates.mailchimp.com/development/css/outlook-conditional-css/.
+Outlook 2007+ op Windows hebben Word als hun rendering engine en daardoor is het een beperkte mail client. Die op de Mac heeft daar geen last van, die is gebaseerd op webkit. Om te zorgen dat Outlook mee werkt kan je [conditinal comments](http://templates.mailchimp.com/development/css/outlook-conditional-css/) gebruiken.
 
 Outlook toont geen gif's, alleen het eerste frame.
 Outlook.com filtert the CSS background-image property.
@@ -249,11 +251,11 @@ Outlook.com targeting is ook met:
 
 ##Gmail
 
-Filtert id's en classes en verwijderd de style tag uit de header. Vanwege deze mailclient is het gebruik van inline styling zo belangrijk. Hierdoor kan je ook geen mediaqueries gebruiken, want die staan in je style tag in de header en worden er dus uitgesloopt.
+Filtert id's en classes en verwijderd de style tag uit de header. Vanwege deze mailclient is het gebruik van inline styling zo belangrijk. Hierdoor kan je ook geen media-queries gebruiken, want die staan in je style tag in de header en worden er dus uitgesloopt.
 
 ##iOs
 
-In iOs krijgen linkjes voor adres, telefoonnummer, mailadres een blauwe kleur. Als je dit niet wilt zijn er verschillende oplossingen. Deze staan hier beschreven: https://litmus.com/blog/update-banning-blue-links-on-ios-devices. De handigste is:
+In iOs krijgen linkjes voor adres, telefoonnummer, mailadres een blauwe kleur. Als je dit niet wilt zijn er [verschillende oplossingen](https://litmus.com/blog/update-banning-blue-links-on-ios-devices). De handigste is:
 
 In de header:
 
@@ -280,7 +282,7 @@ Er is geen email standaard. Alles gebeurd op basis van good practices. Er zijn v
 
 Bij de mail heb je verschillende mailclients. Deze tonen niet alle CSS die je gebuikt. Dit verschilt per client. Het verschil hierbij is veel groter dan bij de browsers. Er zijn ook meer clients die gebruikt worden. We spreken dan over desktop en mobiel.
 Om er voor te zorgen dat de mail in de meest gebruikte clients goed toonbaar is kan je allemaal clients installeren. Dit zal je nooit helemaal lukken. Verschillende apparaten zorgen voor verschillende clients. Dat zijn er uiteindelijk zoveel dat het te kostbaar wordt.
-Je kan een abonnement nemen op [Litmus email testing](https://litmus.com/email-testing) of [Email on Acid](http://www.emailonacid.com/) (bij acid kan je credits kopen om per keer een mailtemplate te testen). Hier kan je makkelijk een mail template testen. Of neem een gratis account op Mailchimp. Zet daar je template in en laat je template testen voor $3,- per test. Dit kan goedkoper zijn dan een abonnement op een test applicatie (zie http://mailchimp.com/features/inbox-inspector/).
+Je kan een abonnement nemen op [Litmus email testing](https://litmus.com/email-testing) of [Email on Acid](http://www.emailonacid.com/) (bij acid kan je credits kopen om per keer een mailtemplate te testen). Hier kan je makkelijk een mail template testen. Of neem een gratis account op Mailchimp. Zet daar je template in en laat je [template testen voor $3,- per test](http://mailchimp.com/features/inbox-inspector/). Dit kan goedkoper zijn dan een abonnement op een test applicatie.
 
 ###Mailchimp test route
 
@@ -288,13 +290,12 @@ Bij Mailchimp kan je een gratis account aanmaken. Hier kan je een account aanmak
 
 ##Mail-clients
 
-Op [Email Market Share](http://emailclientmarketshare.com/) kan je zien welke mail-clients welk aandeel hebben qua gebruik. Mail-clients veranderen eens in de zoveel tijd. Handig is om de zoveel tijd je mail-templates te testen.
+Op [Email Market Share](http://emailclientmarketshare.com/) kan je zien welke mail-clients welk aandeel hebben qua gebruik. Mail-clients veranderen eens in de zoveel tijd. Test je mail-templates om de zoveel tijd.
 
 ###Meest gebruikte mail clients in Nederland
 Hier ben ik nog niet achter. Ik denk dat het vrij gelijk loopt met die wereldwijd.
 
 ##Spam filters
-
 Check de woorden in je mail bericht ivm dat je in een [spam-filter](http://templates.mailchimp.com/concepts/spam-filters/) kan komen. 
 
 ##Handige theorie linkjes
