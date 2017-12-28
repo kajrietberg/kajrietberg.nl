@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mail template bouwen
+title: Mail template bouwen; een startpunt
 tags: front-end, mail
 page-class: article
 ---

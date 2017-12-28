@@ -84,13 +84,13 @@ Een interesante uitspraak over Brand Design komt uit een talk van [Thomas Marzan
 
 Een interessante uitleg van wat [een Brand is van David Scott](https://blog.prototypr.io/a-brand-is-a-relationship-8220f47a54ba#.aokunbalq).
 
-Om tot een Brand design te komen, kan je een moodboard maken met voorbeelden van wat je vindt passen bij een design.. Gebruik bijvoorbeeld foto's, typography, kleuren, etc.
+Om tot een Brand design te komen, kan je een moodboard maken met voorbeelden van wat je vindt passen bij een design. Gebruik bijvoorbeeld foto's, typography, kleuren, etc.
 
 
 ###Visual design
 De visueel designer is de persoon waar ik vaak aan denk als het over design gaat. De persoon die het uiterlijk mooi maakt. Een visueel designer zorgt er voor dat wat een UX designer vorm geeft met de uitstraling die de brand designer heeft bedacht. Een visueel designer is bezig met kleuren, typography, vormen, verhoudingen, afbeeldingen, contrast. Het visuele gaat om communicatie. Er wordt gecommuniceerd met letters/ woorden, maar ook met kleuren, ruimte en vormen.
 
-Bij visual design gaat het om overbrengen van informatie. Om dit te doen probeer je mensen het beeld in te trekken. ASfhankelijk van wat je toont heb je een bepaalde hoeveelheid tijd. Een logo moet direct overbrengen wat de info is, in een boek heb je veel meer tijd. Houdt rekening in je design met de tijd die iemand neemt om de informatie te interpreteren.
+Bij visual design gaat het om overbrengen van informatie. Om dit te doen probeer je mensen het beeld in te trekken. Afhankelijk van wat je toont heb je een bepaalde hoeveelheid tijd. Een logo moet direct overbrengen wat de info is, in een boek heb je veel meer tijd. Houdt rekening in je design met de tijd die iemand neemt om de informatie te interpreteren.
 
 Volgens mij hebben veel visual designers een Graphic Design achtergrond. Van daaruit zijn ze de webwereld ingerold.
 
@@ -190,7 +190,7 @@ In [The future of UX design](https://medium.com/user-defenders/the-future-of-ux-
 
 
 ##Design leren
-En hoe nu verder? Ik heb heel wat uitgezocht en merkte hierdoor dat ik mij zelfverzekerder voelde over het leren van design. Ik had altijd het idee dat het niet voor mij was weggelegd, dat heb ik nu niet meer. Komende tijd ga ik meer tijd besteden aan visual design. Ik heb mij ingeschreven voor de nieuwsbrief van Design by Numbers. Die ga ik eerst volgen en dan zie ik wel verder. Maar ik zit te denken om als doel te stellen mijn fotofolio pagina verder te ontwikkelingen en die te gebruiken om design skills te leren/uit te breiden.
+En hoe nu verder? Ik heb heel wat uitgezocht en merkte hierdoor dat ik mij zelfverzekerder voelde over het leren van design. Ik had altijd het idee dat het niet voor mij was weggelegd, dat heb ik nu niet meer. Komende tijd ga ik meer tijd besteden aan visual design. Ik heb mij ingeschreven voor de nieuwsbrief van Design by Numbers. Die ga ik eerst volgen.
 
 Ben je developer dan is een goede eerste stap het lezen van dit artikel: [Mistakes Developers Make When Learning Design](https://www.smashingmagazine.com/2016/12/mistakes-developers-make-when-learning-design/).
 De schrijver Mason maakt hierin op een prettig leesbare manier duidelijk hoe je als developer het beste kan starten met het leren van design. Hij zegt hierin dat je het beste een eerste keuze kan maken tussen UX en visual design. Dat maakt het leergebied al een stuk kleiner. En kies je bijvoorbeeld voor visual design, richt je dan niet op de tools en laat je niet imponeren door de toffe ontwerpen op Dribble. Maar richt je op de zaken waar het echt omgaat in visual design: lettertype, kleur, style, hierarchie, compositie, concept, uitlijning, plaatsing.
@@ -218,16 +218,16 @@ De schrijver Mason maakt hierin op een prettig leesbare manier duidelijk hoe je 
 - [Digital Creative Conference](http://emerce.nl/dare/)
 - [Email Design Conference](https://litmus.com/conference)
 
-
 ##Design jobs
 - [Google Design](https://design.google.com/jobs/)
 - [Fontanel jobs](http://fontanel.nl/jobs)
 - [5 New Design Careers for the 21st Century](https://designthinking.ideo.com/?p=1386)
 
-
 ##Bronnen/ interessante artikelen:
 - [Beauty + Facts = Truth?](https://www.edenspiekermann.com/magazine/beauty-facts-truth/)
-
+- [A few good books door David Airey](https://www.davidairey.com/books/)
+- [Design blogs I subscribe to door David Airey](https://www.davidairey.com/design-blogs/)
+- 
 
 ##Interessante sites:
 - [Fontanel](http://fontanel.nl/)

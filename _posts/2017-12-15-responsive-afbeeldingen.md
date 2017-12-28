@@ -28,6 +28,7 @@ De picture element bevat 0 of meer source elementen en 1 img-tag waardoor je voo
 De picture-tag wordt ondersteund in alle webbrowsers behalve IE11 en Opera-mini [https://caniuse.com/#feat=srcset](https://caniuse.com/#feat=picture)
 
 Voorbeeld van de picture-tag
+
 ```
 	<picture>
 	  <source media="(min-width: 40em)"

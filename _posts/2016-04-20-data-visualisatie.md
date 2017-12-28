@@ -9,7 +9,7 @@ page-class: article
 Bij Zorgweb verzamelen we veel data. De data die we verzamelen heeft alles te maken met de financiering, toegang en kwaliteit van zorg. En dat is veel data. Omdat we juist zoveel met data bezig zijn, willen we kijken of datavisualisatie ook iets voor onze data is en zo ja, wat en/of hoe dan precies.
 
 Ik heb mij hiervoor verdiept in datavisualisatie. De hieruit voortgekomen informatie heb ik verzameld en publiceer ik hier. Het zijn opmerkingen, linkjes die voor mij belangrijk zijn, het geheel is niet altijd een goed lopend verhaal.
-De reden dat ik het hier publicieer is dat anderen er iets aan kunnen hebben of dat ik feedback ontvang zodat ik weer nieuwe inzichten op doe.
+De reden dat ik het hier publiceer is dat anderen er iets aan kunnen hebben of dat ik feedback ontvang zodat ik weer nieuwe inzichten op doe.
 
 
 ##Wat is data visualisatie?
@@ -23,7 +23,7 @@ Data visualisaties en infographics hebben verschillende uitingsvormen. Kunnen fo
 Voor wetenschappelijke infograhics is een tekening vaak beter want deze vertelt het verhaal beter dan een foto. In een foto heb je zaken die afleiden van je verhaal.
 Let bij een vereenvoudiging op dat iedereen deze hetzelfde interpreteert. Test dit goed. Iedereen kijkt er weer anders tegen aan.
 
-Een data-visualisatie kan middels een infographic, maar een infographic hoeft geen data visualisatie te zijn. Datavisualisatie en infograpics zijn de sterkste uitleg tools.
+Een data-visualisatie kan middels een infographic, maar een infographic hoeft geen data visualisatie te zijn. Datavisualisatie en infograpics zijn de sterke uitleg tools.
 
 
 ##Wat kan je met een data visualisatie?
@@ -95,7 +95,7 @@ Interessante voorbeelden van storytelling zijn:
 
 Punt 1 t/m 5 zijn het nadenk deel. Punt 6 t/m 8 zijn het doen deel.
 
-Zorg er voor dat je structuur en en order aanbrengt aan je data set zodat je de data kan begrijpen, pas als je de data begrijpt kan je er mee werken.
+Zorg er voor dat je structuur en order aanbrengt aan je dataset zodat je de data kan begrijpen, pas als je de data begrijpt kan je er mee werken.
 
 Bij het maken van afspraken is het belangrijk dat je afspreekt: what, how, by whom, by when, result.
 
@@ -165,12 +165,12 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ###Conferenties en studie mogelijkheden
 
-* [Visualized](http://visualized.com/)
+* [Visualized](https://www.facebook.com/Visualized/)
 * [OpenVis conf](https://openvisconf.com/)
 * [Infographics Congres](http://www.infographicscongres.eu/)
 * [Eyeo Festival](http://eyeofestival.com/)
 * [Information+](http://informationplusconference.com/)
-* [Cursussen en workshops van Studio Lakmoes](http://www.studiolakmoes.nl/workshops)
+* [Workshops van Graphic Hunter](http://graphichunters.nl/)
 * [Online leren bij Datacamp](https://www.datacamp.com/)
 
 
@@ -195,7 +195,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Sheila Pontis](https://sheilapontis.wordpress.com/); Interessante info
 * [Information is Beautiful](http://www.informationisbeautiful.net/); Interessante boeken en workshops
 * [Getting the picture](http://gtp.nl/); Nederlands bedrijf
-* [Adyen](https://www.adyen.com/nl); gebruikt data visuals om statistieken aan hun klanten te tonen zodat die klanten nog beter kunnen presteren en inzicht krijgen in processen die hun klanten weer op hun website hebben. Zoals Netflix of Facebook.
+* [Adyen](https://www.adyen.com/nl); gebruikt data visuals om statistieken (Dashboards) aan hun klanten te tonen zodat die klanten nog beter kunnen presteren en inzicht krijgen in processen die hun klanten weer op hun website hebben. Zoals Netflix of Facebook.
 
 
 ###Bedrijven die visuals maken
