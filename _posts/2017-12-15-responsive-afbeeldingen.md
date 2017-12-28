@@ -59,4 +59,4 @@ Als je achtergrond afbeeldingen gebruikt in CSS, kan je gebruik maken van images
 * Verschillende voorbeelden, met ook mengvormen: https://dev.opera.com/articles/responsive-images/
 * [HTML5rocks uitleg van de picture-tag](https://www.html5rocks.com/en/tutorials/responsive/picture-element/)
 * [Gebruik niet altijd de picture element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/)
-* [Goede uitleg video van Jason Grigsby]: https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video
+* [Goede uitleg video van Jason Grigsby]: (https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video)

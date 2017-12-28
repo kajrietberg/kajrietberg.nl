@@ -217,3 +217,4 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Infographics to explain, data visualizations to explore](http://www.thefunctionalart.com/2014/03/infographics-to-reveal-visualizations.html)
 * [Infoposters Are Not Infographics: A Comparison](http://understandinggraphics.com/visualizations/infoposters-are-not-infographics/)
 * [Google News Lab](https://newslab.withgoogle.com/)
+* [Market Cafe Mag](http://marketcafemag.bigcartel.com/); een papieren magazine
