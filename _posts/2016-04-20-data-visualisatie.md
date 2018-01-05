@@ -205,7 +205,6 @@ Denk na over je eigen proces. Blijf nadenken.
 * [John Grimwade](http://johngrimwade.com/); information graphics
 * [In 60 seconds](http://www.in60seconds.nl/); Nederlands bedrijf, die voor o.a. nu.nl infographic filmpjes maken, voorbeeld over de zorgverzekering voor [ONVZ](http://www.in60seconds.nl/case/onvz/)
 * [Studio Lakmoes](http://www.studiolakmoes.nl/infographics); Nederlands bedrijf
-* [Graphix Box](https://www.graphix-box.nl/nl); infographics marktplaats
 * [CleverFranke](https://www.cleverfranke.com/); bouwt wereldwijd online visuals.
 * [Accurat](http://www.accurat.it/)
 
