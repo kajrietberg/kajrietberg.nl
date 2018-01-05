@@ -50,13 +50,15 @@ Je hebt ook [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refere
 * Boolean; geeft een true of false terug.
 * [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);  een collectie van waarden. Kan verschillende data-types hebben, zelfs met meerdere objecten, elke waarde is gescheiden met een komma. De index van een array is de positie van de waarde, start met 0. Je kan o.a. arrays samenvoegen, je kan het aantal waardes in een array krijgen, je kan ze sorteren. Met .push() voeg je items toe aan je array en met `.pop()` haal je de laatste weg. Met `.length` kan je zien hoeveel items er in de array zitten. Zo zijn er meer acties die je kan toepassen op een array.
 * Object; Je kan je eigen objecten maken en koppelen aan een variabele. In dit object kan je properties toevoegen (deze zeggen iets over het object). Zie https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object  
-`var post = {
+`
+var post = {
      id: 2,
      title: 'Hello JavaScript'
 }; 
 post.title = 'Hello JavaScript!';
 post.slug = 'hello-javascript';
-console.log( post );`
+console.log( post );
+`
 
 De `.title` na de variabele naam/object heeft de dotnotation.
 * [Symbol](https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/); zorgt er voor dat je objecten niet conflicteren als een andere ontwikkelaar dezelfde object naam zou nemen. Symbols mogen dezelfde naam hebben en conflicteren dan niet.
