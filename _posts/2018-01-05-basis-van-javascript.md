@@ -95,9 +95,9 @@ De hele lijst van [Operators staat op MDN](https://developer.mozilla.org/en-US/d
 `+ , -, *, /, =, ===, !, !==, ++, >, <, =>, =< +=, -=`
 
 * Logical:
-	- && = AND
-	- || = OR
-	- ! = NOT
+	- `&&` = AND
+	- `||` = OR
+	- `!` = NOT
 
 * String Operators: + voor samenvoegen Strings.
 De + kan je gebruiken om getallen op te tellen, maar ook Strings samen te voegen. Voeg je een Number en een getal als string samen, wordt het een String.
