@@ -49,16 +49,14 @@ Een variabele kan verschillende [data types](https://developer.mozilla.org/en-US
 Je hebt ook [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN), dit staat voor Not a Number. Duidt vaak op een error;
 * Boolean; geeft een true of false terug.
 * [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);  een collectie van waarden. Kan verschillende data-types hebben, zelfs met meerdere objecten, elke waarde is gescheiden met een komma. De index van een array is de positie van de waarde, start met 0. Je kan o.a. arrays samenvoegen, je kan het aantal waardes in een array krijgen, je kan ze sorteren. Met .push() voeg je items toe aan je array en met `.pop()` haal je de laatste weg. Met `.length` kan je zien hoeveel items er in de array zitten. Zo zijn er meer acties die je kan toepassen op een array.
-* Object; Je kan je eigen objecten maken en koppelen aan een variabele. In dit object kan je properties toevoegen (deze zeggen iets over het object). Zie https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object  
-`
-var post = {
+* [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object); Je kan je eigen objecten maken en koppelen aan een variabele. In dit object kan je properties toevoegen (deze zeggen iets over het object).  
+`var post = {
      id: 2,
      title: 'Hello JavaScript'
 }; 
 post.title = 'Hello JavaScript!';
 post.slug = 'hello-javascript';
-console.log( post );
-`
+console.log( post );`
 
 De `.title` na de variabele naam/object heeft de dotnotation.
 * [Symbol](https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/); zorgt er voor dat je objecten niet conflicteren als een andere ontwikkelaar dezelfde object naam zou nemen. Symbols mogen dezelfde naam hebben en conflicteren dan niet.
@@ -198,7 +196,7 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 
 ##JS Reference
 
-* [JavaScript de basis])https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+* [JavaScript de basis](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Overzicht van alle onderdelen](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference)
 * [Hoe gebruik je JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
