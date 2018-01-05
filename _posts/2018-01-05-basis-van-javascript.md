@@ -11,15 +11,16 @@ Hier staan mijn aantekeningen over de basis van JavaScript. Ik vul ze steeds aan
 
 ##Wat is JavaScript?
 JavaScript is een programmeertaal. Het is een taal bedoelt voor het web en vooral voor de webbrowser. Het maakt de laatste jaren een flinke opmars omdat het ook gebruikt wordt als back-end taal met Node.js. 
-Brendan Eich heeft de naam JavaScript bedacht omdat het de bedoeling was om HTML te koppelen aan Java-applets. Maar JavaScript heeft als programmeertaal niks te maken met de programmeertaal Java. Microsoft kwam in het begin met hun eigen versie van JS, genaamd JScript. Brendan Eich wilde voorkomen dat er meerdere versies van JS zouden ontstaan heeft hij Ecma gevraagd het te standariseren. Hierop is EcmaScript ontstaan. EcmaScript is de specificatie van JavaScript. Hierin staat beschreven aan welke regels het moet voldoen, welek onderdelen er in horen en hoe de opbouw van een regel is. Ik zie dit als de grammatica van de programmeertaal. Naast JS is o.a. ActionScript een implementatie van EcmaScript.
+Brendan Eich heeft de naam JavaScript bedacht, het was de bedoeling om HTML te koppelen aan Java-applets. Maar JavaScript heeft als programmeertaal niks te maken met de programmeertaal Java. Microsoft kwam in het begin met hun eigen versie van JS, genaamd JScript. Brendan Eich wilde voorkomen dat er meerdere versies van JS zouden ontstaan en heeft daarom Ecma gevraagd het te standariseren. Hierop is EcmaScript ontstaan. EcmaScript is de specificatie van JavaScript. Hierin staat beschreven aan welke regels het moet voldoen, welke onderdelen er in horen en hoe de opbouw van een regel is. Ik zie dit als de grammatica van de programmeertaal. Naast JS is o.a. ActionScript een implementatie van EcmaScript.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xfATDpVubK4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-De JavaScript die je schrijft moet geinterpreteerd worden. Hiervoor is in de webbrowser een JS-engine die compileert de taal. Deze doet dit net voor het uitvoeren of zelfs tegelijkertijd met uitvoeren van de code (bron: You don't know JavaScript). Elke browser heeft een eigen JavaScript-Engine. En elke browser vendor bepaald welke onderdelen van EcmaScript in de browser worden ingebouwd. Hierdoor werkt niet alle JS in elke browser.
+
+De JavaScript die je schrijft moet geinterpreteerd worden. Hiervoor is in de webbrowser een JS-engine die compileert de taal. Deze doet dit net voor het uitvoeren of zelfs tegelijkertijd met uitvoeren van de code (bron: [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)). Elke browser heeft een eigen JavaScript-Engine. En elke browser vendor bepaald welke onderdelen van EcmaScript in de browser worden ingebouwd. Hierdoor werkt niet alle JS in elke browser.
 
 
 ##Wat is programmeren?
-Hierboven heb ik het over een programmeertaal. Maar wat is programmeren eigenlijk? 
+Hierboven heb ik het over een programmeertaal. Maar wat is programmeren eigenlijk?<br> 
 Als mensen snappen we wat we zien. Een computer heeft er geen idee van en heeft uitleg nodig om iets te snappen en ook een stappenplan om iets uit te voeren. Dat stappenplan is programmeren.
 
 Om de werkelijkheid begrijpbaar te maken voor computers zijn dingen als objecten te duiden.
@@ -27,7 +28,7 @@ Elk object heeft:
 
 * properties: karakteristieken. Elke property heeft een naam (name) en een waarde (value). Elke property zegt iets over het object. Aan deze property's is het object te herkennen. 
 * events: interacties met objecten. Bij het programmeren kijk je naar welke events wat moeten triggeren. Voorbeelden van events zijn muisklikken, 
-* methods: is een manier van communiceren met een object waardoor je een bepaalde waarde terugkrijgt van het object of juist gedaan krijgt bij het object. Het is een taak die uitgevoerd wordt. Deze taak kan uit allemaal kleine taakjes bestaan, maar hoe die worden uitgevoerd hoef je niet te weten. Zie bij API de method die daar genoemd staat.
+* methods: is een manier van communiceren met een object waardoor je een bepaalde waarde terugkrijgt van het object of juist gedaan krijgt bij het object. Het is een taak die uitgevoerd wordt. Deze taak kan uit allemaal kleine taakjes bestaan, maar hoe die worden uitgevoerd hoef je niet te weten.
 
 
 ##Onderdelen van JavaScript
@@ -44,12 +45,12 @@ Een variabele kan verschillende [data types](https://developer.mozilla.org/en-US
 	* parseFloat() maakt van een string een decimaal;
 	* toFixed(x) maakt van een decimaal getal een string met x-aantal decimalen;
 	* toString maakt van een getal een string.
-	* Met de [Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) kan je rekenen met Numbers, zie .
+	* Met de [Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) kan je rekenen met Numbers.
 
 Je hebt ook [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN), dit staat voor Not a Number. Duidt vaak op een error;
 
 * Boolean; geeft een true of false terug.
-* [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);  een collectie van waarden. Kan verschillende data-types hebben, zelfs met meerdere objecten, elke waarde is gescheiden met een komma. De index van een array is de positie van de waarde, start met 0. Je kan o.a. arrays samenvoegen, je kan het aantal waardes in een array krijgen, je kan ze sorteren. Met .push() voeg je items toe aan je array en met `.pop()` haal je de laatste weg. Met `.length` kan je zien hoeveel items er in de array zitten. Zo zijn er meer acties die je kan toepassen op een array.
+* [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);  een collectie van waarden. Kan verschillende data-types hebben, zelfs met meerdere objecten, elke waarde is gescheiden met een komma. De index van een array is de positie van de waarde, start met 0. Je kan o.a. arrays samenvoegen, je kan het aantal waardes in een array krijgen, je kan ze sorteren. Met `.push()` voeg je items toe aan je array en met `.pop()` haal je de laatste weg. Met `.length` kan je zien hoeveel items er in de array zitten. Zo zijn er meer acties die je kan toepassen op een array.
 * [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object); Je kan je eigen objecten maken en koppelen aan een variabele. In dit object kan je properties toevoegen (deze zeggen iets over het object).  
 `var post = {
      id: 2,
@@ -60,6 +61,7 @@ post.slug = 'hello-javascript';
 console.log( post );`
 
 De `.title` na de variabele naam/object heeft de dotnotation.
+
 * [Symbol](https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/); zorgt er voor dat je objecten niet conflicteren als een andere ontwikkelaar dezelfde object naam zou nemen. Symbols mogen dezelfde naam hebben en conflicteren dan niet.
 
 
@@ -68,16 +70,14 @@ Voor een variabele zet je `var` en voor een Constants zet je `const`.
 
 var voorbeeld; hiermee heb je een variabele gedeclareerd (declared) en met var voorbeeld ="een voorbeeld"; is die gedefineerd (defined).
 
-Volgens Zac Gordon is het handigste de variabelen aan de top te declareren en ze met een komma te scheiden.
+Volgens Zac Gordon is het handigste de variabelen aan de top te declareren en ze met een komma te scheiden.<br>
 `var  titel =  'Leer JS',
        content = 'Zet er maar wat neer',
        post; //Deze laatste wordt hier alleen maar gedeclareert en pas later gevuld met een waarde, als je deze later vult hoef je niet het woordtje var er voor te zetten.`
 
 JS is een [weakly of loose Typed Language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof). Je hoeft niet te zeggen welk data-type een variabele is. In Java is dat wel zo.
-
 Een variabele benoemt in het js bestand is een global variabele, deze is ook bereikbaar door andere functies in je JS. Een variabele benoemt in een functie is een local variabele, deze heeft lexical scoping.
-
-Een variable gemaakt met let of const in een functie is een variabele met Block Scoping. Let er dus goed op waar je een variabele definieert. 
+Een variabele gemaakt met let of const in een functie is een variabele met Block Scoping. Let er dus goed op waar je een variabele definieert. 
 
 ###This
 
@@ -85,7 +85,7 @@ Zie: [https://zellwk.com/blog/this/](https://zellwk.com/blog/this/)
 
 ###Comments
 
-voor een heel stuk zelfde als in CSS `/*  */` of voor 1 regel met `//`
+Voor een heel stuk zelfde als in CSS `/*  */` of voor 1 regel met `//`
 
 
 ###Operators 
@@ -95,9 +95,9 @@ De hele lijst van [Operators staat op MDN](https://developer.mozilla.org/en-US/d
 `+ , -, *, /, =, ===, !, !==, ++, >, <, =>, =< +=, -=`
 
 * Logical:
-&& = AND
-|| = OR
-! = NOT
+	- && = AND
+	- || = OR
+	- ! = NOT
 
 * String Operators: + voor samenvoegen Strings.
 De + kan je gebruiken om getallen op te tellen, maar ook Strings samen te voegen. Voeg je een Number en een getal als string samen, wordt het een String.
@@ -115,7 +115,7 @@ Met de modulus kan je de overgebleven getallen zien bij een deling. Dus 365 % 27
 ###Conditionals:
 Onder deze conditie moet je dit doen en anders dat. if (...) doe dan dit ... else doe dan dat.... Wat na de if tussen de ( ) staat heet een [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements#Iterations).
 
-[Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) ( ) ... case ....: doet iets break;  Break is nodig na elke case. Anders blijft het door gaan.
+[Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) ( ) ... case ....: doet iets break;  (Break is nodig na elke case, anders blijft het door gaan).
 
 Verschil tussen Switch en Else if: bij Switch test je 1 conditie en is dan sneller als Else if. Switch gebruikt altijd ===, niet de lossere variant ==.
 
@@ -133,14 +133,14 @@ return sum; (return geeft het antwoord terug, zonder dit stel je alleen de vraag
 }
 addTwoNumbers(2, 5); //Function call`
 
-Een functie gebruik je als je een taak vaker in je code wilt gebruiken. Zo kan je deze functie vaker aanroepen.
+Een functie gebruik je als je een taak vaker in je code wilt gebruiken. Zo kan je deze functie steeds opnieuw aanroepen.
 
-Anonieme functie = een functie zonder naam. Deze kan gekoppeld zijn aan een variabele. Zo'n functie hoeft maar 1x gebruikt te worden. Maar de waarde daarvan misschien wel vaker. Dan zet je de functie in een variabele.
+Anonieme functie = een functie zonder naam. Deze kan gekoppeld zijn aan een variabele. Zo'n functie hoeft maar 1x gebruikt te worden. Maar de waarde daarvan misschien wel vaker. Dan zet je de functie in een variabele.<br>
 Functie expression = Als je een functie op de plek zet waar de interpreter een expression zou verwachten. Hierdoor kan je er voor zorgen dat variabelen-namen niet met elkaar conflicteren. Deze moet je altijd afsluiten met een ;
 
 Een [method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions) is een functie gekoppeld aan een object. 
 
-Function call = functieNaam();
+Function call = functieNaam();<br>
 Function reference = functieNaam; 
 
 Een IIFE (Immediately Invoked Function Expression) is een functie met () er om heen zodat de variabelen er in niet gebruikt kunnen worden door code van buiten de functie.
@@ -153,7 +153,7 @@ Met [een loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loo
 
 Infinite loop is een loop die niet stopt omdat je niet aan je conditionals komt.
 
-De For ... in looop gebruik je voor properties in object.
+De For ... in loop gebruik je voor properties in object.
 
 De For...of loop gebruik je in een collectie zoals een array.
 
@@ -166,16 +166,18 @@ De [continue-statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 ###Object
 Een object bestaat uit variabelen en functies. Deze variabelen worden properties genoemd en die functies worden methods genoemd.
 
-Object.isMethod hier mee kan je via de isMethod functie iets doen met het object. Het object kan een Number of String zijn.
+Object.isMethod hiermee kan je via de isMethod functie iets doen met het object. Het object kan een Number of String zijn.
 De isMethod kan je in je DevTools terug vinden. Dit zijn dan degene waar je webbrowser mee overweg kan. Deze lijken op die in jQuery worden gebruikt. jQuery heeft zichzelf overbodig gemaakt, in JS zijn nu verschillende methods die hetzelfde doen als wat jQuery doet/ deed.
 
 Build-in object van JS zijn o.a. String, Number, Math en Date. Hiermee kan je spelen door de properties en methods die ze hebben.
-Overig
+
+
+##Overig
 
 Met console.log(); kan je een bepaalde variabele uitlezen. Hierdoor kan je o.a. debuggen om te kijken waar een fout zit als je deze hebt.
 
-Een statement is een individuele instructie of een stap afgesloten met een ; of tussen {...}.
-Expressions zijn vaak delen van een statement en zijn stukjes code die een waarde krijgen.
+Een statement is een individuele instructie of een stap afgesloten met een ; of tussen {...}. <br>
+Expressions zijn vaak delen van een statement en zijn stukjes code die een waarde krijgen. <br>
 [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) hebben een functionaliteit in JS, zoals var en function.
 
 * undefined = nog niet gedefineerd, heeft nog geen waarde, maar bestaat wel.
@@ -185,15 +187,15 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 * this = verwijst naar het object waaraan het gekoppeld is.
 
 
-##Belangrijke termen
+##Lastige termen
 
 * interpolation: een variabele in een string zetten.
 * hoisting: er uit halen/ optillen. Doordat een js-bestand eerst soort van gecompiled wordt worden bepaalde variabelen en functies in een bepaalde volgorde gezet waardoor ze daarna door de interpreter goed gelezen worden.
-* coercion:
+* [coercion](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
 * scope: het bereik van een variable of een functie; lexical scope in die functie of die genest zijn. Of een global scope, boven in het bestand gedefineerd.
 * scope chain: de ketting van het bereik van een variabele of een functie, deze gaat van binnen naar buiten/ of van beneden naar boven.
 * closures: als een geneste functie gebruik maakt van een variabele in een parent functie dan doet deze aan een Close over. Dit noemen we een closure.
-* garbage collection: 
+* [garbage collection](https://developer.mozilla.org/nl/docs/Web/JavaScript/Memory_Management#Garbage_collection)
 
 ##JS Reference
 
@@ -201,3 +203,6 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 * [Overzicht van alle onderdelen](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference)
 * [Hoe gebruik je JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
+* [JavaScript Book](http://www.javascriptbook.com/)
