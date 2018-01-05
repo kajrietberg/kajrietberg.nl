@@ -40,13 +40,14 @@ Een variabele kan verschillende [data types](https://developer.mozilla.org/en-US
 * String; een String heeft ook Properties en [Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2) waardoor je verschillende acties op een string kan loslaten.
 * [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number); Integers (hele getallen), Floating points (decimale getallen) en Positive en Negative Infinity. Je hebt verschillende functies die je kan gebruiken om acties los te laten op Numbers. Zoals:
 
-** parseInt() maakt van een string een integer;
-** parseFloat() maakt van een string een decimaal;
-** toFixed(x) maakt van een decimaal getal een string met x-aantal decimalen;
-** toString maakt van een getal een string.
-** Met de [Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) kan je rekenen met Numbers, zie .
+	* parseInt() maakt van een string een integer;
+	* parseFloat() maakt van een string een decimaal;
+	* toFixed(x) maakt van een decimaal getal een string met x-aantal decimalen;
+	* toString maakt van een getal een string.
+	* Met de [Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) kan je rekenen met Numbers, zie .
 
 Je hebt ook [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN), dit staat voor Not a Number. Duidt vaak op een error;
+
 * Boolean; geeft een true of false terug.
 * [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array);  een collectie van waarden. Kan verschillende data-types hebben, zelfs met meerdere objecten, elke waarde is gescheiden met een komma. De index van een array is de positie van de waarde, start met 0. Je kan o.a. arrays samenvoegen, je kan het aantal waardes in een array krijgen, je kan ze sorteren. Met .push() voeg je items toe aan je array en met `.pop()` haal je de laatste weg. Met `.length` kan je zien hoeveel items er in de array zitten. Zo zijn er meer acties die je kan toepassen op een array.
 * [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object); Je kan je eigen objecten maken en koppelen aan een variabele. In dit object kan je properties toevoegen (deze zeggen iets over het object).  
