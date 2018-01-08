@@ -5,16 +5,12 @@ tags: front-end, JS, DOM
 page-class: article
 ---
 
-Na mijn [Mijn interpretatie van de Basis van JavaScript](https://www.kajrietberg.nl/2018/01/basis-van-javascript.html) artikel is dit mijn volgende artikel/ blad met aantekeningen over mijn JS leertocht. Deze keer zijn dit aantekeningen over wat de DOM is en hoe die zich verhoudt tot JavaScript. Ik krijg jullie feedback zodat ik verder kan leren.<br>
-Heb je aanvullingen of denk je dat ik het verkeerd heb geinterpreteerd, geef het aan mij door. Mijn twitter-handle en mailadres staan onderaan de pagina.
+Na mijn [Mijn interpretatie van de Basis van JavaScript](https://www.kajrietberg.nl/2018/01/basis-van-javascript.html) artikel is dit mijn volgende artikel/ blad met aantekeningen over mijn JS leertocht. Deze keer zijn dit aantekeningen over wat de DOM is en hoe die zich verhoudt tot JavaScript. Ik krijg graag jullie feedback. Hier kan ik weer van leren.<br>Mijn twitter-handle en mailadres staan onderaan de pagina.
 
-[De DOM](https://javascriptforwp.com/introduction-to-document-object-model/) is een representatie van de webpagina, maar is er ook voor bedoeld om te communiceren met de webpagina. 
-
-[De DOM](https://css-tricks.com/dom/) is een object met properties en methods. Naast de DOM heb je ook het scherm dat een object is met zijn eigen properties en methods. En elke node is een object met methods en properties.
-
+[De DOM](https://javascriptforwp.com/introduction-to-document-object-model/) is een representatie van de webpagina, maar is er ook voor bedoeld om te communiceren met de webpagina.<br> 
+[De DOM](https://css-tricks.com/dom/) is een object met properties en methods. Naast de DOM heb je ook het scherm dat een object is met zijn eigen properties en methods. En elke node is een object met methods en properties.<br>
 [De DOM is ook een API](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Mode). 
-Het is een API voor HTML (XML, SVG) die een webpagina aanbiedt als een boom met vertakkingen van objecten. Browser vendors gebruiken de DOM specificatie om te komen tot het weergeven van webpagina's. Een webbrowser zet de HTML om naar de DOM. En de DOM is waar de JS mee kan praten.
-
+Het is een API voor HTML (XML, SVG) die een webpagina aanbiedt als een boom met vertakkingen van objecten. Browser vendors gebruiken de DOM specificatie om te komen tot het weergeven van webpagina's. Een webbrowser zet de HTML om naar de DOM. En de DOM is waar de JS mee kan praten.<br>
 De DOM is opgebouwd uit Nodes. Nodes zijn objecten in een boomstructuur. Nodes hebben properties en methods. Methods die je kan gebruiken staan op [https://developer.mozilla.org/en-US/docs/Web/API/Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) en op [https://developer.mozilla.org/en-US/docs/Web/API/Node](https://developer.mozilla.org/en-US/docs/Web/API/Node). 
 
 Verschillende [Node types](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType):
@@ -35,7 +31,7 @@ Het werken met de DOM behelst 2 stappen:
 
 
 ##Nodes selecteren in je webpagina
-Om een Node te selecteren in je pagina kan je typen: document.children. Dan krijg je een array van elementen. Zo kan je [ 0 ] er achter zetten en krijg je de eerste waarde uit je array. Daar kan je weer achterzetten children[ 1 ] en zo kan je doorgaan totdat je het element hebt dat je wilt hebben. Dit is erg omslachtig. Om het makkelijker te maken voor ons ontwikkelaars kan je methodes gebruiken.
+Om een Node te selecteren in je pagina kan je typen: `document.children`. Dan krijg je een array van elementen. Zo kan je [ 0 ] er achter zetten en krijg je de eerste waarde uit je array. Daar kan je weer achterzetten children[ 1 ] en zo kan je doorgaan totdat je het element hebt dat je wilt hebben. Dit is erg omslachtig. Om het makkelijker te maken voor ons ontwikkelaars kan je methodes gebruiken.
 Zo heb je:
 
 * `document.getElementById()`
@@ -85,7 +81,7 @@ Bij Element Nodes → dit is nieuwer:
 Meest voorkomende Nodes zijn de Element en Text nodes.
 
 
-##Om de waardes in en vanuit Element Nodes te krijgen gebruik
+##waardes in en uit Element Nodes te krijgen
 
 * `.innerHTML`: geeft alle html in het element
 * `.innerText`: geeft alle tekst zoals je het ook in de browser ziet
@@ -112,7 +108,7 @@ Om de waardes in en vanuit Text Nodes te krijgen gebruik:
 ##Nodes toevoegen aan de DOM
 
 * `ParentElement.insertBefore (Nieuwe node, waarvoor je het wil plaatsen);`
-* `insertAfter` bestaat niet, maar dan gebruik je `.nextSibling` op het element waarna je het wil plaatsen.
+* `insertAfter` bestaat niet, gebruik dan `.nextSibling` op het element waarna je het wil plaatsen.
 * `replaceChild( nieuw element, element om te vervangen);`
 
 
