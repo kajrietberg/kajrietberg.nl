@@ -5,13 +5,13 @@ tags: front-end, JS
 page-class: article
 ---
 
-Afgelopen jaar heb ik de tijd genomen om mij te verdiepen in de theorie achter JavaScript. De reden hiervoor is dat ik JavaScript wil leren gebruiken en dus snappen wat ik doe. Hiervoor verschillende video's bekeken, artikelen gelezen, Paul Verbeek-Mast heeft mijn vele vragen beantwoord, geoefend met de console. Het eerste stapje is gezet.
+Afgelopen jaar heb ik de tijd genomen om mij te verdiepen in de theorie achter JavaScript. De reden hiervoor is dat ik JavaScript wil leren gebruiken en dus snappen wat ik doe. Hiervoor verschillende video's bekeken, artikelen gelezen, [Paul Verbeek-Mast](https://twitter.com/paul_v_m) heeft mijn vele vragen beantwoord, geoefend met de console. Het eerste stapje is gezet.
 Hier staan mijn aantekeningen over de basis van JavaScript. Ik vul ze steeds aan. De reden dat ik ze nu al online zet is om feedback te krijgen van anderen waardoor ik weer leer. Heb je aanvullingen of denk je dat ik het verkeerd heb geinterpreteerd, geef het aan mij door. Mijn twitter-handle en mailadres staan onderaan de pagina.
 
 
 ##Wat is JavaScript?
 JavaScript is een programmeertaal. Het is een taal bedoelt voor het web en vooral voor de webbrowser. Het maakt de laatste jaren een flinke opmars omdat het ook gebruikt wordt als back-end taal met Node.js. 
-Brendan Eich heeft de naam JavaScript bedacht, het was de bedoeling om HTML te koppelen aan Java-applets. Maar JavaScript heeft als programmeertaal niks te maken met de programmeertaal Java. Microsoft kwam in het begin met hun eigen versie van JS, genaamd JScript. Brendan Eich wilde voorkomen dat er meerdere versies van JS zouden ontstaan en heeft daarom Ecma gevraagd het te standariseren. Hierop is EcmaScript ontstaan. EcmaScript is de specificatie van JavaScript. Hierin staat beschreven aan welke regels het moet voldoen, welke onderdelen er in horen en hoe de opbouw van een regel is. Ik zie dit als de grammatica van de programmeertaal. Naast JS is o.a. ActionScript een implementatie van EcmaScript.
+Brendan Eich heeft de naam JavaScript bedacht, het was de bedoeling om HTML te koppelen aan Java-applets. Maar JavaScript heeft als programmeertaal niks te maken met de programmeertaal Java. Microsoft kwam in het begin met hun eigen versie van JS, genaamd JScript. Brendan Eich wilde voorkomen dat er meerdere versies van JS zouden ontstaan en heeft daarom Ecma gevraagd het te standariseren. Hierop is [EcmaScript](http://www.ecma-international.org/ecma-262/) ontstaan. EcmaScript is de specificatie van JavaScript. Hierin staat beschreven aan welke regels het moet voldoen, welke onderdelen er in horen en hoe de opbouw van een regel is. Ik zie dit als de grammatica van de programmeertaal. Naast JS is o.a. ActionScript een implementatie van EcmaScript.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xfATDpVubK4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
@@ -68,7 +68,7 @@ De `.title` na de variabele naam/object heeft de dotnotation.
 Een variabele is niet zijn waarde maar zijn containers voor hun waarde. Een variabele krijgt een inhoud die weer kan veranderen tijdens het lopen van het programma. De Constants heeft een vaste waarde, deze waarde kan je wel aanpassen als het programma gelopen heeft.
 Voor een variabele zet je `var` en voor een Constants zet je `const`.  
 
-var voorbeeld; hiermee heb je een variabele gedeclareerd (declared) en met var voorbeeld ="een voorbeeld"; is die gedefineerd (defined).
+var voorbeeld; hiermee heb je de variabele 'voorbeeld' gedeclareerd (declared) en met var voorbeeld ="een voorbeeld"; is die gedefineerd (defined).
 
 Volgens Zac Gordon is het handigste de variabelen aan de top te declareren en ze met een komma te scheiden.<br>
 `var  titel =  'Leer JS',
@@ -80,16 +80,13 @@ Een variabele benoemt in het js bestand is een global variabele, deze is ook ber
 Een variabele gemaakt met let of const in een functie is een variabele met Block Scoping. Let er dus goed op waar je een variabele definieert. 
 
 ###This
-
 Zie: [https://zellwk.com/blog/this/](https://zellwk.com/blog/this/)
 
 ###Comments
-
 Voor een heel stuk zelfde als in CSS `/*  */` of voor 1 regel met `//`
 
 
 ###Operators 
-
 De hele lijst van [Operators staat op MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
 
 `+ , -, *, /, =, ===, !, !==, ++, >, <, =>, =< +=, -=`
@@ -105,10 +102,9 @@ De + kan je gebruiken om getallen op te tellen, maar ook Strings samen te voegen
 * Conditional Operators:  werkt met ( ) ? true: false 
 
 ###Math
-
 Met de modulus kan je de overgebleven getallen zien bij een deling. Dus 365 % 27 geeft 14. Dat zijn het aantal dagen die overblijven na het delen van 365 door 27.
 
-* `Math.random();` geeft een random getal tussen 0 en 50.
+* `Math.random();` geeft een random getal van 0 tot 1.
 * `Math.floor();` maakt van een decimaal getal een rond getal. Rond af naar beneden.
 
 
@@ -119,8 +115,10 @@ Onder deze conditie moet je dit doen en anders dat. if (...) doe dan dit ... els
 
 Verschil tussen Switch en Else if: bij Switch test je 1 conditie en is dan sneller als Else if. Switch gebruikt altijd ===, niet de lossere variant ==.
 
+Het verschil tussen = en == en === is dat bij === dan moet het echt precies gelijk zijn, bij == moet het gelijk zijn, maar niet helemaal en voor = is dit helemaal zo.
+
 ###Functions: 
-In [functies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) zet je functionaliteiten die je graag weer wil hergebruiken. Een functie is vaak een naam met brackets  --( )-- er achter. Een functie heeft vaak arguments nodig, stukjes data, om hun werk te doen. De webbrowser heeft functies ingebouwd, maar je kan ook zelf functies samenstellen. Binnen een function heb je de return-statement die er voor zorgt dat het resultaat van de functie ook buiten de functie beschikbaar is. Dan kan de uitkomst pas gebruikt worden. De variabelen die binnen een functie worden gedefinieerd, zijn ook alleen daar bruikbaar, dit heet scoping. Een functie doet niks, pas op het moment dat deze aangeroepen wordt gebeurt er iets.
+In [functies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) zet je functionaliteiten die je graag weer wilt hergebruiken. Een functie is vaak een naam met brackets  --( )-- er achter. Een functie heeft vaak arguments nodig, stukjes data, om hun werk te doen. De webbrowser heeft functies ingebouwd, maar je kan ook zelf functies samenstellen. Binnen een function heb je de return-statement die er voor zorgt dat het resultaat van de functie ook buiten de functie beschikbaar is. Dan kan de uitkomst pas gebruikt worden. De variabelen die binnen een functie worden gedefinieerd, zijn ook alleen daar bruikbaar, dit heet scoping. Een functie doet niks, pas op het moment dat deze aangeroepen wordt gebeurt er iets.
 
 Een functie ziet er zo uit:
 
@@ -173,7 +171,6 @@ Build-in object van JS zijn o.a. String, Number, Math en Date. Hiermee kan je sp
 
 
 ##Overig
-
 Met console.log(); kan je een bepaalde variabele uitlezen. Hierdoor kan je o.a. debuggen om te kijken waar een fout zit als je deze hebt.
 
 Een statement is een individuele instructie of een stap afgesloten met een ; of tussen {...}. <br>
