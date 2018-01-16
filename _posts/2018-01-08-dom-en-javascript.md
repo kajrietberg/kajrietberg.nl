@@ -160,7 +160,7 @@ Er zijn betere manieren om data op te slaan ipv in je markup. Liever niet in je 
 
 ##Formulier elementen
 
-Bij formulier elementen om deze te laten werken zet de `<form>` tag er om heen. Deze heeft een attribute method. De method attribute kan de waardes hebben GET of POST. Als je GET doet zie je de waardes van de invulvelden in de url terugkomen. Bij POST niet. Dit laatste moet je officieel doen zodat alle verborgen blijft, maar de GET methode is handig voor testen. De id attribute is handig voor referentie zodat je vanuit je JS aan het formulier kan referen. De name attribute is belangrijk voor het doorgeven van de info zodat je weet welke info bij de form met die naam hoort.
+Bij formulier elementen om deze te laten werken zet de `<form>` tag er om heen. Deze heeft een attribute method. De method attribute kan de waardes hebben GET of POST. Als je GET doet zie je de waardes van de invulvelden in de url terugkomen. Bij POST niet. Dit laatste moet je officieel doen zodat alles verborgen blijft, maar de GET methode is handig voor testen. De id attribute is handig voor referentie zodat je vanuit je JS aan het formulier kan referen. De name attribute is belangrijk voor het doorgeven van de info zodat je weet welke info bij de form met die naam hoort.
 
 De attributes van form elementen kan je makkelijk met JS aanpassen.
 
@@ -188,9 +188,9 @@ Om te werken met radio, checkbox en option voor te checken op checked of ze daar
 
 [Events](https://developer.mozilla.org/en-US/docs/Web/Events) zijn technisch gezien een onderdeel van de DOM.
 
-Selecteer het element waarop iets moet gebeuren. Zeg welk event dan moet plaats vinden om een bepaalde functie te activeren.
+Selecteer het element waarop iets moet gebeuren. Zeg welk event moet plaats vinden om een bepaalde functie te activeren.
 
-Te veel event listeners kunnen de performance verslechteren. Soms kan het beter zijn op een parent element een eventlistener te zetten.
+Te veel eventlisteners kunnen de performance verslechteren. Soms kan het beter zijn op een parent element een eventlistener te zetten.
 
 Type:
 
@@ -199,7 +199,7 @@ Type:
 * form events
 * media events
 * drag en drop events
-* window events (scrolling, brwoser die veranderd van grootte)
+* window events (scrolling, browser die veranderd van grootte)
 * Etc...en nog meer
 
 Kan het inline zetten, dus in de HTML, bijvoorbeeld met onclick=" ". Denk er aan dit is niet Best Practice, dus alleen in noodsituaties gebruiken.

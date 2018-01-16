@@ -114,8 +114,7 @@ Onder deze conditie moet je dit doen en anders dat. if (...) doe dan dit ... els
 [Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) ( ) ... case ....: doet iets break;  (Break is nodig na elke case, anders blijft het door gaan).
 
 Verschil tussen Switch en Else if: bij Switch test je 1 conditie en is dan sneller als Else if. Switch gebruikt altijd ===, niet de lossere variant ==.
-
-Het verschil tussen = en == en === is dat bij === dan moet het echt precies gelijk zijn, bij == moet het gelijk zijn, maar niet helemaal en voor = is dit helemaal zo.
+Het verschil tussen == en === is dat bij === moet waarde en type precies gelijk zijn. Bij == is de waarde gelijk, maar mag het type anders zijn.
 
 ###Functions: 
 In [functies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) zet je functionaliteiten die je graag weer wilt hergebruiken. Een functie is vaak een naam met brackets  --( )-- er achter. Een functie heeft vaak arguments nodig, stukjes data, om hun werk te doen. De webbrowser heeft functies ingebouwd, maar je kan ook zelf functies samenstellen. Binnen een function heb je de return-statement die er voor zorgt dat het resultaat van de functie ook buiten de functie beschikbaar is. Dan kan de uitkomst pas gebruikt worden. De variabelen die binnen een functie worden gedefinieerd, zijn ook alleen daar bruikbaar, dit heet scoping. Een functie doet niks, pas op het moment dat deze aangeroepen wordt gebeurt er iets.
@@ -188,8 +187,8 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 
 * interpolation: een variabele in een string zetten.
 * hoisting: er uit halen/ optillen. Doordat een js-bestand eerst soort van gecompiled wordt worden bepaalde variabelen en functies in een bepaalde volgorde gezet waardoor ze daarna door de interpreter goed gelezen worden.
-* [coercion](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
-* scope: het bereik van een variable of een functie; lexical scope in die functie of die genest zijn. Of een global scope, boven in het bestand gedefineerd.
+* [coercion](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md): Hierbij veranderd JS een waarde in een ander type zodat wat er gebeuren moet wel kan geburen. Als je een getal als string hebt wordt deze omgezet naar een number als je een berekening maakt met een number. 
+* scope: het bereik van een variable of een functie; lexical scope in die functie of die genest zijn. Of een global scope, bereikbaar voor alle functies, meestal zijn deze boven in het bestand gedefineerd.
 * scope chain: de ketting van het bereik van een variabele of een functie, deze gaat van binnen naar buiten/ of van beneden naar boven.
 * closures: als een geneste functie gebruik maakt van een variabele in een parent functie dan doet deze aan een Close over. Dit noemen we een closure.
 * [garbage collection](https://developer.mozilla.org/nl/docs/Web/JavaScript/Memory_Management#Garbage_collection)
