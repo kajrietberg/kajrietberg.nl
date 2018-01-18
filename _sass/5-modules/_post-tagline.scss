@@ -1,0 +1,17 @@
+/* ------------------------------------
+   #POST-TAGLINE
+   ------------------------------------*/
+ 
+/**
+ * Kort stukje over mij onder elk artikel
+ *
+ *
+ */
+
+.post-tagline {
+	font-weight: 600;
+	background-color: #ddd;
+	border-top-left-radius: 30px 20px;
+	border-bottom-right-radius: 20px 30px;
+	padding: 2*$spacing;
+}

@@ -37,7 +37,7 @@ Zo heb je:
 * `document.getElementById()`
 * `document.getElementsByTagName()`
 * `document.getElementsByClassName();` hiermee krijg je alle elementen met deze class-naam terug in een array, ook als er maar 1 element is krijg je die in een array.
-* `document.querySelector();` hiermee kan je zoeken op een class-naam op dezelfde manier als je het in CSS zet dus met de . er voor. Je krijgt dan het eerste element terug met die class-naam.
+* `document.querySelector();` hiermee kan je zoeken op alle CSS selectors. Zoals een class-naam op dezelfde manier als je het in CSS zet dus met de . er voor. Je krijgt dan het eerste element terug met die class-naam. Of `document.querySelector('form input[type="email"]')` kan ook.
 * `document.querySelectorAll();` Hiermee doe je hetzelfde als bovenstaande maar dan krijg je alle elementen terug met die specifieke class-naam in een array.
 
 Het kan zijn dat `getElementById()` en `getElementsByTagName()` sneller werken dan de querySelector.
