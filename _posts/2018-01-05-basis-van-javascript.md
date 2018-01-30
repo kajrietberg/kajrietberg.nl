@@ -64,9 +64,8 @@ De `.title` na de variabele naam/object heeft de dotnotation.
 
 * [Symbol](https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/); zorgt er voor dat je objecten niet conflicteren als een andere ontwikkelaar dezelfde object naam zou nemen. Symbols mogen dezelfde naam hebben en conflicteren dan niet.
 
-
 Een variabele is niet zijn waarde maar zijn containers voor hun waarde. Een variabele krijgt een inhoud die weer kan veranderen tijdens het lopen van het programma. De Constants heeft een vaste waarde, deze waarde kan je wel aanpassen als het programma gelopen heeft.
-Voor een variabele zet je `var` en voor een Constants zet je `const`.  
+Voor een variabele zet je `var` en voor een Constants zet je `const`.  En je kan `let` gebruiken. Dit is ook een manier om een variabele te maken. Maar deze maakt zijn eigen scope en is bijvoorbeeld buiten een if-statement niet te gebruiken. En de `let` is pas bruikbaar vanaf het moment dat je die gedeclareerd hebt.
 
 var voorbeeld; hiermee heb je de variabele 'voorbeeld' gedeclareerd (declared) en met var voorbeeld ="een voorbeeld"; is die gedefineerd (defined).
 
@@ -90,6 +89,8 @@ Voor een heel stuk zelfde als in CSS `/*  */` of voor 1 regel met `//`
 De hele lijst van [Operators staat op MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
 
 `+ , -, *, /, =, ===, !, !==, ++, >, <, =>, =< +=, -=`
+
+assignment (=), equality (==) en strict equality (===)
 
 * Logical:
 	- `&&` = AND
@@ -139,8 +140,8 @@ Een [method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/F
 
 Function call = functieNaam();<br>
 Function reference = functieNaam; 
-
-Een IIFE (Immediately Invoked Function Expression) is een functie met () er om heen zodat de variabelen er in niet gebruikt kunnen worden door code van buiten de functie.
+Function Expression = een functie die () om de hele functie heen heeft zodat ook de naam van de functie niet in je Global deel gebruikt kan worden, dit zorgt voor minder vervuiling van je code. <br>
+Achter een function expression kan je (); zetten zodat de functie ook gelijk uitgevoerd wordt. Dit heet een IIFE (Immediately Invoked Function Expression).
 
 ###Events:
 [Gebeurtenissen zoals klikken met een muis of een toetsenbord aanslag](https://developer.mozilla.org/en-US/docs/Web/Events). Datgene wat luistert naar het event heet event listeners. De code die wordt uitgevoerd na dat het event is uitgevoerd heet event handlers.
