@@ -5,7 +5,7 @@ tags: personal
 page-class: article
 ---
 
-Afgelopen jaar stond ik op een kruising. En ik weet nu dat ik rechtdoor wil. Verder gaan met front-end technieken en een betere front-end ontwikkelaar worden. Dat betekent geleerde technieken nog beter leren toepassen, nieuwe technieken leren en de wereld achter front-end, zoals standaarden en webbrowsers, beter leren begrijpen. Af en toe zat ik te twijfelen, wil ik hier mee verder en hoe dan, sla ik links of rechtsaf. Ik merkte dat ik buiten mijn werk meer dingen ging oppakken. Werk werd te eentonig. Ik zocht uitdaging en ging dit zoeken op een andere plek.
+<p class="lead">Afgelopen jaar stond ik op een kruising. En ik weet nu dat ik rechtdoor wil. Verder gaan met front-end technieken en een betere front-end ontwikkelaar worden. Dat betekent geleerde technieken nog beter leren toepassen, nieuwe technieken leren en de wereld achter front-end, zoals standaarden en webbrowsers, beter leren begrijpen. Af en toe zat ik te twijfelen, wil ik hier mee verder en hoe dan, sla ik links of rechtsaf. Ik merkte dat ik buiten mijn werk meer dingen ging oppakken. Werk werd te eentonig. Ik zocht uitdaging en ging dit zoeken op een andere plek.</p>
 
 ##Wat heb ik geleerd?
 Afgelopen jaar heb ik geleerd dat het belangrijk is om verder te leren en niet te blijven hangen. En dat je niet van baan hoeft te wisselen om weer nieuwe technieken te leren. Maak het bespreekbaar en dan kan je met je werkgever kijken wat er mogelijk is.

@@ -5,7 +5,6 @@ tags: front-end, forms, input
 page-class: article
 ---
 
-
 Het internet is begonnen als een netwerk van computers om informatie met elkaar te delen. Hierbij was, naar mijn idee, de `<a>` tag het belangrijkste element. Hiermee zorgden en zorgen we nog steeds voor dat informatie aan elkaar gelinkt wordt. Zo kan je van het ene naar het andere springen. Hiermee kunnen we uren zoet zijn, zonder dat we door hebben wat we aan het doen zijn :-). We noemen dit surfen. Het toffe van het linken van informatie is dat de informatie die met elkaar te maken heeft aan elkaar gelinkt kan worden, waardoor je makkelijk kan verwijzen naar andere informatie.
 
 In de loop der jaren is het internet geeëvolueerd tot een medium waar niet alleen maar informatie te vinden is, maar waar je ook mee kan interacteren. We kunnen nu via webformulieren informatie verzenden en zo zijn er nog meer mogelijkheden tot interactie met een website. Aangezien mijn werkveld webformulieren behelst hou ik mij hier tot deze interactie. 

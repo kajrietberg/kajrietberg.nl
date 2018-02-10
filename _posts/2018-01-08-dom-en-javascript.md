@@ -5,7 +5,7 @@ tags: front-end, JS, DOM
 page-class: article
 ---
 
-Na mijn [Mijn interpretatie van de Basis van JavaScript](https://www.kajrietberg.nl/2018/01/basis-van-javascript.html) artikel is dit mijn volgende artikel/ blad met aantekeningen over mijn JS leertocht. Deze keer zijn dit aantekeningen over wat de DOM is en hoe die zich verhoudt tot JavaScript. Ik krijg graag jullie feedback. Hier kan ik weer van leren.<br>Mijn twitter-handle en mailadres staan onderaan de pagina.
+<p class="lead">Na mijn <a href="https://www.kajrietberg.nl/2018/01/basis-van-javascript.html">Mijn interpretatie van de Basis van JavaScript artikel</a> is dit mijn volgende artikel/ blad met aantekeningen over mijn JS leertocht. Deze keer zijn dit aantekeningen over wat de DOM is en hoe die zich verhoudt tot JavaScript. Ik krijg graag jullie feedback. Hier kan ik weer van leren.<br>Mijn twitter-handle en mailadres staan onderaan de pagina.</p>
 
 [De DOM](https://javascriptforwp.com/introduction-to-document-object-model/) is een representatie van de webpagina, maar is er ook voor bedoeld om te communiceren met de webpagina.<br> 
 [De DOM](https://css-tricks.com/dom/) is een object met properties en methods. Naast de DOM heb je ook het scherm dat een object is met zijn eigen properties en methods. En elke node is een object met methods en properties.<br>

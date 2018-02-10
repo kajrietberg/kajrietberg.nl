@@ -6,7 +6,7 @@ page-class: article
 ---
 
 
-In 2013 I decided to turn jobs. I was a teacher in Special Needs education and wanted to become a front-end developer. When you’re a front-end starter, it is important to know the basics of the web. There are a lot of topics on front-end development that can be found on the Internet. Most topics that starters are learning are HTML, CSS and JavaScript or jQuery. These are topics that will be learned by doing. Are these the real basics of front-end development? In a way yes, but one of the real basics is HTTP. I explored the web to find good references to read and learn about this topic. Well there is enough to find but not that much about this topic. Is it not important or is it not sexy to write about this topic? Don’t know, but this article is for web dev starters to show them the basics of HTTP.
+<p class="lead">In 2013 I decided to turn jobs. I was a teacher in Special Needs education and wanted to become a front-end developer. When you’re a front-end starter, it is important to know the basics of the web. There are a lot of topics on front-end development that can be found on the Internet. Most topics that starters are learning are HTML, CSS and JavaScript or jQuery. These are topics that will be learned by doing. Are these the real basics of front-end development? In a way yes, but one of the real basics is HTTP. I explored the web to find good references to read and learn about this topic. Well there is enough to find but not that much about this topic. Is it not important or is it not sexy to write about this topic? Don’t know, but this article is for web dev starters to show them the basics of HTTP.</p>
 
 
 ##What is HTTP?

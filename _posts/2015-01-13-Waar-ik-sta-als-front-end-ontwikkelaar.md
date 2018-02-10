@@ -5,7 +5,7 @@ tags: personal
 page-class: article
 ---
 
-<p>
+<p class="lead">
     Sinds half april 2014 heb ik een baan als front-end ontwikkelaar bij <a href="http://www.zorgweb.nl">Zorgweb</a>. Daarvoor heb ik een klein jaar stage gelopen als front-end ontwikkelaar en veel gelezen over front-end ontwikkeling. Gezien het moment qua werk is een goed moment om op te maken waar ik nu sta in mijn nieuwe beroep. Want wat kan ik nu eigenlijk? Wat heb ik er voor gedaan? Voor mij belangrijke vragen, ik wil namelijk verder groeien in mijn beroep. Niet vele jaren stil blijven staan, wat ik als leraar in het speciaal onderwijs wel deed. Ik wil de regie hebben.
 </p>
 

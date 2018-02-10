@@ -5,7 +5,6 @@ tags: front-end, mail
 page-class: article
 ---
 
-
 Email is nog steeds of weer een belangrijk communicatiemiddel. Het leek een tijdje er op dat we het minder gingen gebruiken. Maar in de stroom van sociale media is mail juist weer belangrijker geworden, je kan het makkelijker bewaren. Bedrijven sturen steeds meer post via de mail ipv briefpapier. En we abonneren ons liever op een nieuwsbrief dan constant maar alle sociale media af te lopen om bij te blijven. 
 Het sturen van een goed leesbare mail en dan heb ik het niet over inhoudelijk maar over het uiterlijk is goed te doen, als je maar weet hoe. En dit hoe is anders dan het bouwen van een website. Zoals velen zeggen is het net zoals in de begintijd dat tabellen gebruikt werden voor het uiterlijk van je website. Het is weer terug in de tijd. 
 De reden hiervoor ligt aan het feit dat er veel mail-clients zijn. De bedrijven die mailclients bouwen vinden het niet belangrijk genoeg om deze net zo vaak te updaten als met een webbrowser. Iets wat ik mij ook kan voorstellen.

@@ -5,8 +5,8 @@ tags: front-end, JS
 page-class: article
 ---
 
-Afgelopen jaar heb ik de tijd genomen om mij te verdiepen in de theorie achter JavaScript. De reden hiervoor is dat ik JavaScript wil leren gebruiken en dus snappen wat ik doe. Hiervoor verschillende video's bekeken, artikelen gelezen, [Paul Verbeek-Mast](https://twitter.com/paul_v_m) heeft mijn vele vragen beantwoord, geoefend met de console. Het eerste stapje is gezet.
-Hier staan mijn aantekeningen over de basis van JavaScript. Ik vul ze steeds aan. De reden dat ik ze nu al online zet is om feedback te krijgen van anderen waardoor ik weer leer. Heb je aanvullingen of denk je dat ik het verkeerd heb geinterpreteerd, geef het aan mij door. Mijn twitter-handle en mailadres staan onderaan de pagina.
+<p class="lead">Afgelopen jaar heb ik de tijd genomen om mij te verdiepen in de theorie achter JavaScript. De reden hiervoor is dat ik JavaScript wil leren gebruiken en dus snappen wat ik doe. Hiervoor verschillende video's bekeken, artikelen gelezen, <a href="https://twitter.com/paul_v_m">Paul Verbeek-Mast</a> heeft mijn vele vragen beantwoord, geoefend met de console. Het eerste stapje is gezet.<br>
+Hier staan mijn aantekeningen over de basis van JavaScript. Ik vul ze steeds aan. De reden dat ik ze nu al online zet is om feedback te krijgen van anderen waardoor ik weer leer. Heb je aanvullingen of denk je dat ik het verkeerd heb geinterpreteerd, geef het aan mij door. Mijn twitter-handle en mailadres staan onderaan de pagina.</p>
 
 
 ##Wat is JavaScript?
