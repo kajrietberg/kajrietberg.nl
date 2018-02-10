@@ -90,7 +90,7 @@ De hele lijst van [Operators staat op MDN](https://developer.mozilla.org/en-US/d
 
 `+ , -, *, /, =, ===, !, !==, ++, >, <, =>, =< +=, -=`
 
-assignment (=), equality (==) en strict equality (===)
+assignment (=), loose equality (==) deze kan implicit type coercion veroorzaken en strict equality (===)
 
 * Logical:
 	- `&&` = AND
@@ -188,7 +188,7 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 
 * interpolation: een variabele in een string zetten.
 * hoisting: er uit halen/ optillen. Doordat een js-bestand eerst soort van gecompiled wordt worden bepaalde variabelen en functies in een bepaalde volgorde gezet waardoor ze daarna door de interpreter goed gelezen worden.
-* [coercion](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md): Hierbij veranderd JS een waarde in een ander type zodat wat er gebeuren moet wel kan geburen. Als je een getal als string hebt wordt deze omgezet naar een number als je een berekening maakt met een number. 
+* [coercion](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839): Hierbij veranderd JS een waarde in een ander type zodat wat er gebeuren moet wel kan gebeuren. Als je een getal als string hebt wordt deze omgezet naar een number als je een berekening maakt met een number. 
 * scope: het bereik van een variable of een functie; lexical scope in die functie of die genest zijn. Of een global scope, bereikbaar voor alle functies, meestal zijn deze boven in het bestand gedefineerd.
 * scope chain: de ketting van het bereik van een variabele of een functie, deze gaat van binnen naar buiten/ of van beneden naar boven.
 * closures: als een geneste functie gebruik maakt van een variabele in een parent functie dan doet deze aan een Close over. Dit noemen we een closure.

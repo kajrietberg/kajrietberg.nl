@@ -1,6 +1,12 @@
-/*------------------------------------*\
-    			#FOOTER
-\*------------------------------------*/
+/* ------------------------------------
+   #FOOTER
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
 
 footer {
     clear: both;
@@ -11,10 +17,8 @@ footer {
 
 
 
-/*------------------------------------*\
-    			#COPYRIGHT
-\*------------------------------------*/
 
+//#COPYRIGHT
 .copyright {
     width: 100%;
     margin: 0;
@@ -25,10 +29,7 @@ footer {
 
 
 
-/*------------------------------------*\
-            #SOCIALMEDIA-ICONS
-\*------------------------------------*/
-
+// #SOCIALMEDIA-ICONS
 .social-media {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +41,7 @@ footer {
     padding: 0;
 
 
-        @include breakpoint($breakpoint-two) {
+        @include media-query(lap-and-up) {
             text-align: right;
             padding: 0;
         }
@@ -54,7 +55,7 @@ footer {
                 margin-right: 0;
             }           
             
-            @include breakpoint($breakpoint-two) {
+            @include media-query(lap-and-up) {
                 text-align: left;
             }
         }

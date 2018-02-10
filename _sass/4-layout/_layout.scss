@@ -1,6 +1,12 @@
-/*------------------------------------*\
-                #LAYOUT
-\*------------------------------------*/
+/* ------------------------------------
+   #LAYOUT
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
 
 
 .wrapper,
@@ -10,11 +16,9 @@ article {
     margin: 0 auto;
     padding: 30px;
 
-    @include breakpoint($breakpoint-two) {
-        width: 770px;
-    }
-    @include breakpoint($breakpoint-three) {
-        width: 1023px;
+    @include media-query(palm-and-up) {
+        max-width: $max-width;
+        padding: 30px 50px;
     }
 }
 

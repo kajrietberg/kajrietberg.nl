@@ -3,11 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-// Taiga Boilerplate
-// Copyright 2014 by Studio Wolf
-// Licensed under the MIT license
 
-// =========== Includes
 @import
 
 // Settings
@@ -15,8 +11,7 @@
 
 
 //Tools: mixins, functions, extends, etc.
-"2-tools/_mixins",
-"2-tools/_grid",
+"2-tools/_responsive",
 
 
 //Base: base styling from html elements, normalize, etc.

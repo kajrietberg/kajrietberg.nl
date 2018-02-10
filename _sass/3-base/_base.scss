@@ -1,6 +1,12 @@
-/*------------------------------------*\
-                #BASE
-\*------------------------------------*/
+/* ------------------------------------
+   #BASE
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
@@ -24,11 +30,13 @@ html {
 
 html {
     color: #121259;
-    font: 300 $font-size-body $font-base;
+    font: $font-size-base;
+    font-family: $font-family-base;
+    font-weight: 300;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
 
-    @include breakpoint($breakpoint-three) { 
+    @include media-query(lap-and-up) { 
         font-size: 1.15rem; 
     }
 }
@@ -38,7 +46,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $font-h;
+    font-family: $font-family-heading;
     font-weight: 600;
     line-height: 1.5;
     
@@ -63,7 +71,7 @@ h5 { font-size: 1.05rem; }
 h6 { font-size: 1rem; }
 
 p {
-    margin-bottom: $vertical-spacing;
+    margin-bottom: $spacing;
     &.lead {
         font-size: 1.2em;
         line-height: 1.5em;
@@ -72,9 +80,9 @@ p {
 
 
 a {
-    color: #F58DB6;
+    color: $link--color;
     
-    &:hover { color: #FFC038; }
+    &:hover { color: $link--color-hover; }
 }
 
 small { font-size: 0.85em; color: lighten($black, 50%); }
@@ -96,23 +104,17 @@ hr {
     border: solid lighten($black, 80%);
     border-width: 1px 0 0;
     clear: both;
-    margin: 2em $vertical-spacing;
+    margin: 2em $spacing;
 }
 
-ul, ol { margin: 0 0 $vertical-spacing 1.5em; }
+ul, ol { margin: 0 0 $spacing 1.5em; }
 ul { list-style: disc; }
 ol { list-style: decimal; }
 
 dl {
-    margin-bottom: $vertical-spacing;
+    margin-bottom: $spacing;
     dt { font-weight: bold; }
-    dd { margin-left: $vertical-spacing; }
-
-    &.advanced {
-        @extend dl;
-        dt { @include grid(16, 0, 1); }
-        dd { @include grid(32); }
-    }
+    dd { margin-left: $spacing; }
 }
 
 img {

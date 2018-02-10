@@ -1,7 +1,15 @@
-// =========== Quote
+/* ------------------------------------
+   #QUOTE
+   ------------------------------------*/
+ 
+/**
+ * 
+ *
+ *
+ */
 
 blockquote {
-    // color: $color-neutral-70;
+    opacity: .9;
     font: italic $font-size-40 Georgia, serif;
     line-height: 1.5em;
     margin-bottom: $spacing;
