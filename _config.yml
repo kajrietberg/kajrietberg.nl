@@ -17,5 +17,5 @@ sass:
     #style: compact
 
 markdown: kramdown
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 #paginate: 10    
