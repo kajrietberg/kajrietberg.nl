@@ -73,7 +73,7 @@ Val Head laat in [een screencast](http://valhead.com/2015/02/02/screencast-ui-an
 
 ##Tools
 * Webdeveloper tools in Firefox en Chrome hebben animatie tools (Safari en Opera bekijken)[Visualize easing in devtools](https://hacks.mozilla.org/2016/11/visualize-animations-easing-in-devtools/)
-* http://scrollanim.kissui.io/
+* [Scrollanim](http://scrollanim.kissui.io/)
 * [Web animatie API](https://hacks.mozilla.org/2016/08/animating-like-you-just-dont-care-with-element-animate/)
 * [Vergelijk webanimatie technieken](http://sparkbox.github.io/bouncy-ball/)
 * Adobe Illustrator en After Effects
