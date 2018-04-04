@@ -56,15 +56,14 @@ Belangrijk bij het design van tabelen en grafieken is de boodschap die je overbr
 Om het verhaal te verduidelijken gebruik hiervoor elementen van een tabel of grafiek en maak deze ondersteunend aan je verhaal.
 
 Zaken waarbij je hier aan moet denken zijn:
-
-- x- en y-as (en labels er bij)
-- legenda
-- grid-lijnen (hulp-lijnen in je grafiek)
-- verhaaltje voor wat uitleg van punten in je grafiek of een verhaal hoe de grafiek gelezen moet worden
-- maak elementen duidelijk door een achtergrond kleur, lijnen er om heen, dikke of dunnere lijnen, wit ruimte
-- groepeer elementen die bij elkaar horen
-- grote van je elementen, grote bollen, etc.
-- Gebruik kleuren om verschil te laten zien
+* x- en y-as (en labels er bij)
+* legenda
+* grid-lijnen (hulp-lijnen in je grafiek)
+* verhaaltje voor wat uitleg van punten in je grafiek of een verhaal hoe de grafiek gelezen moet worden
+* maak elementen duidelijk door een achtergrond kleur, lijnen er om heen, dikke of dunnere lijnen, wit ruimte
+* groepeer elementen die bij elkaar horen
+* grote van je elementen, grote bollen, etc.
+* Gebruik kleuren om verschil te laten zien
 
 Dashboard design:
 Dashboard is een exploratory manier van data disualisatie. Er is data om door heen te gaan en te kijken wat deze zegt of zou kunnen zeggen. 
