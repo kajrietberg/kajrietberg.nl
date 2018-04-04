@@ -55,15 +55,15 @@ We halen informatie uit onze waarneming door relaties tussen elementen te bekijk
 Belangrijk bij het design van tabelen en grafieken is de boodschap die je overbrengt. Hou je doel in de gaten en presenteer dat zo duidelijk mogelijk waardoor de bezoeker zonder poespas het verhaal tot zich kan nemen of misschien zijn/haar eigen verhaal kan maken. Denk dus na in welke vorm je de data aanbiedt, een tabel of grafiek of meerdere grafieken. En welk type grafiek. Bij tabellen en grafieken heb je data inkt en non-data inkt. Probeer zoveel mogelijk non-data inkt te vermijden. 
 Om het verhaal te verduidelijken gebruik hiervoor elementen van een tabel of grafiek en maak deze ondersteunend aan je verhaal.
 
-Zaken waarbij je hier aan moet denken zijn:
-* x- en y-as (en labels er bij)
-* legenda
-* grid-lijnen (hulp-lijnen in je grafiek)
-* verhaaltje voor wat uitleg van punten in je grafiek of een verhaal hoe de grafiek gelezen moet worden
-* maak elementen duidelijk door een achtergrond kleur, lijnen er om heen, dikke of dunnere lijnen, wit ruimte
-* groepeer elementen die bij elkaar horen
-* grote van je elementen, grote bollen, etc.
-* Gebruik kleuren om verschil te laten zien
+###Zaken waarbij je hier aan moet denken zijn:
+- x- en y-as (en labels er bij)
+- legenda
+- grid-lijnen (hulp-lijnen in je grafiek)
+- verhaaltje voor wat uitleg van punten in je grafiek of een verhaal hoe de grafiek gelezen moet worden
+- maak elementen duidelijk door een achtergrond kleur, lijnen er om heen, dikke of dunnere lijnen, wit ruimte
+- groepeer elementen die bij elkaar horen
+- grote van je elementen, grote bollen, etc.
+- Gebruik kleuren om verschil te laten zien
 
 Dashboard design:
 Dashboard is een exploratory manier van data disualisatie. Er is data om door heen te gaan en te kijken wat deze zegt of zou kunnen zeggen. 
@@ -87,4 +87,4 @@ Interessante linkjes over Dashboard design:
 Handige tools:
 
 - [The Chartmaker Directory](http://chartmaker.visualisingdata.com/): handige hulp voor het kiezen van welke type grafiek je kan gebruiken
-- [Highcharts](https://www.highcharts.com/): JavaScript library om data te koppelen aan grfaieken
+- [Highcharts](https://www.highcharts.com/): JavaScript library om data te koppelen aan grafieken
