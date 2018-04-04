@@ -22,6 +22,7 @@ Grafieken tonen verbanden, trends en data op een visuele manier. Een tabel toont
 Quantitatieve verhalen bestaat uit quantitatieve data (een getal) en uit categorie data (bijvoorbeeld tijd). Ze zijn gebaseerd op statistieken. Gebruik de juiste getallen zodat het verhaal dat je toont ook klopt. Verdiep je dus in bepaalde termen zoals gemiddelden, meridiaan, mediaan, etc. Zodat je weet waar je over praat.
 
 Quantitatieve data relaties:
+
 - nominaal
 - ordinaal
 - interval
@@ -30,11 +31,13 @@ Quantitatieve data relaties:
 Uitleg over deze relaties staat op [Meetniveaus: Nominaal, Ordinaal, Interval en Ratio](https://wetenschap.infonu.nl/onderzoek/110039-meetniveaus-nominaal-ordinaal-interval-en-ratio.html).
 
 Categorie waarden relaties:
+
 - ranking
 - ratio
 - correlatie
 
 Grafieken heb je in verschillende vormen:
+
 - categoriaal
 - hierarchiaal
 - relationeel
@@ -53,6 +56,7 @@ Belangrijk bij het design van tabelen en grafieken is de boodschap die je overbr
 Om het verhaal te verduidelijken gebruik hiervoor elementen van een tabel of grafiek en maak deze ondersteunend aan je verhaal.
 
 Zaken waarbij je hier aan moet denken zijn:
+
 - x- en y-as (en labels er bij)
 - legenda
 - grid-lijnen (hulp-lijnen in je grafiek)
@@ -73,15 +77,15 @@ Gebruik goede titels en labels bij een grafiek om duidelijk te maken wat er geto
 Laat belangrijke data er uit springen door bijvoorbeeld een lijn of blok dikker te maken of op te lichten.
 Hou het overzichtelijk.
 
-
 Je kan een stap verder gaan en proberen een dashboard meer te personaliseren. Dat een bezoeker kan schuiven met de grafieken. Bepaal dus zelf hoe je dashboard opgebouwd is.
 
 
-
 Interessante linkjes over Dashboard design:
+
 - [Dashboard Design Best Practices – 4 Key Principles](https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/)
 - [Storytelling in Dashboards](http://www.susielu.com/data-viz/storytelling-in-dashboards)
 
 Handige tools:
+
 - [The Chartmaker Directory](http://chartmaker.visualisingdata.com/): handige hulp voor het kiezen van welke type grafiek je kan gebruiken
 - [Highcharts](https://www.highcharts.com/): JavaScript library om data te koppelen aan grfaieken
