@@ -21,7 +21,7 @@ Je zal verschillende websites tegenkomen die LeafLet gebruiken, zoals de website
 
 
 ##D3
-D3 is de tool voor het bouwen van custom data-visualisaties. Je kan D3 ook gebruiken voor een datavisualisatie met kaarten en dan vooral statische kaarten. Hoeft er vanuit de gebruiker geen interactie plaats te vinden, is D3 een goede optie om te gebruiken.
+D3 is de tool voor het bouwen van custom datavisualisaties. Je kan D3 ook gebruiken voor een datavisualisatie met kaarten en dan vooral statische kaarten. Hoeft er vanuit de gebruiker geen interactie plaats te vinden, is D3 een goede optie om te gebruiken.
 D3 heeft verschillende functies ingebouwd die je kan gebruiken: [D3 API](https://github.com/d3/d3/blob/master/API.md).
 
 
