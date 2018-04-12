@@ -194,7 +194,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Xplane](http://www.xplane.com/); Gericht op visual thinking, schetsen, hebben sketchjams en visual thinking workshops, lijken zeer actief
 * [Sheila Pontis](https://sheilapontis.wordpress.com/); Interessante info
 * [Information is Beautiful](http://www.informationisbeautiful.net/); Interessante boeken en workshops
-* [Getting the picture](https://gtp.nl/); Nederlands bedrijf
+* [Getting the picture](https://www.gtp.nl/); Nederlands bedrijf
 * [Adyen](https://www.adyen.com/nl); gebruikt data visuals om statistieken (Dashboards) aan hun klanten te tonen zodat die klanten nog beter kunnen presteren en inzicht krijgen in processen die hun klanten weer op hun website hebben. Zoals Netflix of Facebook.
 
 
