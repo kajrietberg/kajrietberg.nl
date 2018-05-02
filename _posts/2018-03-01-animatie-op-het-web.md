@@ -54,6 +54,7 @@ Val Head laat in [een screencast](http://valhead.com/2015/02/02/screencast-ui-an
 ###JS libraries
 - [GSAP](https://greensock.com/)
 - [animejs](http://animejs.com/)
+- [Motion for the web](http://mojs.io/)
 
 
 ##Voorbeelden:
