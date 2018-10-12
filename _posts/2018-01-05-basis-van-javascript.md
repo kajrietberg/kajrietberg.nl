@@ -161,6 +161,8 @@ De [break-statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 De [continue-statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) zorgt er voor dat je door gaat in de loop, maar slaat die conditie over.
 
+Er zijn nieuwe manieren om een loop te doen, zoals map, reduce, filter en find. In het artikel van Flavio Copes [An alternative approach to loops using map, filter, reduce and find](https://flaviocopes.com/javascript-loops-map-filter-reduce-find/) staan deze manieren beschreven.
+
 ###Object
 Een object bestaat uit variabelen en functies. Deze variabelen worden properties genoemd en die functies worden methods genoemd.
 

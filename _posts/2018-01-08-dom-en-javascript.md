@@ -80,6 +80,8 @@ Bij Element Nodes → dit is nieuwer:
 
 Meest voorkomende Nodes zijn de Element en Text nodes.
 
+Een interessant en handig artikel over het selecteren van elementen in de DOM komt van Zell Liew, [Traversing the DOM with JavaScript](https://zellwk.com/blog/dom-traversals/).
+
 
 ##waardes in en uit Element Nodes te krijgen
 
