@@ -10,19 +10,7 @@
 
 
 header {
-    height: 290px;
     width: 100%;
-    box-shadow: 0px 2px 5px #666;
-    background-color: #121259;
-    
-    @include media-query(palm-and-up) {
-        height: 215px; 
-    }
-
-    @include media-query(lap-and-up) {
-        height: 145px; 
-    }
-
 
     h1,
     h2,
@@ -40,17 +28,15 @@ header {
         }
         
         @include media-query(lap-and-up) {
-        	float: left;
-            width: 45%;                
+            width: 45%;
         }
     }
 
     h3 {
-        margin-bottom: 10px;
 
         @include media-query(lap-and-up) {
-            float: left;
-            width: 55%;                
+            width: 55%;
+            font-size: 2.9rem;
         }
     }
 
@@ -64,19 +50,19 @@ header {
   Navigatie
   ------------------------------------*/
 .nav-primary {
-    clear: left;
 	width: 100%;
 
 }
 
 .nav-primary__list {
+    display: flex;
+    flex-wrap: wrap;
 	font-weight: 700;
 	list-style-type: none;
-	margin-left: 0;
+	margin: 0;
 }
 
 .nav-primary__item {
-	display: inline-block;
     font-size: 1.2em;
 	margin-right: 25px;
 }

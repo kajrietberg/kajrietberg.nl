@@ -29,7 +29,7 @@ html {
 ::selection { background: lighten($black, 10%); color: $white; text-shadow: none; }
 
 html {
-    color: #121259;
+    color: #fff;
     font: $font-size-base;
     font-family: $font-family-base;
     font-weight: 300;
@@ -43,6 +43,7 @@ html {
 
 body {
     line-height: 1.5;
+    background-color: #121259;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +63,8 @@ h1 {
 
 
 h2 { 
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: $spacing;
 }
 
 h3 { font-size: 1.2rem; }

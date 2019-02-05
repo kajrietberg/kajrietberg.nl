@@ -5,10 +5,23 @@ permalink: /webdev-articles
 page-class: page--webdev
 ---
 
-<ul>
-  {% for post in site.posts %}
+
+
+<div>
+  <h2>Writings here</h2>
+  <ul>
+    {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}.html">{{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<div>
+  <h2>Writings elsewhere</h2>
+  <ul>
+    <li><a href="http://fronteers.nl/blog/2015/01/css-resets">CSS Resets</a> - Fronteers website</li>
+  </ul>
+</div>
