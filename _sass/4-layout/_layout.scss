@@ -14,10 +14,51 @@ article {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px 30px;
 
     @include media-query(palm-and-up) {
         max-width: $max-width;
-        padding: 30px 50px;
+        padding: 60px 60px;
+    }
+}
+
+.wrapper {
+    header & {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &.wrapper--flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        div {
+            width: 45%;
+        }
+    }
+
+    footer & {
+        padding-bottom: 30px;
+    }
+}
+
+section {
+
+    .page--webdev & {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        div {
+
+            @media-query(palm-and-up) {
+                width: 45%;
+            }
+        }
     }
 }
