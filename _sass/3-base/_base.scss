@@ -91,7 +91,18 @@ small { font-size: 0.85rem; color: lighten($black, 50%); }
 
 em { font-style: italic; }
 
-strong { font-weight: bold; }
+strong {
+    font-weight: bold;
+    background-image: url("../assets/img/strong-achtergrond.svg");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
 
 code, pre { font-family: 'courier new', monospace; }
 
