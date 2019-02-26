@@ -186,6 +186,16 @@ Expressions zijn vaak delen van een statement en zijn stukjes code die een waard
 * this = verwijst naar het object waaraan het gekoppeld is.
 
 
+##JSON
+[JavaScript Object Notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON); een handige manier om informatie middels tekst door te geven. Het is makkelijk te lezen en te schrijven. 
+Altijd double quotes gebruiken " " voor Strings. Je hebt een key met een value.
+
+In JS is er de JSON object. Deze heeft 2 methods; nl. JSON.parse() hiermee kan je een JSON object omzetten naar een native JS object en JSON.stringify() deze maakt van een JS object een JSON string of object.
+Gebruik geen eval() voor het parsen van JSON.
+
+Een JSON validator [JSONLint](https://jsonlint.com/).
+
+
 ##Lastige termen
 
 * interpolation: een variabele in een string zetten.
