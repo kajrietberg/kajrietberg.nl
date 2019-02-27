@@ -97,12 +97,40 @@ Als je gaat animeren, zorg er voor dat je van te voren de svg optimaliseert. Doe
 https://www.august.com.au/blog/svg-animation-with-greensock/
 https://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/
 
-Animeren van SVG kan via SMIL, CSS en JS. SMIL wordt afgeraden omdat o.a. Chrome het niet meer gaat ondersteunen. Met CSS is (nog) niet heel goed te animeren, maar bepaalde zaken wel. Dan is de verschijningsvorm verschillend in de verschillende browsers. Goed kijken wat lukt. Het beste is JS te gebruiken, browser support voor css animatie is niet gegarandeerd. Je kan gebruik maken van verschillende library's.
+Animeren van SVG kan via SMIL, CSS en JS. SMIL wordt afgeraden omdat o.a. Chrome het niet meer zou ondersteunen. Kijk je op Can I Use of op [MDN docs over SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL) dan kan je zien dat Chome het toch nog ondersteunt.
+Met CSS is (nog) niet heel goed te animeren, maar bepaalde zaken wel. Dan is de verschijningsvorm verschillend in de verschillende browsers. Goed kijken wat lukt. Het beste is JS te gebruiken. Je kan gebruik maken van verschillende library's.
 
 Top 3:
 - GreenSock (voor de meer moeilijkere animaties)
 - snap.svg (jQuery van animatie)
 - anime.js (in opkomst, maar je gebruikt meer code dan GreenSock)
+
+Animaties kan je met de [Inspector Tools van Firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations) in de browser bekijken en aanpassen.
+Onder de regels staan ook de instellingen van @keyframes zodat je die kan aanpassen via de developer tools, je moet hiervoor wel iets naar beneden scrollen. 
+Ook zijn de timing functies van je animatie aan te passen via de developer tools.
+
+###Wanneer animeren met CSS of JS?
+In [The Animation Newsletter](https://us2.campaign-archive.com/?u=6fbaddc8c1fce7588d1a35cb2&id=6a31c014a2) beschrijft Val Head hoe ze kiest tussen CSS of JS. Ze gebruikt hiervoor 3 verschillende regels.
+Hierin beschrijft ze dat ze SVG's voornamelijk animeert met JS en dan met Greensock. En komt het neer als de animatie complexer wordt of meerdere animaties bevat dan is het gebruik van JS handiger.
+Een beschrijving van wanneer JS of CSS te gebruiken geeft Zell Liew in zijn artikel [Should you use CSS or JavaScript for web animations?](https://www.heartinternet.uk/blog/should-you-use-css-or-javascript-for-web-animations/). Deze beschrijving is wat uitgebreider dan die Val Head, maar komt overeen met wat zij beschrijft.
+
+<quote>
+    For simple two-state animations, I recommend you use CSS transitions. For more complicated animations, I recommend you use CSS animations or JavaScript.
+    
+    At the time of writing, the Web Animations API is still not well supported yet, so the best possible way to animate is with GSAP, which is an amazing library.
+
+    Make sure you provide a non-animated, but workable version of your site for people who don’t have JavaScript enabled. They should still be able to use your website even when it’s not animated.
+</quote>
+Quote van Zell Liew
+
+De eenvoudigste manier van animeren kan je met CSS transitions doen. In Zell Liew's artikel [CSS Transitions explained](https://zellwk.com/blog/css-transitions/) uitgelegd hoe die werken.
+Iets lastiger wordt het met CSS animations, maar gelukkig legt Zell Liew dit weer uit in zijn artikel [CSS Animations explained](https://zellwk.com/blog/css-animations/). Bij CSS animations kan je de tijdlijn beinvloeden zo kan je er voor zorgen dat er meerdere states worden bereikt.
+
+Voor SVG's is het dus het handigste om gebruik te maken van JavaScript en de library Greensock is het handigste.
+
+###De performance van animaties
+Het animeren van elementen in je website heeft invloed op de performance van je website. Bij sommige onderdelen moet de hele pagina weer opgebouwd worden.
+Meer informatie over animeren en performance kan je vinden in het artikel [High Performance Animations](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
 
 ##Accessible SVG's
@@ -140,6 +168,12 @@ In CSS hebben we filter mogelijkheden. Maar dit zijn eigenlijk versimpelde SVG F
 - [Praktische tips over svg](http://mediatemple.net/blog/tips/an-svg-that-isnt-all-svg/)
 - [Handige tips mbt Sketch en svg](https://medium.com/sketch-app-sources/preparing-and-exporting-svg-icons-in-sketch-1a3d65b239bb)
 - [Integrating SVG into your site](https://www.heartinternet.uk/blog/integrating-svg-site/)
+
+
+###Interessante links animaties:
+- [MDN - Work with animation](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations)
+- [Smashing Magazine - HTML5 SVG Fill Animation With CSS3 And Vanilla JavaScript](https://www.smashingmagazine.com/2019/01/html5-svg-fill-animation-css3-vanilla-javascript/)
+- [Snipcart website - Creating Vue.js Transitions & Animation: Live Examples](https://snipcart.com/blog/vuejs-transitions-animations)
 
 
 ###Voorbeelden
