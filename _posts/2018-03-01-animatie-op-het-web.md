@@ -103,7 +103,7 @@ Val Head laat in [een screencast](http://valhead.com/2015/02/02/screencast-ui-an
 * [Rachel Nabors Smashing Conf](https://vimeo.com/163510676)
 * [Rachel Nabors The web in motion at Front-Trends 2016](https://www.youtube.com/watch?v=jX_TWlDe-Is&feature=youtu.be&list=PLBevk0eXLOGdZ4yHChA-JW69DCBe7uGkJ)
 * [Sarah Drasner Fronteers conf 2016](https://vimeo.com/194963386) en de [slides](http://slides.com/sdrasner/functional-fronteers#/)
-* [Val Head bij Fronteers conf 2017](https://vimeo.com/240478145)
+* [Val Head: “Choose Your Animation Adventure” at Fronteers Conference 2017](https://vimeo.com/240478145)
 
 
 ##Mensen om te volgen
