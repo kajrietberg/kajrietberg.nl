@@ -97,7 +97,7 @@ Val Head laat in [een screencast](http://valhead.com/2015/02/02/screencast-ui-an
 * [Google Design; Making Motion Meaningful](https://design.google.com/articles/making-motion-meaningful/)
 * [A List Apart; Patterns and Purpose, an Excerpt from Animation at Work](https://alistapart.com/article/patterns-and-purpose)
 * [The 12 Principles of Animation as Illustrated through Disney and Disney Pixar Films](https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/)
-
+* [A Comparison of Animation Technologies](https://css-tricks.com/comparison-animation-technologies/)
 
 ##Conferentie talks:
 * [Rachel Nabors Smashing Conf](https://vimeo.com/163510676)
