@@ -126,7 +126,7 @@ Quote van Zell Liew
 De eenvoudigste manier van animeren kan je met CSS transitions doen. In Zell Liew's artikel [CSS Transitions explained](https://zellwk.com/blog/css-transitions/) uitgelegd hoe die werken.
 Iets lastiger wordt het met CSS animations, maar gelukkig legt Zell Liew dit weer uit in zijn artikel [CSS Animations explained](https://zellwk.com/blog/css-animations/). Bij CSS animations kan je de tijdlijn beinvloeden zo kan je er voor zorgen dat er meerdere states worden bereikt.
 
-Voor SVG's is het dus het handigste om gebruik te maken van JavaScript en de library Greensock is het handigste.
+Voor SVG's is het dus het handigste om gebruik te maken van JavaScript en de library Greensock is het handigste. Bekijk Sarah Drasner haar video over [SVG en animeren](https://www.youtube.com/watch?v=ZNukcHhpSXg).
 
 ###De performance van animaties
 Het animeren van elementen in je website heeft invloed op de performance van je website. Bij sommige onderdelen moet de hele pagina weer opgebouwd worden.
