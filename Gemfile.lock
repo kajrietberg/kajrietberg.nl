@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorator (0.1)
+    dotenv (2.7.2)
     ffi (1.9.10)
     jekyll (3.1.1)
       colorator (~> 0.1)
@@ -33,6 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   jekyll
   kramdown
   liquid
@@ -40,4 +42,4 @@ DEPENDENCIES
   sass
 
 BUNDLED WITH
-   1.11.2
+   2.0.1

@@ -1,0 +1,49 @@
+---
+layout: page
+title: Demo's en testjes
+permalink: /demo/
+page-class: page--demo
+---
+
+
+<div id="demo" class="demo-wrapper">
+
+    <h2>Onze auto</h2>
+        <p>
+            Onderstaande data komt uit de api van het RWD. Ik zoek hier op kenteken.
+            <br />
+            <code>
+                https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=
+            </code>
+        </p>
+        <ul id="listCar">
+            <li>Automerk en type: <span id="carBrand"></span></li>
+            <li>Cilinder inhoud: <span id="carCilinder"></span></li>
+            <li>We hebben deze auto sinds: <span id="carStart"></span></li>
+        </ul>
+
+</div>
+
+<script>
+    const url = `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${NETLIFY_NUMBERPLATE}`;
+    // const listCar = document.querySelector('#listCar');
+    console.log(url);
+
+    fetch(url).then(
+        response => {
+            if (response.status === 200) {
+                // 4a. We received a successful response, convert it to json()
+                response.json().then(data => {
+                    console.log(data[0]);
+                    carBrand.innerText = `${data[0].merk} ${data[0].handelsbenaming}`;
+                    carCilinder.innerText = `${data[0].cilinderinhoud} cc`;
+                    carStart.innerText = `${data[0].datum_tenaamstelling}`;
+                })
+            } else {
+                throw new Error('Country API call failed!')
+            }
+        },
+        reject => console.log('rejected!', reject)
+    );
+
+</script>
