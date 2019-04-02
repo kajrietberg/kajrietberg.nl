@@ -1,7 +1,3 @@
-var env = process.env.ELEVENTY_ENV;
-
-
-
 module.exports = function(eleventyConfig) {
     // Aliases are in relation to the _includes folder
     eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
@@ -13,16 +9,16 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLiquidOptions({
         dynamicPartials: false,
         root: [
-            '_includes',
+            'src/_includes',
             './'
         ]
     });
 
-    eleventyConfig.addPassthroughCopy('assets');
+    eleventyConfig.addPassthroughCopy('src/assets');
 
     return {
         dir: {
-            input: "./",
+            input: "src",
             output: "dist"
         },
         passthroughFileCopy: true
