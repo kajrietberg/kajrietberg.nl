@@ -27,8 +27,8 @@ page-class: page--demo
 <script>
     // const request = require("request");
     // require('dotenv').config()
-    const AUTH = process.env.NETLIFY_NUMBERPLATE;
-    const url = `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${AUTH}`;
+    // const AUTH = process.env.NETLIFY_NUMBERPLATE;
+    const url = `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${NETLIFY_NUMBERPLATE}`;
     fetch(url).then(
         response => {
             if (response.status === 200) {
