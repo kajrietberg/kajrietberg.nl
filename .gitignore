@@ -1,5 +1,6 @@
 .idea
-_site
+dist
 .sass-cache
 _drafts
 .env
+node_modules
