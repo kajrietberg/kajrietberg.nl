@@ -1,0 +1,34 @@
+
+@import
+
+// Settings
+"1-settings/_settings", // Set up your settings and variables first
+
+
+//Tools: mixins, functions, extends, etc.
+"2-tools/_responsive",
+
+
+//Base: base styling from html elements, normalize, etc.
+"3-base/_base",
+
+
+//Layout; classes that layout the page and/or classes that have layout on them
+"4-layout/_layout",
+
+
+//Modules; components that can be used through the whole website
+"5-modules/_article",
+"5-modules/_footer",
+"5-modules/_header",
+"5-modules/_page",
+"5-modules/_post-tagline",
+"5-modules/_quote",
+
+
+//gui: specific styling on a page (what's only on that page)
+"6-gui/_home",
+
+
+// Print
+"3-base/_print";

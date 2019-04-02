@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Webdev articles (in Dutch)
-permalink: /webdev-articles
+permalink: /webdev-articles.html
 page-class: page--webdev
 ---
-
-
 
 <div>
   <h2>Writings here</h2>
@@ -14,13 +12,10 @@ page-class: page--webdev
   Ze zijn meer geschreven als aantekeningen om weer naar terug te kijken hoe iets gaat.
 
   <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}.html">{{ post.title }}</a>
-    </li>
-    {% endfor %}
+    {%- for post in collections.post -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {%- endfor -%}
   </ul>
-</div>
 
 
 <div>

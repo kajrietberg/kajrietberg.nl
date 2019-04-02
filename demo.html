@@ -25,6 +25,8 @@ page-class: page--demo
 </div>
 
 <script>
+    const request = require("request");
+    require('dotenv').config()
     const AUTH = process.env.NETLIFY_NUMBERPLATE;
     const url = `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${AUTH}`;
     fetch(url).then(
