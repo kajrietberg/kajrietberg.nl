@@ -10,7 +10,7 @@ page-class: page--demo
 
     <h2>Onze auto</h2>
         <p>
-            Onderstaande data komt uit de api van het RWD. Ik zoek hier op kenteken.
+            Onderstaande data komt uit de api van het shortbox. Ik zoek hier op kenteken.
             <br />
             <code>
                 https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=
@@ -25,7 +25,7 @@ page-class: page--demo
 </div>
 
 <script>
-    const url='https://www.kajrietberg.nl/.netlify/functions/fetch-rwd-api';
+    url='https://www.kajrietberg.nl/.netlify/functions/fetch-rwd-api';
     fetch(url).then(
         response => {
             if (response.status === 200) {
@@ -40,45 +40,6 @@ page-class: page--demo
                 })
             } else {
                 throw new Error('Car API call failed!')
-            }
-        },
-        reject => console.log('rejected!', reject)
-    );
-
-</script>
-
-<h2>Onze auto</h2>
-<p>
-    Onderstaande data komt uit de api van het RWD. Ik zoek hier op kenteken.
-    <br />
-    <code>
-        https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=
-    </code>
-</p>
-<ul id="listComics">
-
-</ul>
-
-</div>
-
-<script>
-    const urlcomic='https://www.kajrietberg.nl/.netlify/functions/comic';
-    const listComics = document.querySelector('#listComics');
-    fetch(urlcomic).then(
-        response => {
-            if (response.status === 200) {
-                response.json()
-                    .then(data => {
-                        console.log(data);
-                        const entries =  Object.entries(data);
-
-                        entries.forEach(onderdeel => {
-                            listComics.innerText += `${data.title} ${data.publisher}`;
-                        })
-
-                    })
-            } else {
-                throw new Error('Comic API call failed!')
             }
         },
         reject => console.log('rejected!', reject)
