@@ -1,10 +1,6 @@
-// import fetch from "node-fetch";
 const axios = require("axios")
-// require('dotenv').config();
 
-// const AUTH = process.env.NETLIFY_NUMBERPLATE;
-const API_COMIC =
-    `https://api.shortboxed.com/comics/v1/new`;
+const API_COMIC = `https://api.shortboxed.com/comics/v1/new`;
 const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type'

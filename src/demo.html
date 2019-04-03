@@ -23,14 +23,11 @@ page-class: page--demo
         </ul>
 
 </div>
-
 <script>
     const url='https://www.kajrietberg.nl/.netlify/functions/fetch-rwd-api';
     fetch(url).then(
         response => {
             if (response.status === 200) {
-
-
                 response.json()
                     .then(data => {
                         console.log(data);
@@ -44,17 +41,23 @@ page-class: page--demo
         },
         reject => console.log('rejected!', reject)
     );
-
 </script>
 
-<h2>Onze auto</h2>
+
+
+<h2>Mijn Stripboeken</h2>
 <p>
-    Onderstaande data komt uit de api van het RWD. Ik zoek hier op kenteken.
+    Onderstaande data komt uit de api van <a href="https://www.shortboxed.com/">Shortbox</a>, deze gebruik ik hier om mee te spelen. Ik zoek eigenlijk een api waarin alle stripboeken staan, zodat ik mijn eigen verzameling kan weergeven.
     <br />
     <code>
-        https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=
+        https://api.shortboxed.com/
     </code>
 </p>
+<style>
+    #listComics li {
+        font-variant: all-small-caps;
+    }
+</style>
 <ul id="listComics">
 
 </ul>
@@ -62,26 +65,28 @@ page-class: page--demo
 </div>
 
 <script>
-    const urlcomic='https://www.kajrietberg.nl/.netlify/functions/comic';
+    const urlcomic='https://www.kajrietberg.nl/.netlify/functions/comics';
     const listComics = document.querySelector('#listComics');
+
     fetch(urlcomic).then(
         response => {
             if (response.status === 200) {
                 response.json()
                     .then(data => {
-                        console.log(data);
                         const entries =  Object.entries(data);
-
                         entries.forEach(onderdeel => {
-                            listComics.innerText += `${data.title} ${data.publisher}`;
+                            console.log(onderdeel[1]);
+                            onderdeel[1].forEach( deel => {
+                                listComics.innerHTML += `<li>Naam: ${deel.title}<br/> publicatie datum: ${deel.release_date}<br /> Uitgever: ${deel.publisher}</li>`;
+                            })
                         })
 
                     })
+
             } else {
                 throw new Error('Comic API call failed!')
             }
         },
         reject => console.log('rejected!', reject)
     );
-
 </script>
