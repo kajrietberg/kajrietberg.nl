@@ -6,7 +6,7 @@ const AUTH = process.env.NETLIFY_NUMBERPLATE;
 const API_ENDPOINT =
     `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${AUTH}`;
 const headers = {
-    'Access-Control-Allow-Origin': '*demo',
+    'Access-Control-Allow-Origin': '*/demo',
     'Access-Control-Allow-Headers': 'Content-Type'
 }
 
