@@ -10,20 +10,6 @@ const headers = {
     'Access-Control-Allow-Headers': 'Content-Type'
 }
 
-// exports.handler = async (event, context) => {
-//     return fetch(API_ENDPOINT)
-//         .then(response => response.json() )
-//         .then(data => ({
-//             statusCode: 200,
-//             headers,
-//             body: JSON.stringify(data)
-//         }))
-//
-//         .catch(error => ({ statusCode: 422, body: String(error) }));
-// };
-
-
-
 export function handler(event, context, callback) {
 
     // Here's a function we'll use to define how our response will look like when we call callback
@@ -32,16 +18,16 @@ export function handler(event, context, callback) {
         headers,
         body: JSON.stringify(body)
     })}
+    console.log(pass);
 
     // Perform the API call.
     const get = () => {
         axios.get(API_ENDPOINT)
-        if(event.httpMethod == 'GET') {
             .then((response) => { pass(response.data) })
-                .catch(err => pass(err))
-        };
-
+            .catch(err => pass(err))
     }
-
+    if(event.httpMethod == 'GET'){
+        get()
+    };
 };
 
