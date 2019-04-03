@@ -4,9 +4,10 @@
   "description": "Website of Kaj Rietberg, Front-end dev",
   "main": "index.js",
   "scripts": {
-    "start": "gulp build & gulp watch & npx eleventy --serve",
-    "seed": "gulp build & npx eleventy",
-    "build": "gulp build & npx eleventy"
+    "start": "gulp build & gulp watch & npx eleventy --serve & npm run start:lambda",
+    "build": "gulp build & npx eleventy & npm run build:lambda",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "start:lambda": "netlify-lambda serve src/lambda"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
     "dotenv": "^7.0.0",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "request": "^2.88.0"
+    "netlify-lambda": "^1.4.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }

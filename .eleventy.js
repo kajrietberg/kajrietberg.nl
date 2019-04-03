@@ -1,3 +1,5 @@
+var env = process.env.ELEVENTY_ENV;
+
 module.exports = function(eleventyConfig) {
     // Aliases are in relation to the _includes folder
     eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
