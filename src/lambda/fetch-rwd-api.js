@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
         .then(data => ({
             statusCode: 200,
             headers: {
-                'Access-Control-Allow-Origin': 'https://www.kajrietberg.nl/demo'
+                'Access-Control-Allow-Origin': '*'
             },
             body: `${data[0].merk} ${data[0].handelsbenaming} *BA DUM TSSS*`
         }))

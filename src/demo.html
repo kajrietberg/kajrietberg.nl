@@ -31,7 +31,7 @@ page-class: page--demo
             if (response.status === 200) {
                 // 4a. We received a successful response, convert it to json()
                 response.json().then(data => {
-                    console.log(data[0]);
+                    console.log(data);
                     carBrand.innerText = `${data[0].merk} ${data[0].handelsbenaming}`;
                     carCilinder.innerText = `${data[0].cilinderinhoud} cc`;
                     carStart.innerText = `${data[0].datum_tenaamstelling}`;
