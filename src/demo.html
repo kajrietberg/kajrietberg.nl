@@ -29,12 +29,14 @@ page-class: page--demo
     fetch(url).then(
         response => {
             if (response.status === 200) {
-                console.log(response);
 
-                response.json().then(data => {
-                    carBrand.innerText = `${data[0].merk} ${data[0].handelsbenaming}`;
-                    carCilinder.innerText = `${data[0].cilinderinhoud} cc`;
-                    carStart.innerText = `${data[0].datum_tenaamstelling}`;
+
+                response.json()
+                    .then(data => {
+                        console.log(data);
+                        carBrand.innerText = `${data[0].merk} ${data[0].handelsbenaming}`;
+                        carCilinder.innerText = `${data[0].cilinderinhoud} cc`;
+                        carStart.innerText = `${data[0].datum_tenaamstelling}`;
                 })
             } else {
                 throw new Error('Car API call failed!')

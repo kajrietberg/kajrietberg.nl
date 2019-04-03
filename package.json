@@ -27,6 +27,7 @@
     "netlify-lambda": "^1.4.3"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "node-fetch": "^2.3.0"
   }
 }
