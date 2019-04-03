@@ -10,6 +10,9 @@ exports.handler = async (event, context) => {
         .then(response => response.json())
         .then(data => ({
             statusCode: 200,
+            headers: {
+                'Access-Control-Allow-Origin': 'https://www.kajrietberg.nl/demo'
+            },
             body: `${data[0].merk} ${data[0].handelsbenaming} *BA DUM TSSS*`
         }))
         .catch(error => ({ statusCode: 422, body: String(error) }));
