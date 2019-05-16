@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Beyond Tellerrand 2019
-date: Mei 2019
 tags: ['front-end', 'leren', 'ontwikkeling']
 page-class: article
 ---
