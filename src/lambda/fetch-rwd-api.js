@@ -1,4 +1,3 @@
-// import fetch from "node-fetch";
 const axios = require("axios")
 require('dotenv').config();
 
@@ -23,11 +22,10 @@ export function handler(event, context, callback) {
     // Perform the API call.
     const get = () => {
         axios.get(API_ENDPOINT)
-            .then((response) => { pass(response.data) })
+            .then(response => { pass(response.data )})
             .catch(err => pass(err))
     }
     if(event.httpMethod == 'GET'){
         get()
     };
 };
-
