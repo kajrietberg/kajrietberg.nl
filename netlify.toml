@@ -5,10 +5,10 @@
 
 
 # Redirect a likely mistake
- [[redirects]]
-   from = "/posts/2013*"
-   to = "/2013*"
-   status = 302
+# [[redirects]]
+#   from = "/posts/2013*"
+#   to = "/2013*"
+#   status = 302
 
 # 404
 [[redirects]]
