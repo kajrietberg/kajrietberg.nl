@@ -11,7 +11,7 @@ Als je omgaat met getallen en grafieken is een beetje kennis van statistiek hand
 
 Met grafieken laat je data zien, door een beter inzicht in data kunnen beslissingen beter genomen worden. Datavisualisaties en dus grafieken zorgen hier dus voor.
 
-####Tabellen en grafieken van kwantitatieve business informatie kan gebruikt worden voor:
+#### Tabellen en grafieken van kwantitatieve business informatie kan gebruikt worden voor:
 - analyse: te ontdekken naar het verhaal in je data
 - communicatie: het vertellen van het verhaal van je data
 - monitoring: het monitoren van je data, kijk je naar snelheid of de kwaliteit of de hoeveelheid.
@@ -21,7 +21,7 @@ Grafieken tonen verbanden, trends en data op een visuele manier. Een tabel toont
 
 Quantitatieve verhalen bestaat uit quantitatieve data (een getal) en uit categorie data (bijvoorbeeld tijd). Ze zijn gebaseerd op statistieken. Gebruik de juiste getallen zodat het verhaal dat je toont ook klopt. Verdiep je dus in bepaalde termen zoals gemiddelden, meridiaan, mediaan, etc. Zodat je weet waar je over praat.
 
-####Quantitatieve data relaties:
+#### Quantitatieve data relaties:
 - nominaal
 - ordinaal
 - interval
@@ -29,12 +29,12 @@ Quantitatieve verhalen bestaat uit quantitatieve data (een getal) en uit categor
 
 Uitleg over deze relaties staat op [Meetniveaus: Nominaal, Ordinaal, Interval en Ratio](https://wetenschap.infonu.nl/onderzoek/110039-meetniveaus-nominaal-ordinaal-interval-en-ratio.html).
 
-####Categorie waarden relaties:
+#### Categorie waarden relaties:
 - ranking
 - ratio
 - correlatie
 
-####Grafieken heb je in verschillende vormen:
+#### Grafieken heb je in verschillende vormen:
 - categoriaal
 - hierarchiaal
 - relationeel
@@ -52,7 +52,7 @@ We halen informatie uit onze waarneming door relaties tussen elementen te bekijk
 Belangrijk bij het design van tabelen en grafieken is de boodschap die je overbrengt. Hou je doel in de gaten en presenteer dat zo duidelijk mogelijk waardoor de bezoeker zonder poespas het verhaal tot zich kan nemen of misschien zijn/haar eigen verhaal kan maken. Denk dus na in welke vorm je de data aanbiedt, een tabel of grafiek of meerdere grafieken. En welk type grafiek. Bij tabellen en grafieken heb je data inkt en non-data inkt. Probeer zoveel mogelijk non-data inkt te vermijden. 
 Om het verhaal te verduidelijken gebruik hiervoor elementen van een tabel of grafiek en maak deze ondersteunend aan je verhaal.
 
-####Zaken waarbij je hier aan moet denken zijn:
+#### Zaken waarbij je hier aan moet denken zijn:
 - x- en y-as (en labels er bij)
 - legenda
 - grid-lijnen (hulp-lijnen in je grafiek)
@@ -76,10 +76,10 @@ Hou het overzichtelijk.
 Je kan een stap verder gaan en proberen een dashboard meer te personaliseren. Dat een bezoeker kan schuiven met de grafieken. Bepaal dus zelf hoe je dashboard opgebouwd is.
 
 
-####Interessante linkjes over Dashboard design:
+#### Interessante linkjes over Dashboard design:
 - [Dashboard Design Best Practices – 4 Key Principles](https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/)
 - [Storytelling in Dashboards](http://www.susielu.com/data-viz/storytelling-in-dashboards)
 
-####Handige tools:
+#### Handige tools:
 - [The Chartmaker Directory](http://chartmaker.visualisingdata.com/): handige hulp voor het kiezen van welke type grafiek je kan gebruiken
 - [Highcharts](https://www.highcharts.com/): JavaScript library om data te koppelen aan grafieken

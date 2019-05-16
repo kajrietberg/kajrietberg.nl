@@ -30,7 +30,7 @@ Het werken met de DOM behelst 2 stappen:
 * Werk aan de node(s), voeg iets toe, pas het aan, etc.
 
 
-##Nodes selecteren in je webpagina
+## Nodes selecteren in je webpagina
 Om een Node te selecteren in je pagina kan je typen: `document.children`. Dan krijg je een array van elementen. Zo kan je [ 0 ] er achter zetten en krijg je de eerste waarde uit je array. Daar kan je weer achterzetten children[ 1 ] en zo kan je doorgaan totdat je het element hebt dat je wilt hebben. Dit is erg omslachtig. Om het makkelijker te maken voor ons ontwikkelaars kan je methodes gebruiken.
 Zo heb je:
 
@@ -43,7 +43,7 @@ Zo heb je:
 Het kan zijn dat `getElementById()` en `getElementsByTagName()` sneller werken dan de querySelector.
 
 
-##Dom Traversal
+## Dom Traversal
 Het reizen van en naar andere onderdelen.
 
 * `.parentElement`
@@ -83,7 +83,7 @@ Meest voorkomende Nodes zijn de Element en Text nodes.
 Een interessant en handig artikel over het selecteren van elementen in de DOM komt van Zell Liew, [Traversing the DOM with JavaScript](https://zellwk.com/blog/dom-traversals/).
 
 
-##waardes in en uit Element Nodes te krijgen
+## waardes in en uit Element Nodes te krijgen
 
 * `.innerHTML`: geeft alle html in het element
 * `.innerText`: geeft alle tekst zoals je het ook in de browser ziet
@@ -99,7 +99,7 @@ Om de waardes in en vanuit Text Nodes te krijgen gebruik:
 * `.nodeValue`
 
 
-##Nodes aanmaken
+## Nodes aanmaken
 
 * `.createTextNode( ' ' );`
 * `.creatElement( ' ' );`
@@ -107,19 +107,19 @@ Om de waardes in en vanuit Text Nodes te krijgen gebruik:
 * `.createDocumentFragment( ' ' );` Om meerdere Nodes in te zetten om later als 1 element neer te zetten in een element. Een Document Fragment is een container voor Nodes.
 
 
-##Nodes toevoegen aan de DOM
+## Nodes toevoegen aan de DOM
 
 * `ParentElement.insertBefore (Nieuwe node, waarvoor je het wil plaatsen);`
 * `insertAfter` bestaat niet, gebruik dan `.nextSibling` op het element waarna je het wil plaatsen.
 * `replaceChild( nieuw element, element om te vervangen);`
 
 
-##Kopiëren van Nodes
+## Kopiëren van Nodes
 
 * `cloneNode( true );` met true wordt het element met alle children gekopieerd. Let er op dat bij Clonen dat attributen zoals id wel de juiste waardes krijgen.
 
 
-##Verwijder Nodes van de DOM
+## Verwijder Nodes van de DOM
 
 * `element.remove();`
 * `parentEl.removeChild( );` deze is handiger, je kan dan het element bewaren en weer oproepen.
@@ -132,7 +132,7 @@ Style aanpassen van Nodes
 * `styleSheet.insertRule( selector, rule, index );` als je een stylerule wilt aanpassen in een stylesheet.
 
 
-##Attributes
+## Attributes
 
 Om met de attributes te spelen gebruik je de propertie `.attributes`. Je krijgt dan een array van informatie terug.
 
@@ -160,7 +160,7 @@ Om Data attributes te krijgen:
 Er zijn betere manieren om data op te slaan ipv in je markup. Liever niet in je HTML opslaan.
 
 
-##Formulier elementen
+## Formulier elementen
 
 Bij formulier elementen om deze te laten werken zet de `<form>` tag er om heen. Deze heeft een attribute method. De method attribute kan de waardes hebben GET of POST. Als je GET doet zie je de waardes van de invulvelden in de url terugkomen. Bij POST niet. Dit laatste moet je officieel doen zodat alles verborgen blijft, maar de GET methode is handig voor testen. De id attribute is handig voor referentie zodat je vanuit je JS aan het formulier kan referen. De name attribute is belangrijk voor het doorgeven van de info zodat je weet welke info bij de form met die naam hoort.
 
@@ -186,7 +186,7 @@ Om te werken met radio, checkbox en option voor te checken op checked of ze daar
 * `option.selected = true;`
 
 
-##Events
+## Events
 
 [Events](https://developer.mozilla.org/en-US/docs/Web/Events) zijn technisch gezien een onderdeel van de DOM.
 

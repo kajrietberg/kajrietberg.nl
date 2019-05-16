@@ -12,7 +12,7 @@ Ik heb mij hiervoor verdiept in datavisualisatie. De hieruit voortgekomen inform
 De reden dat ik het hier publiceer is dat anderen er iets aan kunnen hebben of dat ik feedback ontvang zodat ik weer nieuwe inzichten op doe.
 
 
-##Wat is data visualisatie?
+## Wat is data visualisatie?
 
 Data visualisaties laten op een visuele manier je data zien. Dit kan een zo getrouw mogelijke weergave zijn omdat een wetenschapper daar om vraagt, maar kan ook een vereenvoudigde weergave zijn opdat de doelgroep beter begrijpt wat je wilt overbrengen. Dan is het beter om randzaken weg te laten.
 
@@ -26,7 +26,7 @@ Let bij een vereenvoudiging op dat iedereen deze hetzelfde interpreteert. Test d
 Een data-visualisatie kan middels een infographic, maar een infographic hoeft geen data visualisatie te zijn. Datavisualisatie en infograpics zijn de sterke uitleg tools.
 
 
-##Wat kan je met een data visualisatie?
+## Wat kan je met een data visualisatie?
 
 Een data visualisatie gebruik je zodat mensen het verhaal achter de data op een visuele manier kunnen interpreteren opdat ze het beter kunnen begrijpen. Steeds vaker zie je storytelling gebruikt worden om o.a. nieuws, data over te brengen op de bezoeker van een website. Hele lappen tekst lezen we niet graag vanaf een beeldscherm en juist het visuele is de sterke kant van het web. Data visualisatie maakt juist gebruik van dat visuele deel zodat mensen zich beter kunnen informeren.
 Daarnaast kan je de data die je hebt visualiseren om te kijken of je verbanden kan vinden. Door het kleuren of anders weergeven zie je juist verbanden die je anders niet zou zien. Speel met je eigen data.
@@ -34,7 +34,7 @@ Daarnaast kan je de data die je hebt visualiseren om te kijken of je verbanden k
 Vertel de waarheid en hou je data visuals overzichtelijk.
 
 
-##Voor data visualisatie heb je nodig:
+## Voor data visualisatie heb je nodig:
 
 * data die je wilt tonen
 * het verhaal achter de data die je wilt vertellen/ je doel van het tonen van de data
@@ -55,7 +55,7 @@ Een data visualisatie kan er voor zorgen dat mensen die anders niet geinteressee
 Een gehoorde quote op het Nederlandse Infographic congres 2016 in Zeist geeft duidelijk weer waar infograhics en data visualisaties goed in zijn; "Beauty opens other people minds".
 
 
-##Story-telling
+## Story-telling
 
 Data visualisatie kan een data storytelling zijn, je vertelt een verhaal aan de hand van de data die je toont. Zorg hierbij ook voor interactiviteit voor de gebruiker. Deze kan door iets aan te passen zien wat er veranderd, bijvoorbeeld in de tijd.
 
@@ -66,7 +66,7 @@ Interessante voorbeelden van storytelling zijn:
 * [Het verhaal achter de gezondheidszorg info pagina](https://medium.com/truth-labs/re-thinking-reading-on-the-web-158e789eddd7?mc_cid=4df1c7dbfd&mc_eid=476f42f02a#.i6c63rfx6)
 
 
-##Wie doen iets met data-visualisatie?
+## Wie doen iets met data-visualisatie?
 
 * Data journalisten, zie [The Guardian](http://www.theguardian.com/data) en [7 data journalism blogs](https://blog.infogr.am/seven-data-journalism-blogs/) cq. kranten
 * Data analisten
@@ -82,7 +82,7 @@ Interessante voorbeelden van storytelling zijn:
 * Bedrijven, kan van alles zijn. Maar dan als klant die iets wil tonen.
 
 
-##Workflow beschreven door Sheila Pontis:
+## Workflow beschreven door Sheila Pontis:
 
 1. Problem understanding
 2. User/audience understanding
@@ -107,7 +107,7 @@ Denk na over je eigen proces. Blijf nadenken.
 
 
 
-###Voorbeelden van visualisaties
+### Voorbeelden van visualisaties
 
 * [Data visualisatie voorbeelden voor mobiel](http://mobilev.is/)
 * [Boucoup](https://bocoup.com/services/datavis)
@@ -117,13 +117,13 @@ Denk na over je eigen proces. Blijf nadenken.
 * [AnyChart gallery](http://www.anychart.com/products/anychart/gallery/)
 
 
-###Prototypes maken
+### Prototypes maken
 
 * [Plotly](https://plot.ly/)
 * [RAW](http://raw.densitydesign.org/)
 
 
-###Libraries
+### Libraries
 
 * [Learn js Data](http://learnjsdata.com/)
 * [Zurb Pizza charts](http://zurb.com/playground/pizza-amore-charts-and-graphs)
@@ -135,7 +135,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Three.js](http://threejs.org/)
 
 
-###Tools
+### Tools
 
 * [D3 js](http://d3js.org/)
 * [R](https://www.r-project.org/)
@@ -157,13 +157,13 @@ Denk na over je eigen proces. Blijf nadenken.
 * Google Maps
 
 
-###Geo visualisatie tools
+### Geo visualisatie tools
 
 * [CartoDB](https://cartodb.com/)
 * Google Maps
 * [Leaflet](http://leafletjs.com/)
 
-###Conferenties en studie mogelijkheden
+### Conferenties en studie mogelijkheden
 
 * [Visualized](https://www.facebook.com/Visualized/)
 * [OpenVis conf](https://openvisconf.com/)
@@ -174,14 +174,14 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Online leren bij Datacamp](https://www.datacamp.com/)
 
 
-###Workshops en handleidingen
+### Workshops en handleidingen
 
 * [Dashing D3js](https://www.dashingd3js.com/)
 * [Overzicht om data visualisatie en verschillende tools te leren](http://www.visualcinnamon.com/resources/learning-data-visualization)
 * [How to organize your data for various graphs and charts](http://www.storybench.org/organize-data-various-graphs-charts/)
 
 
-###Boeken
+### Boeken
 
 * [Storytelling with data](http://www.storytellingwithdata.com/book/)
 * [Information is Beautiful](http://www.informationisbeautiful.net/books/)
@@ -189,7 +189,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Effective Data Visualization: The Right Chart for the Right Data](http://www.amazon.com/Effective-Data-Visualization-Right-Chart/dp/1506303056/)
 * [Data visualisatie boekenlijst, aanraders zijn die met 4 sterren en meer](http://www.visualcinnamon.com/resources/learning-data-visualization/books)
 
-###Bedrijven
+### Bedrijven
 
 * [Xplane](http://www.xplane.com/); Gericht op visual thinking, schetsen, hebben sketchjams en visual thinking workshops, lijken zeer actief
 * [Sheila Pontis](https://sheilapontis.wordpress.com/); Interessante info
@@ -198,7 +198,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Adyen](https://www.adyen.com/nl); gebruikt data visuals om statistieken (Dashboards) aan hun klanten te tonen zodat die klanten nog beter kunnen presteren en inzicht krijgen in processen die hun klanten weer op hun website hebben. Zoals Netflix of Facebook.
 
 
-###Bedrijven die visuals maken
+### Bedrijven die visuals maken
 
 * [Datagraver](http://www.datagraver.com/); Nederlands bedrijf die op zoek gaat naar data
 * [Visual Cinnamon](http://www.visualcinnamon.com/); freelancer voor maken van (online) data visualisaties designs
@@ -208,7 +208,7 @@ Denk na over je eigen proces. Blijf nadenken.
 * [CleverFranke](https://www.cleverfranke.com/); bouwt wereldwijd online visuals.
 * [Accurat](http://www.accurat.it/)
 
-###Overige
+### Overige
 
 * [How can open data help improve healthcare](http://theodi.org/blog/how-can-open-data-help-improve-healthcare)
 * [CMD Amsterdam lezing](https://www.cmd-amsterdam.nl/events/icons/icons-3)

@@ -6,7 +6,7 @@ page-class: article
 ---
 
 
-##De Picture-tag, of te wel responsive images
+## De Picture-tag, of te wel responsive images
 
 Doordat we steeds o.a. meer verschillende schermgroottes hebben en andere type schermen is het tonen van afbeeldingen op je website ook veranderd. Soms wil je een kleinere afbeelding of een scherpere, soms een lichtere of een ander type.
 Hiervoor hebben we nog steeds de img tag, maar deze is uitgebreid met srcset en sizes. Zie het code voorbeeld:
@@ -49,7 +49,7 @@ Bovenstaande geldt voor inline afbeeldingen. Maar kan dit ook voor CSS?
 Als je achtergrond afbeeldingen gebruikt in CSS, kan je gebruik maken van images-set bij resolution switching: [https://caniuse.com/#feat=css-image-set](https://caniuse.com/#feat=css-image-set). Wordt door steeds meer browsers gedragen. (zie demo: [https://cloudfour.com/examples/image-set/](https://cloudfour.com/examples/image-set/)). En anders gebruik media-queries in je CSS.
 
 
-###Interessante links
+### Interessante links
 
 * [Responsive Image Workgroup](http://responsiveimages.org/)
 * [Use-cases van responsive images](http://usecases.responsiveimages.org/)

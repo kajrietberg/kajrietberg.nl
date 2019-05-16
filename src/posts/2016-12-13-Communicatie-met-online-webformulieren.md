@@ -20,7 +20,7 @@ Jason Grigsby heeft een kort filmpje online gezet waarin hij laat zien wat er qu
 De manier van interacteren wil ik opsplistsen in 2 manieren. Namelijk welke middelen gebruik je om te interacteren en de ander is hoe verloopt de interactie, dus wat is het uiterlijk en de vorm van de interactie.
 
 
-##Input middelen
+## Input middelen
 
 Ik werd wakker geschud voor [Jason Grigsby](https://twitter.com/grigs) tijdens de [Fronteers Conferentie van 2016](https://fronteers.nl/congres). Zijn talk ging over [Different input types](https://vimeo.com/194967832). Als eerste dacht ik aan verschillende soort input velden, zoals date, password, email, etc. Maar tijdens zijn talk kwam ik er achter dat het ging over middelen om input te geven aan een webapplicatie/site. De meeste manieren van interacteren met een applicatie/website kende ik al. Maar de manier waarop hij er over sprak was een eye-opener.
 
@@ -83,7 +83,7 @@ Hoe lang zal het nog duren voordat mensen hun zorgverzekering aanvragen via de H
 
 
 
-##Nieuwe interactie vormen
+## Nieuwe interactie vormen
 
 Naast de nieuwe input mogelijkheden merken we dat veel gebruikers online de menselijke interactie missen bij een applicatie. Soms is iemand die je helpt toch erg prettig, even die menselijke interactie, die goedkeuring dat het klopt wat je denkt en doet. 
 Langzaamaan wordt hier ook mee geeëxperimenteerd. Verschillende mensen zetten voorbeelden online waarin ze proberen om de interactie tussen mens en machine menselijker te maken. Reden hierbij is natuurlijk een prettigere beleving en meer gebruikersgemak, maar wat ook meer conversie kan betekenen.
@@ -108,7 +108,7 @@ Maak het invullen van je formulier makkelijker met [autofill](https://developers
 
 
 
-##Afsluiting:
+## Afsluiting:
 We gaven onze websites een vaste breedte passend bij het gemiddelde scherm van dat moment, totdat we merkten dat het niet werkbaar was toen er een explosie kwam van verschillende schermen. En moesten we onze werkwijze aanpassen.
 
 Met input mogelijkheden staat dit ook weer te gebeuren. We gaan uit van muis, toetsenbord en een beetje touch. Maar er zijn nog meer mogelijkheden. Houden we daar al rekening mee? Bouwen we adaptief genoeg dat we ons snel kunnen aanpassen? Wij als bouwers zijn niet degene die bepalen wat de beste input is. Wij moeten mogelijk maken dat alle gebruikers van een website makkelijk door de site heen kunnen. Test dus veel, ook met nieuwe manieren van input types en interactie vormen.
@@ -119,7 +119,7 @@ We zullen steeds meer de conversatie proberen aan te gaan met de bezoeker van de
 Maar voordat dit echt op een goede manier ingezet kan worden kunnen we gebruik maken van foto's, persoonlijke teksten, makkelijk te doorlopen formulieren. Een belangrijke rol zal animatie en storytelling hier in krijgen. Ik verwacht dat deze middelen je zo door het proces heen loodsen zonder dat je als bezoeker in de gaten hebt dat je door een proces heen loopt. En dat je als bezoeker een goed gevoel overhoudt aan de conversatie met de website/applicatie.
 
 
-##Meer info/ bronnen:
+## Meer info/ bronnen:
 
 * [Adapting to input](http://alistapart.com/article/adapting-to-input)
 * [Four thruths about input](https://cloudfour.com/thinks/four-truths-about-input/)

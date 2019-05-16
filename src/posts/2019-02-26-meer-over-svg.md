@@ -6,7 +6,7 @@ page-class: article
 ---
 
 
-##Wat is een SVG?
+## Wat is een SVG?
 SVG is een mark-up taal net zoals HTML. SVG bestaat uit XML. Het beschrijft aan de browser wat deze moet tonen. 
 Verschil tussen HTML en XML is dat XML structuur aangeeft en HTML meer beschrijft hoe de informatie getoond moet worden. 
 Je kan makkelijk in je developer text-editor aanpassingen doen aan een SVG. 
@@ -25,15 +25,15 @@ Een SVG kan bestaan uit: `<line> <rect> <circle> <ellipse> <polygon> <polyline> 
 Attributes kunnen zijn: `fill` voor de kleurvulling, `stroke` voor de kleur van de border, `stroke-width` voor de dikte van de border. Hiermee kan je dus inline een svg kleuren, maar je kan deze attributes ook in de CSS zetten en zo de svg kleuren, hiervoor moet de SVG wel inline in je HTML zijn opgenomen.
 
 
-##Maken
+## Maken
 SVG's kan je makkelijk maken via Sketch of Adobe Illustrator. Afbeelding als SVG opslaan. Volgens Sara Soueidan kan je het beste svg's exporteren vanuit Illustrator, die doet dit op moment van schrijven beter dan Sketch.
 
 
-##Workflow: gebruik op het web
+## Workflow: gebruik op het web
 Voor gebruik op het web is het aan te raden de SVG eerst te optimaliseren via bijvoorbeeld: [SVGomg](https://jakearchibald.github.io/svgomg/). Je kan hiervoor ook een Grunt plugin gebruiken als dit beter past in je work-flow. Voor het plaatsen in je website als achtergrond afbeelding is [GrumpIcon](http://www.grumpicon.com/) perfect te gebruiken. Het maakt png afbeeldingen voor fallback en zet de svg als data url om. Hiervan is ook een Grunt plugin.
 
 
-##Hoe werkt een SVG?
+## Hoe werkt een SVG?
 Je kan tekst toevoegen aan een svg middels een text-tag. `<text></text>`
 
 Een SVG bestaat uit de elementen:
@@ -56,13 +56,13 @@ Gebruik een sprite en use om zelfde svg's vaker weer te geven en als ze verschil
 	</svg>
 ```
 
-###SVG sprite
+### SVG sprite
 Een svg-sprite krijgt standaard een 300px bij 150px van browsers. Zet er dus een height en width van 0 op en een visibility: hidden;. Een display: none; zorgt er voor dat in sommige browsers de icon niet getoond wordt.
 
 Met een `<img>` tag kan je de sprite afbeeldingen tonen met `<view>` of `viewBox()`.
 
 
-###Viewbox/preserveAspectRatio
+### Viewbox/preserveAspectRatio
 The viewport is de voorste laag --> de browser window of de svg tag
 The viewbox is de 2de laag --> de svg afbeelding --> alles binnen de svg tags.
 
@@ -73,25 +73,25 @@ Waarby xMax ook xMin of xMid kan zijn, zelfde geldt voor de yMax. Daarnaast kan 
 Je kan het vergelijken met background-size en de background-position in CSS.
 
 
-##SVG gebruiken in je website
+## SVG gebruiken in je website
 Verschillende manieren staan hier boven al beschreven. Verder kan je op [CSS-Tricks: Using SVG](https://css-tricks.com/using-svg/) de verschillende manieren zien.
 Voordeel van SVG is dat je geen extra http-request hebt omdat je het inline kan plaatsen. Een SVG is net zoals HTML opgebouwd uit verschillende onderdelen die met JS te bereiken zijn en dus te manipuleren.
 
 
-###Clip-path
+### Clip-path
 Hiermee kan je een stuk uitsnijden en dan wel of niet tonen. Gebruik hiervoor bijvoorbeeld circle(); of polygon();
 Je kan beter svg clip-path gebruiken ipv [CSS clip-path](https://caniuse.com/#feat=css-clip-path).
 
 
-###Mask
+### Mask
 Browsersupport is slecht bij [CSS mask](https://developer.mozilla.org/en-US/docs/Web/CSS/mask), je kan beter svg masking gebruiken.
 
 
-##Hoe is browser-support?
+## Hoe is browser-support?
 Zie [Can I Use](https://caniuse.com/#feat=svg). Uit eigen ervaring merkte ik dat je de hoogte en breedte moet benoemen in de svg zelf voor IE. Anders is de svg erg klein. Kijk je op Can I Use zie je deze opmerking ook.
 
 
-##Hoe animeer je SVG met CSS?
+## Hoe animeer je SVG met CSS?
 Als je gaat animeren, zorg er voor dat je van te voren de svg optimaliseert. Doe dat niet na die tijd. Een svg heeft een navigeerbare DOM, je kan dus elk element bereiken met JavaScript en CSS.
 
 https://www.august.com.au/blog/svg-animation-with-greensock/
@@ -109,7 +109,7 @@ Animaties kan je met de [Inspector Tools van Firefox](https://developer.mozilla.
 Onder de regels staan ook de instellingen van @keyframes zodat je die kan aanpassen via de developer tools, je moet hiervoor wel iets naar beneden scrollen. 
 Ook zijn de timing functies van je animatie aan te passen via de developer tools.
 
-###Wanneer animeren met CSS of JS?
+### Wanneer animeren met CSS of JS?
 In [The Animation Newsletter](https://us2.campaign-archive.com/?u=6fbaddc8c1fce7588d1a35cb2&id=6a31c014a2) beschrijft Val Head hoe ze kiest tussen CSS of JS. Ze gebruikt hiervoor 3 verschillende regels.
 Hierin beschrijft ze dat ze SVG's voornamelijk animeert met JS en dan met Greensock. En komt het neer als de animatie complexer wordt of meerdere animaties bevat dan is het gebruik van JS handiger.
 Een beschrijving van wanneer JS of CSS te gebruiken geeft Zell Liew in zijn artikel [Should you use CSS or JavaScript for web animations?](https://www.heartinternet.uk/blog/should-you-use-css-or-javascript-for-web-animations/). Deze beschrijving is wat uitgebreider dan die Val Head, maar komt overeen met wat zij beschrijft.
@@ -128,12 +128,12 @@ Iets lastiger wordt het met CSS animations, maar gelukkig legt Zell Liew dit wee
 
 Voor SVG's is het dus het handigste om gebruik te maken van JavaScript en de library Greensock is het handigste. Bekijk Sarah Drasner haar video over [SVG en animeren](https://www.youtube.com/watch?v=ZNukcHhpSXg).
 
-###De performance van animaties
+### De performance van animaties
 Het animeren van elementen in je website heeft invloed op de performance van je website. Bij sommige onderdelen moet de hele pagina weer opgebouwd worden.
 Meer informatie over animeren en performance kan je vinden in het artikel [High Performance Animations](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
 
-##Accessible SVG's
+## Accessible SVG's
 Een svg afbeelding kan net als een andere afbeelding een alt-tekst nodig hebben voor mensen die de tekst laten voorlezen. Als er al tekst om de afbeelding heen staat die uitlegt wat je ook op de afbeelding ziet heb je geen alt-tekst nodig, voeg dan aan de svg-tag toe: aria-hidden="true". Kan zijn dat in de `<figcaption>` al een beschrijving staat.
 
 Om echt gebruik te maken van een toegankelijke SVG afbeelding moet je deze inline zetten.
@@ -144,20 +144,20 @@ Voeg aan de svg-tag toe: role="img" en aria-labelledby="title desc".
 Voeg aan de svg-tag van grote/complexe svg's toe: role="group". Hierdoor weet een browser en screenreader dat het bij elkaar hoort. Bij complexere afbeelding voeg role="presentation" toe aan onderdelen die niet voorgelezen hoeven te worden, maar alleen voor de sier zijn.
 
 
-##Tekst in SVG
+## Tekst in SVG
 Met `<text>` kan je tekst toevoegen aan een SVG waardoor de tekst toegankelijk, vindbaar en selecteerbaar is.
 De tekst kan je stylen via `svg text {}`. Zie [Optimizing SVG Text & Image Delivery with Inline SVG](https://www.sarasoueidan.com/blog/optimizing-svg-delivery-with-svg/).
 
 
-##SVG en datavisualisatie
+## SVG en datavisualisatie
 Datavisualisaties zijn perfecte uitingen om svg te gebruiken. Het zijn vaak lijnen. Door SVG te gebruiken zijn ze mooi scherp op elk beeldscherm en in elke grootte. De library D3 zorgt er voor dat data wordt gekoppeld aan een SVG element. 
 
 
-##SVG filters
+## SVG filters
 In CSS hebben we filter mogelijkheden. Maar dit zijn eigenlijk versimpelde SVG Filter mogelijkheden. Met de SVG Filters kan je meer en daarom zegt Sara Soueidan in haar serie artikelen over SVG Filters, [SVG Filters 101](https://tympanus.net/codrops/2019/01/15/svg-filters-101/), op Codrops dat je beter SVG Filters kan gebruiken. Zij is een meester als het om SVG's gaat, dus lees vooral haar artikelen over SVG Filters.
 
 
-###Interessante links:
+### Interessante links:
 - [Accessible SVG's](https://css-tricks.com/accessible-svgs/) (Zie voor meer ingewikkelde svg's het artikel)
 - [SVG op MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - [SVG als background-image gebruiken](https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images)
@@ -170,33 +170,33 @@ In CSS hebben we filter mogelijkheden. Maar dit zijn eigenlijk versimpelde SVG F
 - [Integrating SVG into your site](https://www.heartinternet.uk/blog/integrating-svg-site/)
 
 
-###Interessante links animaties:
+### Interessante links animaties:
 - [MDN - Work with animation](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations)
 - [Smashing Magazine - HTML5 SVG Fill Animation With CSS3 And Vanilla JavaScript](https://www.smashingmagazine.com/2019/01/html5-svg-fill-animation-css3-vanilla-javascript/)
 - [Snipcart website - Creating Vue.js Transitions & Animation: Live Examples](https://snipcart.com/blog/vuejs-transitions-animations)
 
 
-###Voorbeelden
+### Voorbeelden
 - [Sara Soueidan's Codepen's](https://codepen.io/SaraSoueidan/#)
 - [Angled background sections met clip-path](https://codepen.io/SaraSoueidan/pen/RJRjvN)
 
 
-###Boeken:
+### Boeken:
 - Smashing Magazine Book 5; hoofdstuk over SVG
 - [SVG Essentials](http://shop.oreilly.com/product/0636920032335.do)
 
 
-###Video's
+### Video's
 - [Sarah Drasner - SVG can do that?! in 2017](https://www.youtube.com/watch?v=ADXX4fmWHbo)
 - [Chris Coyier - The Wonderful World of SVG in 2015](https://www.youtube.com/watch?v=tsGa-gcckwY)
 
 
-###Mensen om te volgen
+### Mensen om te volgen
 - [Sara Soueidan](http://sarasoueidan.com/)
 - [Sarah Drasner](http://sarahdrasnerdesign.com/)
 
 
-###Handige tools:
+### Handige tools:
 - [SVGOMG](https://jakearchibald.github.io/svgomg/) maakt SVG's lichter door overbodige zaken er uit te halen
 - [Grumpicon](http://www.grumpicon.com/) voor inline maken van svg voor gebruik in CSS
 - [Boxy svg](https://boxy-svg.com/): online SVG editor of met een app
@@ -204,9 +204,9 @@ In CSS hebben we filter mogelijkheden. Maar dit zijn eigenlijk versimpelde SVG F
 - [SVG Coordinate system](https://www.sarasoueidan.com/demos/interactive-svg-coordinate-system/)
 
 
-###Plugins:
+### Plugins:
 - [PostCSS plugin; Write SVGs directly in CSS](https://github.com/jonathantneal/postcss-write-svg)
 
 
-###Workshops
+### Workshops
 - [SVG workshops van Sara Soueidan](https://www.sarasoueidan.com/workshops/)
