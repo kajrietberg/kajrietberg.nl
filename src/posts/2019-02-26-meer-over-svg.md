@@ -114,13 +114,11 @@ In [The Animation Newsletter](https://us2.campaign-archive.com/?u=6fbaddc8c1fce7
 Hierin beschrijft ze dat ze SVG's voornamelijk animeert met JS en dan met Greensock. En komt het neer als de animatie complexer wordt of meerdere animaties bevat dan is het gebruik van JS handiger.
 Een beschrijving van wanneer JS of CSS te gebruiken geeft Zell Liew in zijn artikel [Should you use CSS or JavaScript for web animations?](https://www.heartinternet.uk/blog/should-you-use-css-or-javascript-for-web-animations/). Deze beschrijving is wat uitgebreider dan die Val Head, maar komt overeen met wat zij beschrijft.
 
-<quote>
+<blockquote>
     For simple two-state animations, I recommend you use CSS transitions. For more complicated animations, I recommend you use CSS animations or JavaScript.
-    
     At the time of writing, the Web Animations API is still not well supported yet, so the best possible way to animate is with GSAP, which is an amazing library.
-
     Make sure you provide a non-animated, but workable version of your site for people who don’t have JavaScript enabled. They should still be able to use your website even when it’s not animated.
-</quote>
+</blockquote>
 Quote van Zell Liew
 
 De eenvoudigste manier van animeren kan je met CSS transitions doen. In Zell Liew's artikel [CSS Transitions explained](https://zellwk.com/blog/css-transitions/) uitgelegd hoe die werken.
