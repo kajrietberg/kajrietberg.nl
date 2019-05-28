@@ -8,7 +8,7 @@ show-post-tagline: true
         <main role="main"> 
             <article>
                 <h1>{{ title }}</h1>
-                <time class="post__date" datetime="{{ page.date }}">- {{ page.date | date: "%B %Y" }} -</time>
+                <p>Gepubliceerd op: <time class="post__date" datetime="{{ page.date }}">{{ page.date | date: "%d-%m-20%y" }}</time></p>
 
                 {{ content }}
 
