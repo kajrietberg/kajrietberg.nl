@@ -18,7 +18,7 @@ page-class: page--mtb
 	</h2>
 	<ul>
 		{%- for mtbtocht in mtbtochten -%}
-		{% if mtbtocht.year == "2019" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> {{ mtbtocht.afstand }}</li> {% endif %}
+		{% if mtbtocht.year == "2019" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
 		{%- endfor -%}
 	</ul>
 
@@ -28,6 +28,6 @@ page-class: page--mtb
 	</h2>
 	<ul>
 		{%- for mtbtocht in mtbtochten -%}
-		{% if mtbtocht.year == "2017" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> {{ mtbtocht.afstand }}</li> {% endif %}
+		{% if mtbtocht.year == "2017" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
 		{%- endfor -%}
 	</ul>

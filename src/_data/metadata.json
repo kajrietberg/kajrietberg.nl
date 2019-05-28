@@ -1,0 +1,17 @@
+{
+  "title": "Home of Kaj Rietberg",
+  "url": "https://www.kajrietberg.nl",
+  "description": "I am writing about my experiences as a front-end dev.",
+  "repo": "https://github.com/kajrietberg/kajrietberg.nl",
+  "feed": {
+    "subtitle": "I am writing about my experiences as a front-end dev.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://www.kajrietberg.nl/feed/feed.xml",
+    "id": "https://www.kajrietberg.nl/"
+  },
+  "author": {
+    "name": "Kaj Rietberg",
+    "email": "kaj@kajrietberg.nl"
+  }
+}

@@ -2,7 +2,6 @@
   "name": "kajrietberg.nl",
   "version": "1.0.0",
   "description": "Website of Kaj Rietberg, Front-end dev",
-  "main": "index.js",
   "scripts": {
     "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
     "build": "gulp build & ELEVENTY_ENV=prod eleventy & npm run build:lambda",
@@ -20,14 +19,15 @@
   },
   "homepage": "https://github.com/kajrietberg/kajrietberg.nl#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1",
-    "dotenv": "^7.0.0",
-    "gulp": "^4.0.0",
+    "@11ty/eleventy": "^0.8.3",
+    "dotenv": "^8.0.0",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "netlify-lambda": "^1.4.3"
+    "netlify-lambda": "^1.4.13"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
     "axios": "^0.18.0",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.0"
   }
 }
