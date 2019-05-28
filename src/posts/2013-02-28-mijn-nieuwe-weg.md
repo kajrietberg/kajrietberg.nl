@@ -3,6 +3,7 @@ layout: post
 title: Mijn nieuwe weg User Experience (2013)
 tags: ['post', 'ux', 'personal']
 page-class: article
+date: 2013-02-28
 ---
 
 

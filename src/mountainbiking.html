@@ -5,7 +5,6 @@ permalink: /mountainbiking/
 page-class: page--mtb
 ---
 
-
 	<p>
 		I love Mountainbiking. I have ridden different XC-races and tours myself. Here I will list some tours I'm proud off I have ridden.
 	</p>
@@ -13,20 +12,22 @@ page-class: page--mtb
 		Together with my youngest son I started an Instagram account with Mountainbike photo's called: <a href="https://www.instagram.com/mtbfotografie/">MTB Fotografie</a>
 	</p>
 
-<h2>
-	2019
-</h2>
-<ul>
-	<li>
-		<a href="http://mtbmarathonvanruinen.nl/">Marathon van Ruinen</a> 80km
-	</li>
-</ul>
+
+	<h2>
+		2019
+	</h2>
+	<ul>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2019" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
+	</ul>
+
 
 	<h2>
 		2017
 	</h2>
 	<ul>
-		<li>
-			<a href="http://www.janjanssenclassic.nl/MTB-routes">De Hel van Ede-Wageningen</a> 100km
-		</li>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2017" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
 	</ul>
