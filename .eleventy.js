@@ -49,6 +49,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('src/assets');
     eleventyConfig.addPassthroughCopy('src/js');
+    eleventyConfig.addPassthroughCopy('src/googlef600a6451271beb3.html');
+
+
 
     return {
         templateFormats: [
