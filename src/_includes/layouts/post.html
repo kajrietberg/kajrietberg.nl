@@ -16,6 +16,37 @@ show-post-tagline: true
 
             </article>
 
+            <h2 style="max-width: 1140px; margin: 0 auto; padding: 0 60px;">Webmentions</h2>
+            <ul id="webmentions" style="max-width: 1140px; margin: 0 auto; padding: 30px 60px 60px;">
+
+            </ul>
+            <script>
+                const urlwebmention='https://www.kajrietberg.nl/.netlify/functions/webmentions';
+                const listWebmentions = document.querySelector('#webmentions');
+
+                fetch(urlwebmention).then(
+                    response => {
+                        if (response.status === 200) {
+                            response.json()
+                                .then(data => {
+                                    const entries =  Object.entries(data.children);
+                                    entries.forEach(onderdeel => {
+                                        console.log(onderdeel[1]);
+                                        console.log(window.location.href);
+                                        if (window.location.href === onderdeel[1]["like-of"]) {
+                                            listWebmentions.innerHTML += `<li>Artikel url: <a href="${onderdeel[1]["like-of"]}">${onderdeel[1].likeof}</a> <br> <img src="${onderdeel[1].author.photo}"> <br> door: ${onderdeel[1].author.name}  </li>`;
+
+                                        }
+                                    })
+                                })
+                        } else {
+                            throw new Error('Webmentions API call failed!')
+                        }
+                    },
+                    reject => console.log('rejected!', reject)
+                );
+            </script>
+
 
 
         </main>

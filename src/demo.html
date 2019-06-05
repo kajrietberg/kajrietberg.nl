@@ -34,7 +34,7 @@ page-class: page--demo
             if (response.status === 200) {
                 response.json()
                     .then(data => {
-                        console.log(data);
+                        // console.log(data);
                         carBrand.innerText = `${data[0].merk} ${data[0].handelsbenaming}`;
                         carCilinder.innerText = `${data[0].cilinderinhoud} cc`;
                         carStart.innerText = `${data[0].datum_tenaamstelling}`;
@@ -47,6 +47,33 @@ page-class: page--demo
     );
 </script>
 
+<h2>Webmentions</h2>
+
+<ul id="webmentions">
+
+</ul>
+<script>
+    const urlwebmention='https://www.kajrietberg.nl/.netlify/functions/webmentions';
+    const listWebmentions = document.querySelector('#webmentions');
+
+    fetch(urlwebmention).then(
+        response => {
+            if (response.status === 200) {
+                response.json()
+                    .then(data => {
+                        const entries =  Object.entries(data.children);
+                        entries.forEach(onderdeel => {
+                            console.log(onderdeel[1]);
+                            listWebmentions.innerHTML += `<li>Artikel url: <a href="${onderdeel[1]["like-of"]}">${onderdeel[1]["like-of"]}</a> <br> <img src="${onderdeel[1].author.photo}"> <br> door: ${onderdeel[1].author.name}  </li>`;
+                        })
+                    })
+            } else {
+                throw new Error('Webmentions API call failed!')
+            }
+        },
+        reject => console.log('rejected!', reject)
+    );
+</script>
 
 
 <h2>Stripboeken</h2>
@@ -77,6 +104,7 @@ page-class: page--demo
             if (response.status === 200) {
                 response.json()
                     .then(data => {
+                        // console.log(data);
                         const entries =  Object.entries(data);
                         entries.forEach(onderdeel => {
                             // console.log(onderdeel[1]);
@@ -95,19 +123,5 @@ page-class: page--demo
     );
 </script>
 
-<script>
-    const urlwebmention='https://www.kajrietberg.nl/.netlify/functions/webmentions';
-    fetch(urlwebmention).then(
-        response => {
-            if (response.status === 200) {
-                response.json()
-                    .then(data => {
-                        console.log(data);
-                    })
-            } else {
-                throw new Error('Webmentions API call failed!')
-            }
-        },
-        reject => console.log('rejected!', reject)
-    );
-</script>
+
+
