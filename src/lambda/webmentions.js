@@ -1,7 +1,7 @@
 const axios = require("axios")
 
 const AUTHWEBMENTION = process.env.WEBMENTION_IO_TOKEN;
-const API_ENDPOINT_WEBMENTION = `https://webmention.io/api/mentions.html?token=${AUTHWEBMENTION}`;
+const API_ENDPOINT_WEBMENTION = `https://webmention.io/api/mentions.jf2?domain=www.kajrietberg.nl&token=${AUTHWEBMENTION}`;
 const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type'
