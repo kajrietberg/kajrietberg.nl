@@ -79,7 +79,7 @@ page-class: page--demo
                     .then(data => {
                         const entries =  Object.entries(data);
                         entries.forEach(onderdeel => {
-                            console.log(onderdeel[1]);
+                            // console.log(onderdeel[1]);
                             onderdeel[1].forEach( deel => {
                                 listComics.innerHTML += `<li>Naam: ${deel.title}<br/> publicatie datum: ${deel.release_date}<br /> Uitgever: ${deel.publisher}</li>`;
                             })
@@ -89,6 +89,23 @@ page-class: page--demo
 
             } else {
                 throw new Error('Comic API call failed!')
+            }
+        },
+        reject => console.log('rejected!', reject)
+    );
+</script>
+
+<script>
+    const urlwebmention='https://www.kajrietberg.nl/.netlify/functions/webmentions';
+    fetch(urlwebmention).then(
+        response => {
+            if (response.status === 200) {
+                response.json()
+                    .then(data => {
+                        console.log(data);
+                    })
+            } else {
+                throw new Error('Webmentions API call failed!')
             }
         },
         reject => console.log('rejected!', reject)

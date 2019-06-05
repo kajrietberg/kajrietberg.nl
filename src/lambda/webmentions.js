@@ -1,9 +1,7 @@
 const axios = require("axios")
-require('dotenv').config();
 
-const AUTH = process.env.NETLIFY_NUMBERPLATE;
-const API_ENDPOINT =
-    `https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=${AUTH}`;
+const AUTHWEBMENTION = process.env.WEBMENTION_IO_TOKEN;
+const API_ENDPOINT_WEBMENTION = `https://webmention.io/api/mentions.html?token=${AUTHWEBMENTION}`;
 const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type'
@@ -17,15 +15,16 @@ export function handler(event, context, callback) {
         headers,
         body: JSON.stringify(body)
     })}
-    // console.log(pass);
+    console.log(pass);
 
     // Perform the API call.
     const get = () => {
-        axios.get(API_ENDPOINT)
-            .then(response => { pass(response.data )})
+        axios.get(API_ENDPOINT_WEBMENTION)
+            .then((response) => { pass(response.data) })
             .catch(err => pass(err))
     }
     if(event.httpMethod == 'GET'){
         get()
     };
 };
+
