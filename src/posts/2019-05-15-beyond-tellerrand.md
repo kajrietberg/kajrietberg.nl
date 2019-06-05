@@ -6,7 +6,7 @@ date: 2019-05-15
 ---
 
 
-Dit jaar voor het eerst bij []Beyond Tellerrand](https://beyondtellerrand.com/events/duesseldorf-2019/speakers) geweest. Een conferentie waar ik graag heen wilde om hier de sfeer te proeven maar vooral vanwege de meer op design gerichte talks. Ik had goede verhalen gehoord over dit event van Marc Thiele.
+Dit jaar voor het eerst bij [Beyond Tellerrand](https://beyondtellerrand.com/events/duesseldorf-2019/speakers) geweest. Een conferentie waar ik graag heen wilde om hier de sfeer te proeven maar vooral vanwege de meer op design gerichte talks. Ik had goede verhalen gehoord over dit event van Marc Thiele.
 
 Hier mijn aantekeningen, ideeën en opmerkingen van dit event. Ik heb niet van elke spreker aantekeningen. Soms was het ook gewoon mooi om te zien wat ze toonden.
 Anderen die ook aantekeningen hebben gemaakt:
