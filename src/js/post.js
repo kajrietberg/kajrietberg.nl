@@ -9,9 +9,7 @@ fetch(urlwebmention).then(
                     const entries =  Object.entries(data.children);
                     entries.forEach(onderdeel => {
                         console.log(onderdeel[1]);
-                        console.log(window.location.href);
-                        console.log(onderdeel[1]["like-of"] + '/');
-                        if (window.location.href === onderdeel[1]["like-of"] + '/' | window.location.href === onderdeel[1]["like-of"] ) {
+                        if (window.location.href === onderdeel[1]["like-of"] + '/' | window.location.href === onderdeel[1]["like-of"] | window.location.href === onderdeel[1]["bookmark-of"] ) {
                             listWebmentions.innerHTML += `<li>Mention url: <a href="${onderdeel[1].url}">${onderdeel[1].url}</a> <br> <img src="${onderdeel[1].author.photo}" style="width: 100px; height; 100px; border-radius: 50%;"> <br> door: ${onderdeel[1].author.name}  </li>`;
 
                         }
