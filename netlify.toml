@@ -3,17 +3,15 @@
   functions = "functions"
   command = "npm run build "
 
-
-# Redirect a likely mistake
-# [[redirects]]
-#   from = "/posts/2013*"
-#   to = "/2013*"
-#   status = 302
+# sample dev block in the toml
+# note: each of these fields are OPTIONAL and should only be used if you need an override
+#[dev]
+#  command = "yarn start" # Command to start your dev server
+#  port = 3000 # Port that the dev server will be listening on
+#  publish = "dist" # If you use a _redirect file, provide the path to your static content folder
 
 # 404
-[[redirects]]
-   from = "/*"
-   to = "/404"
-   status = 404
-
-
+#[[redirects]]
+#   from = "/*"
+#   to = "/404"
+#   status = 404
