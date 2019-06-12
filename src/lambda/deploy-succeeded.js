@@ -6,7 +6,7 @@ import { AllHtmlEntities as Entities } from 'html-entities'
 dotenv.config()
 
 // URL of notes JSON feed
-const NOTES_URL = 'https://www.kajrietberg.nl/articles.json/'
+const NOTES_URL = 'https://www.kajrietberg.nl/articles.json'
 
 // Configure Twitter API Client
 const twitter = new Twitter({
