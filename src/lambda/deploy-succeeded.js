@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import dotenv from 'dotenv'
 import Twitter from 'twitter'
-import { AllHtmlEntities as Entities } from 'html-entities'
+// import { AllHtmlEntities as Entities } from 'html-entities'
 
 dotenv.config()
 
@@ -36,13 +36,13 @@ const status = (code, msg) => {
 }
 
 // Check exisiting notes
-const processNotes = async notes => {
-    if (!notes.length) {
+const processNotes = async articles => {
+    if (!articles.length) {
         return status(404, 'No notes found to process.')
     }
 
     // assume the last note is not yet syndicated
-    const latestNote = notes[0]
+    const latestNote = articles[0]
     if (!latestNote.syndicate) {
         return status(
             400,
@@ -67,36 +67,18 @@ const processNotes = async notes => {
     }
 }
 
-// Prepare the content string for tweet format
-const prepareStatusText = note => {
-    const maxLength = 280 - 3 - 1 - 23 - 20
-    const entities = new Entities()
-
-    // // strip html tags and decode entities
-    let text = note.title
-    text = entities.decode(text)
-
-    // truncate note text if its too long for a tweet.
-    if (text.length > maxLength) {
-        text = text.substring(0, maxLength) + '...'
-    }
-
-    // include the note url at the end;
-    text = note.title + ' ' + note.url
-    return text
-}
 
 // Push a new note to Twitter
-const publishNote = async note => {
+const publishNote = async article => {
     try {
-        const statusText = prepareStatusText(note)
+        const statusText = article.title + ' ' + article.url
         const tweet = await twitter.post('statuses/update', {
             status: statusText
         })
         if (tweet) {
             return status(
                 200,
-                `Note ${note.date} successfully posted to Twitter.`
+                `Note ${article.date} successfully posted to Twitter.`
             )
         } else {
             return status(422, 'Error posting to Twitter API.')
@@ -112,6 +94,7 @@ exports.handler = async () => {
     // then process them to check if an action is necessary
     return fetch(NOTES_URL)
         .then(response => response.json())
+        .then(console.log(response.json))
         .then(processNotes)
         .catch(handleError)
 }
