@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Introduction on HTTP
 tags: ['http', 'webserver', 'network', 'post']
-page-class: article
 ---
 
 

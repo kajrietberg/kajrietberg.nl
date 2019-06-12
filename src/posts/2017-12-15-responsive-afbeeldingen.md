@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Responsive afbeeldingen
 tags: ['front-end', 'HTML', 'CSS', 'post']
-page-class: article
 ---
 
 

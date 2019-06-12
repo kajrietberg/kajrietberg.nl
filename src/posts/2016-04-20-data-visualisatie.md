@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Data Visualisatie; een startpunt
 tags: ['front-end', 'data', 'visual', 'design', 'post']
-page-class: article
 ---
 
 

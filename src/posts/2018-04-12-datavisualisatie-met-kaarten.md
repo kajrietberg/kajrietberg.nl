@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Datavisualisatie met kaarten
 tags: ['dataviz', 'datavisualisatie', 'post']
-page-class: article
 ---
 
 Datavisualisatie kan middels grafieken, maar je kan ook gebruik maken van kaarten. Het laat middels een kaart zien waar de te visualiseren onderwerp te zien is of welk gebied het gaat waarover het gaat. Dit kan veel duidelijk maken over de spreiding in een gebied, land, werelddeel.

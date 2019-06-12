@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Wat is design?
 tags: ['design', 'post']
-page-class: article
 ---
 
 Naar mijn idee moest een designer iemand zijn die heel creatief is. Heel simpel gezegd, iemand die kunst maakt, eigenlijk gewoon iemand die mooie dingen maakt. 

@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Mijn interpretatie van de Basis van JavaScript
 tags: ['front-end', 'JS', 'post']
-page-class: article
 ---
 
 <p class="lead">Afgelopen jaar heb ik de tijd genomen om mij te verdiepen in de theorie achter JavaScript. De reden hiervoor is dat ik JavaScript wil leren gebruiken en dus snappen wat ik doe. Hiervoor verschillende video's bekeken, artikelen gelezen, <a href="https://twitter.com/paul_v_m">Paul Verbeek-Mast</a> heeft mijn vele vragen beantwoord, geoefend met de console. Het eerste stapje is gezet.<br>

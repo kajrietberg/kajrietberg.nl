@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Mijn UX-Frontend toekomst een maand later (2013)
 tags: ['post', 'personal', 'ux', 'front-end']
-page-class: article
 ---
 
 

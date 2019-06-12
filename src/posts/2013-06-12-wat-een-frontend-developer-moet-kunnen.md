@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Wat een front-end ontwikkelaar moet kunnen in 2015
 tags: ['personal', 'front-end', 'post']
-page-class: article
 ---
 
 Afgelopen periode heb ik verschillende vacatures waarin Front-end developers worden gevraagd bestudeerd. Ik ben geen fan van vacatures, maar aangezien ik er 1 wil worden ben ik benieuwd wat er gevraagd wordt van een Front-end developer.

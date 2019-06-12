@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Wat is SVG?
 tags: ['svg', 'post']
-page-class: article
 ---
 
 

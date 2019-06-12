@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Data, tabellen en grafieken types
 tags: ['dataviz', 'datavisualisatie', 'post']
-page-class: article
 ---
 
 Bij deze weer een aantekeningen artikel. Deze keer over grafieken en tabellen.

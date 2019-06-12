@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Waar ik sta als front-end ontwikkelaar (2015)
 tags: ['personal', 'post']
-page-class: article
 ---
 
 <p class="lead">

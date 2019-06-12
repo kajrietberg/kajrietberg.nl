@@ -1,8 +1,6 @@
 ---
-layout: post
 title: De DOM en JavaScript
 tags: ['front-end', 'JS', 'DOM', 'post']
-page-class: article
 ---
 
 <p class="lead">Na mijn <a href="https://www.kajrietberg.nl/2018/01/basis-van-javascript.html">Mijn interpretatie van de Basis van JavaScript artikel</a> is dit mijn volgende artikel/ blad met aantekeningen over mijn JS leertocht. Deze keer zijn dit aantekeningen over wat de DOM is en hoe die zich verhoudt tot JavaScript. Ik krijg graag jullie feedback. Hier kan ik weer van leren.<br>Mijn twitter-handle en mailadres staan onderaan de pagina.</p>
