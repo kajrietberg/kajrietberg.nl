@@ -1,0 +1,16 @@
+---
+permalink: articles.json
+excludeFromSitemap: true
+---
+[
+{% for post in collections.post %}
+    {
+        "id": {{ loop.revindex }},
+        "date": "{{ post.date | iso }}",
+        "url": "{{ post.url | url | absoluteUrl(site.url) }}",
+        "content": "{{ post.templateContent | excerpt | safe | striptags }}",
+        "syndicate": {{ post.data.syndicate | string }}
+    }
+    {%- if not loop.last -%},{%- endif -%}
+{% endfor %}
+]
