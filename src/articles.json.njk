@@ -5,10 +5,9 @@ excludeFromSitemap: true
 [
 {% for post in collections.post %}
     {
-        "id": {{ loop.revindex }},
-        "date": "{{ post.date | iso }}",
+        "id": {{ loop.index }},
+        "date": "{{ post.date }}",
         "url": "{{ post.url | url | absoluteUrl(site.url) }}",
-        "content": "{{ post.templateContent | excerpt | safe | striptags }}",
         "syndicate": {{ post.data.syndicate | string }}
     }
     {%- if not loop.last -%},{%- endif -%}
