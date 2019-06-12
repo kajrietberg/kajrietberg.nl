@@ -72,9 +72,6 @@ const prepareStatusText = note => {
     const maxLength = 280 - 3 - 1 - 23 - 20
     const entities = new Entities()
 
-    // strip html tags and decode entities
-    let text = note.content.trim().replace(/<[^>]+>/g, '')
-    text = entities.decode(text)
 
     // truncate note text if its too long for a tweet.
     if (text.length > maxLength) {
