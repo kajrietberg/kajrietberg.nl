@@ -72,6 +72,9 @@ const prepareStatusText = note => {
     const maxLength = 280 - 3 - 1 - 23 - 20
     const entities = new Entities()
 
+    // // strip html tags and decode entities
+    let text = note.title
+    text = entities.decode(text)
 
     // truncate note text if its too long for a tweet.
     if (text.length > maxLength) {
@@ -79,7 +82,7 @@ const prepareStatusText = note => {
     }
 
     // include the note url at the end;
-    text = text + ' ' + note.url
+    text = note.title + ' ' + note.url
     return text
 }
 
