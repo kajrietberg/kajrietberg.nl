@@ -1,5 +1,12 @@
 [
   {
+    "naam": "Bartje 200",
+    "afstand": "200 km",
+    "strava": "https://www.strava.com/activities/2455799505",
+    "date": "2019-06-16",
+    "year": "2019"
+  },
+  {
     "naam": "MTB marathon van Ruinen",
     "afstand": "80 km",
     "strava": "https://www.strava.com/activities/2188591733",
