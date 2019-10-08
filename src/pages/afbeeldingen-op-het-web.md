@@ -1,8 +1,14 @@
 ---
-title: Responsive afbeeldingen
-tags: ['front-end', 'HTML', 'CSS', 'post']
+title: Afbeeldingen op het web
+tags: ['front-end', 'HTML', 'CSS', 'page', 'images']
 ---
 
+
+jpeg afbeeldingen zijn goed voor foto's, maar niet voor lijn afbeeldingen. Dan kan je beter svg's gebruiken.
+
+##Browsers
+
+Browsers hebben hun eigen render-machine voor afbeeldingen.
 
 ## De Picture-tag, of te wel responsive images
 
@@ -47,6 +53,12 @@ Bovenstaande geldt voor inline afbeeldingen. Maar kan dit ook voor CSS?
 Als je achtergrond afbeeldingen gebruikt in CSS, kan je gebruik maken van images-set bij resolution switching: [https://caniuse.com/#feat=css-image-set](https://caniuse.com/#feat=css-image-set). Wordt door steeds meer browsers gedragen. (zie demo: [https://cloudfour.com/examples/image-set/](https://cloudfour.com/examples/image-set/)). En anders gebruik media-queries in je CSS.
 
 
+###Figure
+
+De figure element gebruik je voor inhoud die niet essentieel is voor de flow van je sectie. Het maakt niet zoveel uit waar het staat. Het is ook niet alleen voor afbeelding, maar kan ook gebruikt worden voor video, grafieken, code, etc. 
+De figcaption element is veel gebruikt bij de figure, hiermee geef je een beschrijving van wat je ziet.
+
+
 ### Interessante links
 
 * [Responsive Image Workgroup](http://responsiveimages.org/)
@@ -54,7 +66,7 @@ Als je achtergrond afbeeldingen gebruikt in CSS, kan je gebruik maken van images
 * [MDN over de img-tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 * [MDN over de picture-tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 * [Goede uitleg over het gebruik van img en picture tag](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/)
-* Verschillende voorbeelden, met ook mengvormen: https://dev.opera.com/articles/responsive-images/
+* [Verschillende voorbeelden, met ook mengvormen](https://dev.opera.com/articles/responsive-images/)
 * [HTML5rocks uitleg van de picture-tag](https://www.html5rocks.com/en/tutorials/responsive/picture-element/)
 * [Gebruik niet altijd de picture element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/)
-* [Goede uitleg video van Jason Grigsby]: (https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video)
+* [Goede uitleg video van Jason Grigsby](https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video)

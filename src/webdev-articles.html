@@ -1,19 +1,27 @@
 ---
 layout: page
 title: Webdev articles (in Dutch)
-permalink: /webdev-articles.html
+permalink: /webdev-articles/
 page-class: page--webdev
 ---
 
 <div>
   <h2>Writings here</h2>
 
-  <p>Let op; mijn artikelen zijn in het Nederlands (blijft toch mijn moeder taal en er zijn volgens mij genoeg mensen die het prettiger vinden artikelen in het Nederlands te lezen) en het zijn geen perfect geschreven verhalen.
+  <p>Mijn artikelen zijn in het Nederlands, blijft toch mijn moeder taal en er zijn volgens mij genoeg mensen die het prettiger vinden artikelen in het Nederlands te lezen. Het zijn geen perfect geschreven verhalen.
     Ze zijn meer geschreven als aantekeningen om weer naar terug te kijken hoe iets gaat.</p>
 
   <ul>
     {%- for post in collections.post -%}
     <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+
+  <h2>Verzamel berichten over het web</h2>
+  <p>Deze berichten vul ik steeds aan met nieuwe inzichten.</p>
+  <ul>
+    {%- for page in collections.page -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
   </ul>
 
