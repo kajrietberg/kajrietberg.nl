@@ -6,7 +6,7 @@ tags: ['front-end', 'HTML', 'CSS', 'page', 'images']
 
 jpeg afbeeldingen zijn goed voor foto's, maar niet voor lijn afbeeldingen. Dan kan je beter svg's gebruiken.
 
-##Browsers
+## Browsers
 
 Browsers hebben hun eigen render-machine voor afbeeldingen.
 
@@ -53,7 +53,7 @@ Bovenstaande geldt voor inline afbeeldingen. Maar kan dit ook voor CSS?
 Als je achtergrond afbeeldingen gebruikt in CSS, kan je gebruik maken van images-set bij resolution switching: [https://caniuse.com/#feat=css-image-set](https://caniuse.com/#feat=css-image-set). Wordt door steeds meer browsers gedragen. (zie demo: [https://cloudfour.com/examples/image-set/](https://cloudfour.com/examples/image-set/)). En anders gebruik media-queries in je CSS.
 
 
-###Figure
+### Figure
 
 De figure element gebruik je voor inhoud die niet essentieel is voor de flow van je sectie. Het maakt niet zoveel uit waar het staat. Het is ook niet alleen voor afbeelding, maar kan ook gebruikt worden voor video, grafieken, code, etc. 
 De figcaption element is veel gebruikt bij de figure, hiermee geef je een beschrijving van wat je ziet.
