@@ -6,16 +6,24 @@ page-class: page--mtb
 ---
 
 	<p>
-		I love Mountainbiking. I have ridden different XC-races and tours myself. Here I will list some tours I'm proud off I have ridden.
+		Ik hou van Mountainbiking. Ik heb verschillende XC-races, cyclosportieve tochten en toertochten gereden. Hier vertel ik mijn MTB belevenissen en staan tochten waar ik trots op ben.
 	</p>
+
+	<h3>Mijn fietsverhaaltjes</h3>
+	<ul>
+		{%- for mtb in collections.mtb -%}
+		<li><a href="{{ mtb.url }}">{{ mtb.data.title }}</a></li>
+		{%- endfor -%}
+	</ul>
+
+	<h3>MTB fotografie</h3>
 	<p>
-		Together with my youngest son I started an Instagram account with Mountainbike photo's called: <a href="https://www.instagram.com/mtbfotografie/">MTB Fotografie</a>
+		Samen met mijn jongste zoon heb ik een Instagram account met Mountainbike foto's genaamd: <a href="https://www.instagram.com/mtbfotografie/">MTB Fotografie</a>.
 	</p>
 
-
-	<h2>
+	<h3>
 		2019
-	</h2>
+	</h3>
 	<ul>
 		{%- for mtbtocht in mtbtochten -%}
 		{% if mtbtocht.year == "2019" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
@@ -23,9 +31,9 @@ page-class: page--mtb
 	</ul>
 
 
-	<h2>
+	<h3>
 		2017
-	</h2>
+	</h3>
 	<ul>
 		{%- for mtbtocht in mtbtochten -%}
 		{% if mtbtocht.year == "2017" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
