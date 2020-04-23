@@ -1,0 +1,19 @@
+---
+layout: page
+title: Mijn leesvoer
+permalink: /leesvoer/
+page-class: page--leesvoer
+---
+
+	<p>
+		Ik ontwikkel mij graag, ben nieuwsgierig en weet graag veel. Daarom lees ik graag. Ik lees het meeste weblog artikelen, maar probeer ook tijd te maken voor het lezen van boeken.
+		Naast het lezen van boeken (over verschillende onderwerpen) lees ik graag tijdschrijften over mtb-en en wielrennen.
+	</p>
+
+	<h3>Boeken</h3>
+
+	<ul>
+		{%- for boek in boeken -%}
+		<li><a href="{{ boek.url }}">{{ boek.naam }}</a> - {{ boek.schrijver }}. Gelezen in: {{ boek.year }}.</li>
+		{%- endfor -%}
+	</ul>
