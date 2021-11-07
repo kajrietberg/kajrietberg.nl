@@ -1,10 +1,31 @@
 [
   {
     "naam": "Hondsrug Classic",
+    "afstand": "62 km",
+    "strava": "https://www.strava.com/activities/6022344604",
+    "date": "2021-09-26",
+    "year": "2021"
+  },
+  {
+    "naam": "Veldslag om Norg",
+    "afstand": "100 km",
+    "strava": "https://www.strava.com/activities/5903545245",
+    "date": "2021-09-04",
+    "year": "2021"
+  },
+  {
+    "naam": "Hondsrug Classic",
     "afstand": "66 km",
     "strava": "https://www.strava.com/activities/2768355627",
     "date": "2019-10-06",
     "year": "2019"
+  },
+  {
+    "naam": "NoDrenthe200",
+    "afstand": "211 km",
+    "strava": "https://www.strava.com/activities/4531387292",
+    "date": "2020-12-28",
+    "year": "2020"
   },
   {
     "naam": "Mergelheuvelland 2 daagse",
