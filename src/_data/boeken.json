@@ -1,5 +1,35 @@
 [
   {
+    "naam": "Leidraad voor een nobel leven",
+    "url": " ",
+    "schrijver": "Ethan Hawke",
+    "year": "2021"
+  },
+  {
+    "naam": "Digitaal Minimalisme",
+    "url": " ",
+    "schrijver": "Cal Newport",
+    "year": "2021"
+  },
+  {
+    "naam": "Sneijder",
+    "url": "",
+    "schrijver": "Kees Jansma",
+    "year": "2021"
+  },
+   {
+    "naam": "Theo Janssen: Marcel van Roosmalen op pad met De Dikke Prins",
+    "url": "https://www.amazon.nl/Theo-Janssen-Marcel-Roosmalen-Dikke/dp/9048861004/",
+    "schrijver": "Marcel van Roosmalen",
+    "year": "2020"
+  },
+  {
+    "naam": "Het Beest: het wielerleven van Lieuwe Westra",
+    "url": "https://www.amazon.nl/Het-Beest-wielerleven-Lieuwe-Westra-ebook/dp/B079XSN1JC/",
+    "schrijver": "Thomas Sijtsma",
+    "year": "2020"
+  },
+  {
     "naam": "Je hebt wel iets te verbergen",
     "url": "https://www.amazon.nl/Je-hebt-w%C3%A9l-iets-verbergen-ebook/dp/B079STW3JG/",
     "schrijver": "Maurits Martijn en Dimitri Tokmetzis",
