@@ -1,5 +1,6 @@
 .idea
 dist
+functions
 .sass-cache
 _drafts
 .env
