@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: layouts/default.njk
 ---
 
-	{% include header.html %}
+	{% include 'header.njk' %}
 
 		<main role="main"> 
 			<div class="wrapper">
@@ -10,11 +10,11 @@ layout: default
 				<section>
 					<h1 class="page-title">{{ title }}</h1>
 
-	            {{ content }}
+	            {{ content | safe }}
 				</section>
 
 			</div>
         </main>
 
 
-	{% include footer.html %}
+	{% include 'footer.njk' %}

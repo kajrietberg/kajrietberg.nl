@@ -1,6 +1,9 @@
 ---
 title: Waar ik sta als front-end ontwikkelaar (2015)
-tags: ['personal', 'post']
+tags: 
+    - personal
+    - post
+    - front-end
 ---
 
 <p class="lead">

@@ -1,6 +1,10 @@
 ---
 title: Introduction on HTTP
-tags: ['http', 'webserver', 'network', 'post']
+tags: 
+    - http
+    - webserver
+    - network
+    - post
 ---
 
 

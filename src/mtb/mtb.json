@@ -1,5 +1,5 @@
 {
-  "layout": "post",
+  "layout": "layouts/page.njk",
   "page-class": "article",
   "syndicate": true
 }

@@ -1,6 +1,10 @@
 ---
 title: Beyond Tellerrand 2019
-tags: ['front-end', 'leren', 'ontwikkeling', 'post']
+tags: 
+    - front-end
+    - leren
+    - ontwikkeling
+    - post
 ---
 
 

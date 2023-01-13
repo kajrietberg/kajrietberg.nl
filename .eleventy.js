@@ -13,11 +13,11 @@ module.exports = function(eleventyConfig) {
 
 
     // Aliases are in relation to the _includes folder
-    eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
-    eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
-    eleventyConfig.addLayoutAlias('layout', 'layouts/layout.html');
-    eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
-    eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
+    // eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
+    // eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
+    // eleventyConfig.addLayoutAlias('layout', 'layouts/layout.html');
+    // eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
+    // eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
 
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -60,8 +60,8 @@ module.exports = function(eleventyConfig) {
             "liquid",
             "njk"
         ],
-        markdownTemplateEngine: "liquid",
-        htmlTemplateEngine: "liquid",
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
         // dataTemplateEngine: "njk",
         passthroughFileCopy: true,
         dir: {

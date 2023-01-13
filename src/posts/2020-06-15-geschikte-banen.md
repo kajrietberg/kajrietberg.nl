@@ -1,6 +1,8 @@
 ---
 title: Welke baan is geschikt voor mij?
-tags: ['ontwikkeling', 'post']
+tags: 
+    - ontwikkeling
+    - post
 ---
 
 
@@ -20,5 +22,5 @@ Daarnaast heb je meer specifieke kennis en kunde nodig voor een functie. Dit zij
 
 Wat ik heb gemerkt en hoor van verschillende mensen is dat elke functie door een bedrijf anders wordt ingevuld, de nadruk ligt net ergens anders op of heeft overlap met een andere functie. Hierom lees ik de vactures goed en vraag ik in een sollicitatiegesprek naar de preciese invulling van de functie.
 
-Naast het vinden van de juiste baan vind ik belangrijk het gevoel te hebben zinvol bezig te zijn. Door andere mensen te helpen en blij te maken kan dat al snel, maar darbij let ik wel op waarmee ik ze blij maak. Daarbij vind ik het belangrijk dat het bedrijf ook bij mij past. 
+Naast het vinden van de juiste baan vind ik belangrijk het gevoel te hebben zinvol bezig te zijn. Door andere mensen te helpen en blij te maken kan dat al snel, maar daarbij let ik wel op waarmee ik ze blij maak. Daarbij vind ik het belangrijk dat het bedrijf ook bij mij past. 
 Belangrijk daarbij zijn vragen als: wat de visie van het bedrijf is op wat ze doen, hoe doen ze dat en wat is de drijfveer van het bedrijf? Is hun doel winst maken of willen ze zinvol bezig zijn (en daar dan winst op maken om te kunnen blijven bestaan). Dat maakt verschil in hoe ze omgaan met hun product of dienst.

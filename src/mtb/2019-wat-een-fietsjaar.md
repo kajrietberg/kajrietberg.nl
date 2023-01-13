@@ -1,7 +1,8 @@
 ---
 title: Wat een fietsjaar (2019)
-tags: ['mtb', 'personal']
 date: 2019-10-10
+tags: 
+    - mtb 
 ---
 
 Wat een fietsjaar was het, ongelooflijk. Wat heb ik genoten en ben ik trots op wat ik heb gedaan en dus heb bereikt.

@@ -1,6 +1,10 @@
 ---
 title: Mijn Front-end leven, een evaluatie
-tags: ['front-end', 'leren', 'ontwikkeling', 'post']
+tags: 
+    - front-end
+    - leren
+    - ontwikkeling
+    - post
 ---
 
 

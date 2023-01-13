@@ -1,6 +1,11 @@
 ---
 title: Data Visualisatie; een startpunt
-tags: ['front-end', 'data', 'visual', 'design', 'post']
+tags: 
+    - front-end
+    - data
+    - visual
+    - design
+    - post
 ---
 
 

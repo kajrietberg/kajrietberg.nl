@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "Website of Kaj Rietberg, Front-end dev",
   "scripts": {
+    //"start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
+    //"build": "gulp build & ELEVENTY_ENV=prod eleventy & npm run build:lambda",
     "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve",
     "build": "gulp build & ELEVENTY_ENV=prod eleventy",
     "build:lambda": "netlify-lambda build src/lambda",
@@ -24,8 +26,7 @@
     "encoding": "^0.1.13",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "netlify-lambda": "^2.0.15",
-    "sass": "^1.57.1"
+    "netlify-lambda": "^2.0.15"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",

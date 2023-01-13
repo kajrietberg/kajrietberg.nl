@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="page  {{ page-class }}">
 
-  {% include head.html %}
+  {% include 'head.njk' %}
 
     <body>
 
-        {{ content }}
+        {{ content | safe }}
 
         {% if page-class == "article" %}
         <script type="text/javascript" src="/js/post.js"></script>

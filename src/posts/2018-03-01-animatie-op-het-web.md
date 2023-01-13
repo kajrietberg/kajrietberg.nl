@@ -1,6 +1,12 @@
 ---
 title: Animatie op het web
-tags: ['front-end', 'forms', 'animatie', 'design', 'interactie', 'post']
+tags: 
+    - front-end
+    - forms
+    - animatie
+    - design
+    - interactie
+    - post
 ---
 
 In dit artikel (opsomming) over animatie staan mijn verzamelde bronnen en opmerkingen die naar mijn idee belangrijk of handig zijn als je meer wilt weten over animatie op het web. Als ik nieuwe bronnen vind zal ik deze hier plaatsen. Mocht jij een interessante bron hebben meldt het mij, mijn contactgegevens staan onderaan de pagina.

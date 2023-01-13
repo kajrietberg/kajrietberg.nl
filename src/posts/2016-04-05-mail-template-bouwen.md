@@ -1,6 +1,9 @@
 ---
 title: Mail template bouwen; een startpunt
-tags: ['front-end', 'mail', 'post']
+tags: 
+    - front-end
+    - mail
+    - post
 ---
 
 Email is nog steeds of weer een belangrijk communicatiemiddel. Het leek een tijdje er op dat we het minder gingen gebruiken. Maar in de stroom van sociale media is mail juist weer belangrijker geworden, je kan het makkelijker bewaren. Bedrijven sturen steeds meer post via de mail ipv briefpapier. En we abonneren ons liever op een nieuwsbrief dan constant maar alle sociale media af te lopen om bij te blijven. 

@@ -1,6 +1,8 @@
 ---
 title: Wat is SVG?
-tags: ['svg', 'post']
+tags: 
+    - svg
+    - post
 ---
 
 

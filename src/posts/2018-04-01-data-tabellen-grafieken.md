@@ -1,6 +1,9 @@
 ---
 title: Data, tabellen en grafieken types
-tags: ['dataviz', 'datavisualisatie', 'post']
+tags: 
+    - dataviz
+    - datavisualisatie
+    - post
 ---
 
 Bij deze weer een aantekeningen artikel. Deze keer over grafieken en tabellen.
