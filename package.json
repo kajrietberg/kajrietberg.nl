@@ -1,10 +1,12 @@
 {
   "name": "kajrietberg.nl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Website of Kaj Rietberg, Front-end dev",
   "scripts": {
-    "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
-    "build": "gulp build & ELEVENTY_ENV=prod eleventy & npm run build:lambda",
+    //"start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
+    //"build": "gulp build & ELEVENTY_ENV=prod eleventy & npm run build:lambda",
+    "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve",
+    "build": "gulp build & ELEVENTY_ENV=prod eleventy",
     "build:lambda": "netlify-lambda build src/lambda",
     "start:lambda": "netlify-lambda serve src/lambda"
   },
@@ -31,7 +33,6 @@
     "axios": "^1.2.2",
     "html-entities": "^2.3.3",
     "node-fetch": "^3.3.0",
-    "npm-check-updates": "^16.6.2",
     "twitter": "^1.7.1"
   }
 }
