@@ -40,7 +40,7 @@
     li {
         display: inline-block;
         width: 100%;
-        margin-bottom: $spacing/2;
+        margin-bottom: calc($spacing/2);
     }
 }
 
