@@ -1,5 +1,33 @@
 [
   {
+    "naam": "Examen basis MTB gids",
+    "afstand": "9,63 km",
+    "strava": "https://www.strava.com/activities/8207943695",
+    "date": "2022-12-04",
+    "year": "2022"
+  },
+  {
+    "naam": "Bikepark Chamrousse",
+    "afstand": "36,84 km",
+    "strava": "https://www.strava.com/activities/7697568886",
+    "date": "2022-08-12",
+    "year": "2022"
+  },
+  {
+    "naam": "Alpe D'Huez",
+    "afstand": "15,22 km",
+    "strava": "https://www.strava.com/activities/7615464882",
+    "date": "2022-08-10",
+    "year": "2022"
+  },
+  {
+    "naam": "Bartje200",
+    "afstand": "205,70 km",
+    "strava": "https://www.strava.com/activities/7335200562",
+    "date": "2022-06-19",
+    "year": "2022"
+  },
+  {
     "naam": "Hondsrug Classic",
     "afstand": "62 km",
     "strava": "https://www.strava.com/activities/6022344604",
@@ -14,11 +42,11 @@
     "year": "2021"
   },
   {
-    "naam": "Hondsrug Classic",
-    "afstand": "66 km",
-    "strava": "https://www.strava.com/activities/2768355627",
-    "date": "2019-10-06",
-    "year": "2019"
+    "naam": "Downhill met Mika in Zweden",
+    "afstand": "34,12",
+    "strava": "https://www.strava.com/activities/5748757399",
+    "date": "2021-",
+    "year": "2021"
   },
   {
     "naam": "NoDrenthe200",
@@ -26,6 +54,13 @@
     "strava": "https://www.strava.com/activities/4531387292",
     "date": "2020-12-28",
     "year": "2020"
+  },
+  {
+    "naam": "Hondsrug Classic",
+    "afstand": "66 km",
+    "strava": "https://www.strava.com/activities/2768355627",
+    "date": "2019-10-06",
+    "year": "2019"
   },
   {
     "naam": "Mergelheuvelland 2 daagse",

@@ -21,6 +21,31 @@ eleventyImport:
 	<h2>Tochten met trots</h2>
 
 	<h3>
+		2022
+	</h3>
+	<ul>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2022" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
+	</ul>
+	<h3>
+		2021
+	</h3>
+	<ul>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2021" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
+	</ul>
+
+	<h3>
+		2020
+	</h3>
+	<ul>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2020" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
+	</ul>
+	<h3>
 		2019
 	</h3>
 	<ul>
