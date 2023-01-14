@@ -1,8 +1,8 @@
 [build]
   publish = "dist"
-  command = "npm run build "
+  command = "npm run build"
   functions = "lambda" #  netlify-lambda reads this
-  publish = "build"
+# publish = "build"
 
 # sample dev block in the toml
 # note: each of these fields are OPTIONAL and should only be used if you need an override
