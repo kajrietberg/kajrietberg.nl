@@ -1,5 +1,5 @@
 ---
-title: Wat een fietsjaar (2019)
+title: Wat een fietsjaar - 2019
 date: 2019-10-10
 tags: 
     - mtb 

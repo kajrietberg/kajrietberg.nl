@@ -1,5 +1,7 @@
 ---
 title: Waar ik sta als front-end ontwikkelaar (2016)
+tags: 
+	- post
 ---
 
 <p>
