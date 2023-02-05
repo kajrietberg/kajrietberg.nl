@@ -23,8 +23,10 @@
     "@11ty/eleventy": "^1.0.2",
     "dotenv": "^16.0.3",
     "encoding": "^0.1.13",
+    "fs": "^0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-sass": "^5.1.0",
+    "luxon": "^3.2.1",
     "netlify-lambda": "^2.0.15",
     "sass": "^1.57.1"
   },

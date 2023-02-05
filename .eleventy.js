@@ -3,7 +3,7 @@ const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 // const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-// var env = process.env.ELEVENTY_ENV;
+var env = process.env.ELEVENTY_ENV;
 
 
 module.exports = function(eleventyConfig) {

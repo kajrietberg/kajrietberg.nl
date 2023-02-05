@@ -1,7 +1,7 @@
 [build]
   publish = "dist"
   command = "npm run build"
-  functions = "lambda" #  netlify-lambda reads this
+  functions = "src/lambda" #  netlify-lambda reads this
 # publish = "build"
 
 # sample dev block in the toml
