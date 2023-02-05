@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "axios": "^1.2.2",
     "html-entities": "^2.3.3",
     "node-fetch": "^3.3.0",
     "twitter": "^1.7.1"

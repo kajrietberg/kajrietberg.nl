@@ -7,3 +7,6 @@ _drafts
 node_modules
 package-lock.json
 package copy.json
+
+# Local Netlify folder
+.netlify
