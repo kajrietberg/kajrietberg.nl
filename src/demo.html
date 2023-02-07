@@ -123,7 +123,15 @@ page-class: page--demo
     );
 </script>
 
-## {{character.name}}
+<script>
+    // don’t forget to `npm install axios`!
+const axios = require('axios');
 
-![{{character.name}}]({{character.image}})
+module.exports = async () => {
+  const result = await axios.get('https://rickandmortyapi.com/api/character/');
+
+  console.log(result.data.results);
+  return result.data.results;
+};
+</script>
 
