@@ -1,8 +1,7 @@
 ---
-title: Welke baan is geschikt voor mij?
+title: Netlify functions
 tags: 
     - front-end
-    - post
 ---
 
 

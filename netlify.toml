@@ -1,8 +1,10 @@
 [build]
   publish = "dist"
   command = "npm run build"
-  functions = "src/lambda" #  netlify-lambda reads this
 # publish = "build"
+
+[functions]
+  directory = "src/lambda" #  netlify-lambda reads this
 
 # sample dev block in the toml
 # note: each of these fields are OPTIONAL and should only be used if you need an override
