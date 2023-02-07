@@ -130,8 +130,10 @@ const axios = require('axios');
 module.exports = async () => {
   const result = await axios.get('https://rickandmortyapi.com/api/character/');
 
-  console.log(result.data.results);
+  
   return result.data.results;
 };
+
+console.log(result.data.results);
 </script>
 
