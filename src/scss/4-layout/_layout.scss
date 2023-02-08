@@ -56,7 +56,7 @@ section {
 
         div {
 
-            @media-query(palm-and-up) {
+            @include media-query(palm-and-up) {
                 width: 45%;
             }
         }

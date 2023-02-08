@@ -12,11 +12,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventySass, {
         compileOptions: {
             permalink: function(contents, inputPath) {
-                return (data)=> {
-                    return data.page.filePathStem.replace(/^\/scss\//, "/assets/css/") + ".css";
-                }
+                return (data)=> data.page.filePathStem.replace(/^\/scss\//, "/assets/css/") + ".css";
             }
-        }
+        },
+        sass: {
+            style: "compressed",
+            sourceMap: false
+          }
+            
     });
     // eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.setDataDeepMerge(true);
