@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventySass = require("eleventy-sass");
 // const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 var env = process.env.ELEVENTY_ENV;
@@ -8,6 +9,15 @@ var env = process.env.ELEVENTY_ENV;
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(eleventySass, {
+        compileOptions: {
+            permalink: function(contents, inputPath) {
+                return (data)=> {
+                    return data.page.filePathStem.replace(/^\/scss\//, "/assets/css/") + ".css";
+                }
+            }
+        }
+    });
     // eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.setDataDeepMerge(true);
 
