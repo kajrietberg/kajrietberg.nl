@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "description": "Website of Kaj Rietberg, Front-end dev",
   "scripts": {
-   "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
-    "build": "gulp build & ELEVENTY_ENV=prod eleventy & npm run build:lambda",
+   "start": "ELEVENTY_ENV=dev eleventy --serve & npm run start:lambda",
+    "build": "ELEVENTY_ENV=prod eleventy & npm run build:lambda",
     "build:lambda": "netlify-lambda build src/lambda",
     "start:lambda": "netlify-lambda serve src/lambda"
   },
