@@ -23,6 +23,16 @@ eleventyImport:
 	<h2>Tochten met trots</h2>
 
 	<h3>
+		2023
+	</h3>
+	<ul>
+		{%- for mtbtocht in mtbtochten -%}
+		{% if mtbtocht.year == "2023" %}<li><a href="{{ mtbtocht.strava }}">{{ mtbtocht.naam }}</a> - {{ mtbtocht.afstand }}</li> {% endif %}
+		{%- endfor -%}
+	</ul>
+
+
+	<h3>
 		2022
 	</h3>
 	<ul>
