@@ -86,7 +86,7 @@ Bij CSS werk je met de transition property en/of de animation property waarbij d
 
 
 ## Tools
-Een kleine opsomming van tools. Voor
+Een kleine opsomming van tools.
 * Webdeveloper tools in Firefox en Chrome hebben animatie tools (Safari en Opera bekijken) [Visualize easing in devtools](https://hacks.mozilla.org/2016/11/visualize-animations-easing-in-devtools/)
 * [Web animatie API](https://hacks.mozilla.org/2016/08/animating-like-you-just-dont-care-with-element-animate/)
 * [Vergelijk webanimatie technieken/tools](http://sparkbox.github.io/bouncy-ball/)
