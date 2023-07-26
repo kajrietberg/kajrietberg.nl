@@ -31,8 +31,9 @@ Een data-visualisatie kan middels een infographic, maar een infographic hoeft ge
 
 ## Wat kan je met een data visualisatie?
 
-Een data visualisatie gebruik je zodat mensen het verhaal achter de data op een visuele manier kunnen interpreteren opdat ze het beter kunnen begrijpen. Steeds vaker zie je storytelling gebruikt worden om o.a. nieuws, data over te brengen op de bezoeker van een website. Hele lappen tekst lezen we niet graag vanaf een beeldscherm en juist het visuele is de sterke kant van het web. Data visualisatie maakt juist gebruik van dat visuele deel zodat mensen zich beter kunnen informeren.
-Daarnaast kan je de data die je hebt visualiseren om te kijken of je verbanden kan vinden. Door het kleuren of anders weergeven zie je juist verbanden die je anders niet zou zien. Speel met je eigen data.
+Een data visualisatie gebruik je zodat mensen het verhaal achter de data op een visuele manier kunnen interpreteren opdat ze het beter kunnen begrijpen. Steeds vaker zie je storytelling gebruikt worden om o.a. nieuws, data over te brengen op de bezoeker van een website. Hele lappen tekst lezen we niet graag vanaf een beeldscherm en juist het visuele is de sterke kant van het web. Data visualisatie maakt juist gebruik van dat visuele deel zodat mensen zich beter kunnen informeren. Hierdoor heb je ook dat je sneller de de data eruit kan halen.
+
+Daarnaast kan je de data die je hebt visualiseren om te kijken of je verbanden kan vinden. Door het kleuren of anders weer te geven zie je juist verbanden die je anders niet zou zien. Speel met je eigen data.
 
 Vertel de waarheid en hou je data visuals overzichtelijk.
 
@@ -113,28 +114,17 @@ Denk na over je eigen proces. Blijf nadenken.
 ### Voorbeelden van visualisaties
 
 * [Data visualisatie voorbeelden voor mobiel](http://mobilev.is/)
-* [Boucoup](https://bocoup.com/services/datavis)
-* [NRC artikel met voorbeelden](http://www.nrc.nl/handelsblad/2015/12/05/spiegeltjes-en-kraaltjes-in-de-polisjungle-1564610)
-* [Independer infographic](https://www.independer.nl/zorgverzekering/info/10-jaar-zorgstelsel/veranderingen-in-beeld.aspx)
 * [Infograhic conferentie Zeist 2016](https://flic.kr/s/aHskvygEs2)
 * [AnyChart gallery](http://www.anychart.com/products/anychart/gallery/)
-
-
-### Prototypes maken
-
-* [Plotly](https://plot.ly/)
-* [RAW](http://raw.densitydesign.org/)
+* [Viz of the day](https://public.tableau.com/app/discover/viz-of-the-day) van Tableau
 
 
 ### Libraries
 
-* [Learn js Data](http://learnjsdata.com/)
 * [Zurb Pizza charts](http://zurb.com/playground/pizza-amore-charts-and-graphs)
 * [Google charts](https://developers.google.com/chart/)
-* [Chartist.js](http://gionkunz.github.io/chartist-js/index.html)
+* [Chartist.js](https://github.com/chartist-js/chartist#readme)
 * [Chart.js](http://www.chartjs.org/)
-* [Do it yourself met CSS en SVG](https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/)
-* [Data visualisatie overzicht van verschillende handleidingen en bronnen](http://www.visualcinnamon.com/resources/visualization-resources)
 * [Three.js](http://threejs.org/)
 
 
@@ -149,12 +139,11 @@ Denk na over je eigen proces. Blijf nadenken.
 * [AM Charts](https://www.amcharts.com/)
 * [Chart builder](http://quartz.github.io/Chartbuilder/)
 * [Datawrapper](https://datawrapper.de/)
-* [Silk](https://www.silk.co/)
+* [Flourish](https://flourish.studio/)
 * [Infogram](https://infogr.am/)
 * [Chartblocks](http://www.chartblocks.com/en/)
-* [Processing](https://processing.org/)
-* [Statpedia Create stats](http://statpedia.com/create)
 * [Fusion Charts](http://www.fusioncharts.com/)
+* [RAWGraphs](https://www.rawgraphs.io/)
 * Adobe Illustrator en photoshop
 * Excel
 * Google Maps
@@ -168,20 +157,20 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ### Conferenties en studie mogelijkheden
 
-* [Visualized](https://www.facebook.com/Visualized/)
-* [OpenVis conf](https://openvisconf.com/)
 * [Infographics Congres](http://www.infographicscongres.eu/)
 * [Eyeo Festival](http://eyeofestival.com/)
 * [Information+](http://informationplusconference.com/)
 * [Workshops van Graphic Hunter](http://graphichunters.nl/)
 * [Online leren bij Datacamp](https://www.datacamp.com/)
-
+* [SHOW - Play Pause Stop](https://graphichuntersshow.nl/)
 
 ### Workshops en handleidingen
 
 * [Dashing D3js](https://www.dashingd3js.com/)
-* [Overzicht om data visualisatie en verschillende tools te leren](http://www.visualcinnamon.com/resources/learning-data-visualization)
 * [How to organize your data for various graphs and charts](http://www.storybench.org/organize-data-various-graphs-charts/)
+* [Learn js Data](http://learnjsdata.com/)
+* [Do it yourself met CSS en SVG](https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/)
+* [Data visualisatie overzicht van verschillende handleidingen en bronnen](https://www.visualcinnamon.com/resources/learning-data-visualization/)
 
 
 ### Boeken
@@ -194,11 +183,9 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ### Bedrijven
 
-* [Xplane](http://www.xplane.com/); Gericht op visual thinking, schetsen, hebben sketchjams en visual thinking workshops, lijken zeer actief
 * [Sheila Pontis](https://sheilapontis.wordpress.com/); Interessante info
 * [Information is Beautiful](http://www.informationisbeautiful.net/); Interessante boeken en workshops
 * [Getting the picture](https://www.gtp.nl/); Nederlands bedrijf
-* [Adyen](https://www.adyen.com/nl); gebruikt data visuals om statistieken (Dashboards) aan hun klanten te tonen zodat die klanten nog beter kunnen presteren en inzicht krijgen in processen die hun klanten weer op hun website hebben. Zoals Netflix of Facebook.
 
 
 ### Bedrijven die visuals maken
@@ -207,7 +194,6 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Visual Cinnamon](http://www.visualcinnamon.com/); freelancer voor maken van (online) data visualisaties designs
 * [John Grimwade](http://johngrimwade.com/); information graphics
 * [In 60 seconds](http://www.in60seconds.nl/); Nederlands bedrijf, die voor o.a. nu.nl infographic filmpjes maken, voorbeeld over de zorgverzekering voor [ONVZ](http://www.in60seconds.nl/case/onvz/)
-* [Studio Lakmoes](http://www.studiolakmoes.nl/infographics); Nederlands bedrijf
 * [CleverFranke](https://www.cleverfranke.com/); bouwt wereldwijd online visuals.
 * [Accurat](http://www.accurat.it/)
 
@@ -219,4 +205,4 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Infographics to explain, data visualizations to explore](http://www.thefunctionalart.com/2014/03/infographics-to-reveal-visualizations.html)
 * [Infoposters Are Not Infographics: A Comparison](http://understandinggraphics.com/visualizations/infoposters-are-not-infographics/)
 * [Google News Lab](https://newslab.withgoogle.com/)
-* [Market Cafe Mag](http://marketcafemag.bigcartel.com/); een papieren magazine
+* [Market Cafe Mag](https://www.marketcafemag.com/); een papieren magazine
