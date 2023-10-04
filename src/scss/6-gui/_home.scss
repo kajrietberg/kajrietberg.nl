@@ -18,11 +18,14 @@
 
 
 .about-image {
-    float: right;
-    width: 40%;
     margin-left: 2*$spacing;
     margin-bottom: $spacing;
     transform: rotateY(180deg);
+
+    @include media-query(palm-and-up) {
+        float: right;
+        width: 40%;
+    }
 }
 
 
