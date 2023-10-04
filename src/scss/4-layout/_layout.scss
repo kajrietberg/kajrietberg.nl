@@ -37,9 +37,9 @@ article {
         flex-wrap: wrap;
 
         div {
-            
+            width: 45%;
             @include media-query(palm) {
-                width: 45%;
+                width: 100%;
             }
         }
     }
