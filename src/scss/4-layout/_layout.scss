@@ -38,7 +38,7 @@ article {
 
         div {
             
-            @include media-query(palm-and-up) {
+            @include media-query(palm) {
                 width: 45%;
             }
         }
