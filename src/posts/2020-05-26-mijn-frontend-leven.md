@@ -1,5 +1,5 @@
 ---
-title: Mijn Front-end leven, een evaluatie
+title: Mijn Front-end leven, een evaluatie (2020)
 tags: 
     - front-end
     - leren

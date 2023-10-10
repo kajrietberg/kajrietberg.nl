@@ -1,5 +1,6 @@
 ---
-title: Welke baan is geschikt voor mij?
+title: Welke baan is geschikt voor mij? (2020)
+date: 2020-06-15
 tags: 
     - ontwikkeling
     - post

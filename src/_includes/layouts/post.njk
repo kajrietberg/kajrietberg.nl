@@ -9,6 +9,7 @@ page-class: article
         <main role="main"> 
             <article class="h-entry">
                 <h1 class="p-name">{{ title }}</h1>
+                <p> Datum geplaatst: {{  page.date.toDateString() }}</p>
                 
                 <div class="post-content e-content" itemprop="articleBody">
                         {{ content | safe }}
