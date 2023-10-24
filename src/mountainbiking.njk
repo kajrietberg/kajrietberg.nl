@@ -15,8 +15,8 @@ eleventyImport:
 
 	<h3>Mijn fietsverhaaltjes</h3>
 	<ul>
-		{%- for mtb in collections.mtb -%}
-		<li><a href="{{ mtb.url }}">{{ mtb.data.title }}</a></li>
+		{%- for mtb in collections.mtb | reverse -%}
+		<li><a href="{{ mtb.url }}">{{ mtb.data.title  }}</a></li>
 		{%- endfor -%}
 	</ul>
 
