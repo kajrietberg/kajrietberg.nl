@@ -1,5 +1,5 @@
 ---
-title: Terug zijn in de webwereld
+title: Terug in de webwereld
 tags: 
     - front-end
     - persoonlijk
