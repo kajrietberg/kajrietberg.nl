@@ -1,5 +1,5 @@
 ---
-title: Data Visualisatie; een startpunt
+title: Data visualisatie; een startpunt
 tags: 
     - front-end
     - data
@@ -9,33 +9,33 @@ tags:
 ---
 
 
-Bij Zorgweb verzamelen we veel data. De data die we verzamelen heeft alles te maken met de financiering, toegang en kwaliteit van zorg. En dat is veel data. Omdat we juist zoveel met data bezig zijn, willen we kijken of datavisualisatie ook iets voor onze data is en zo ja, wat en/of hoe dan precies.
+Bij Zorgweb (het bedrijf waar ik als UX-developer) werkte verzamelden we veel data. De data die we verzamelden heeft alles te maken met de financiering, toegang en kwaliteit van zorg. En dat is veel data. Omdat we juist zoveel met data bezig zijn, willen we kijken of datavisualisatie ook iets voor onze data is en zo ja, wat en/of hoe dan precies.
 
 Ik heb mij hiervoor verdiept in datavisualisatie. De hieruit voortgekomen informatie heb ik verzameld en publiceer ik hier. Het zijn opmerkingen, linkjes die voor mij belangrijk zijn, het geheel is niet altijd een goed lopend verhaal.
 De reden dat ik het hier publiceer is dat anderen er iets aan kunnen hebben of dat ik feedback ontvang zodat ik weer nieuwe inzichten op doe.
 
 
-## Wat is data visualisatie?
+## Wat is datavisualisatie?
 
-Data visualisaties laten op een visuele manier je data zien. Dit kan een zo getrouw mogelijke weergave zijn omdat een wetenschapper daar om vraagt, maar kan ook een vereenvoudigde weergave zijn opdat de doelgroep beter begrijpt wat je wilt overbrengen. Dan is het beter om randzaken weg te laten.
+Datavisualisaties laten op een visuele manier je data zien. Dit kan een zo getrouw mogelijke weergave zijn omdat een wetenschapper daar om vraagt, maar kan ook een vereenvoudigde weergave zijn opdat de doelgroep beter begrijpt wat je wilt overbrengen. Dan is het beter om randzaken weg te laten.
 
 Naast data visualisaties heb je infographics. Naar mijn idee is een infographic een vereenvoudigde weergave van je verhaal om iets uit te leggen. Je laat zien hoe iets werkt, hoe een proces in elkaar zit, waarom iets zo gebeurt, de getallen die ergens bij horen. 
-Data visualisaties tonen de relaties tussen de verschillende data. Een data visualisatie wil de data tonen, maar ook dat je begrip krijgt van de getoonde data en de verhoudingen tussen de data ziet.
+Data visualisaties tonen de relaties tussen de verschillende data. Een datavisualisatie wil de data tonen, maar ook dat je begrip krijgt van de getoonde data en de verhoudingen tussen de data ziet.
 
 Data visualisaties en infographics hebben verschillende uitingsvormen. Kunnen foto's zijn van eigen gemaakte stellages, of tekeningen die met de hand zijn gemaakt of juist met de computer, verzameling van data, veel lijnen die data of verbindingen voorstellen, kleurig, pizzapunt grafieken, etc.
 Voor wetenschappelijke infograhics is een tekening vaak beter want deze vertelt het verhaal beter dan een foto. In een foto heb je zaken die afleiden van je verhaal.
 Let bij een vereenvoudiging op dat iedereen deze hetzelfde interpreteert. Test dit goed. Iedereen kijkt er weer anders tegen aan.
 
-Een data-visualisatie kan middels een infographic, maar een infographic hoeft geen data visualisatie te zijn. Datavisualisatie en infograpics zijn de sterke uitleg tools.
+Een data-visualisatie kan middels een infographic, maar een infographic hoeft geen datavisualisatie te zijn. Datavisualisatie en infograpics zijn de sterke uitleg tools.
 
 
-## Wat kan je met een data visualisatie?
+## Wat kan je met een datavisualisatie?
 
-Een data visualisatie gebruik je zodat mensen het verhaal achter de data op een visuele manier kunnen interpreteren opdat ze het beter kunnen begrijpen. Steeds vaker zie je storytelling gebruikt worden om o.a. nieuws, data over te brengen op de bezoeker van een website. Hele lappen tekst lezen we niet graag vanaf een beeldscherm en juist het visuele is de sterke kant van het web. Data visualisatie maakt juist gebruik van dat visuele deel zodat mensen zich beter kunnen informeren. Hierdoor heb je ook dat je sneller de de data eruit kan halen.
+Een datavisualisatie gebruik je zodat mensen het verhaal achter de data op een visuele manier kunnen interpreteren opdat ze het beter kunnen begrijpen. Steeds vaker zie je storytelling gebruikt worden om o.a. nieuws, data over te brengen op de bezoeker van een website. Hele lappen tekst lezen we niet graag vanaf een beeldscherm en juist het visuele is de sterke kant van het web. Datavisualisatie maakt juist gebruik van dat visuele deel zodat mensen zich beter kunnen informeren. Hierdoor heb je ook dat je sneller de de data eruit kan halen.
 
 Daarnaast kan je de data die je hebt visualiseren om te kijken of je verbanden kan vinden. Door het kleuren of anders weer te geven zie je juist verbanden die je anders niet zou zien. Speel met je eigen data.
 
-Vertel de waarheid en hou je data visuals overzichtelijk.
+Vertel de waarheid en hou je datavisuals overzichtelijk.
 
 
 ## Voor data visualisatie heb je nodig:
@@ -66,7 +66,6 @@ Data visualisatie kan een data storytelling zijn, je vertelt een verhaal aan de 
 Interessante voorbeelden van storytelling zijn:
 
 * [New York Times](http://www.nytimes.com/interactive/2015/us/year-in-interactive-storytelling.html)   
-* [Gezondheidszorg info](http://www.theatlantic.com/sponsored/athenahealth/)     
 * [Het verhaal achter de gezondheidszorg info pagina](https://medium.com/truth-labs/re-thinking-reading-on-the-web-158e789eddd7?mc_cid=4df1c7dbfd&mc_eid=476f42f02a#.i6c63rfx6)
 
 
@@ -113,7 +112,6 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ### Voorbeelden van visualisaties
 
-* [Data visualisatie voorbeelden voor mobiel](http://mobilev.is/)
 * [Infograhic conferentie Zeist 2016](https://flic.kr/s/aHskvygEs2)
 * [AnyChart gallery](http://www.anychart.com/products/anychart/gallery/)
 * [Viz of the day](https://public.tableau.com/app/discover/viz-of-the-day) van Tableau
@@ -121,12 +119,14 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ### Libraries
 
-* [Zurb Pizza charts](http://zurb.com/playground/pizza-amore-charts-and-graphs)
 * [Google charts](https://developers.google.com/chart/)
 * [Chartist.js](https://github.com/chartist-js/chartist#readme)
 * [Chart.js](http://www.chartjs.org/)
 * [Three.js](http://threejs.org/)
-
+* [Sigma.js](https://www.sigmajs.org/)
+* [Animate on scroll](https://michalsnik.github.io/aos/)
+* [Magic scroll interactions](http://scrollmagic.io/)
+* [Sal.js](https://mciastek.github.io/sal/)
 
 ### Tools
 
@@ -164,22 +164,32 @@ Denk na over je eigen proces. Blijf nadenken.
 * [Online leren bij Datacamp](https://www.datacamp.com/)
 * [SHOW - Play Pause Stop](https://graphichuntersshow.nl/)
 
-### Workshops en handleidingen
+### Workshops, curssussen en handleidingen
 
 * [Dashing D3js](https://www.dashingd3js.com/)
 * [How to organize your data for various graphs and charts](http://www.storybench.org/organize-data-various-graphs-charts/)
 * [Learn js Data](http://learnjsdata.com/)
 * [Do it yourself met CSS en SVG](https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/)
 * [Data visualisatie overzicht van verschillende handleidingen en bronnen](https://www.visualcinnamon.com/resources/learning-data-visualization/)
+* [Effective data visualization van Sonja Kuijpers](https://www.domestika.org/en/courses/3069-effective-data-visualization-transform-information-into-art/studio_terp)
+* [Creative data visualization for beginners](https://www.domestika.org/en/courses/3705-creative-data-visualization-for-beginners)
+* [Informations design: storytelling with data in Illustrator](https://www.domestika.org/en/courses/3601-information-design-storytelling-with-data-in-illustrator/defilippovale)
+* [Fullstack D3 and datavisualization](https://www.newline.co/fullstack-d3)
+* [Learn data science](https://www.edx.org/learn/data-science)
 
 
 ### Boeken
 
+* [Datasketches](https://www.datasketch.es/)
+* [Informatuion Design Unbound](https://infodesignunbound.com/)
+* [Britannica's Encyclopedia infographica](https://www.bruna.nl/engelse-boeken/britannica-s-encyclopedia-infographica-9781913750459)
 * [Storytelling with data](http://www.storytellingwithdata.com/book/)
 * [Information is Beautiful](http://www.informationisbeautiful.net/books/)
 * [The truthfull art en Functional art](http://www.thefunctionalart.com/)
 * [Effective Data Visualization: The Right Chart for the Right Data](http://www.amazon.com/Effective-Data-Visualization-Right-Chart/dp/1506303056/)
 * [Data visualisatie boekenlijst, aanraders zijn die met 4 sterren en meer](http://www.visualcinnamon.com/resources/learning-data-visualization/books)
+* [Liegen met cijfers](https://www.bol.com/nl/nl/p/liegen-met-cijfers/9200000092087439/?bltgh=nJxkujm954nQJbzkEWdNtA.2_31.33.ProductImage)
+* [Communicating with data visualisation](https://www.bruna.nl/engelse-boeken/communicating-with-data-visualisation-9781529743777)
 
 ### Bedrijven
 
@@ -199,10 +209,10 @@ Denk na over je eigen proces. Blijf nadenken.
 
 ### Overige
 
-* [How can open data help improve healthcare](http://theodi.org/blog/how-can-open-data-help-improve-healthcare)
 * [CMD Amsterdam lezing](https://www.cmd-amsterdam.nl/events/icons/icons-3)
-* [7 data journalism blogs](https://blog.infogr.am/seven-data-journalism-blogs/)
-* [Infographics to explain, data visualizations to explore](http://www.thefunctionalart.com/2014/03/infographics-to-reveal-visualizations.html)
 * [Infoposters Are Not Infographics: A Comparison](http://understandinggraphics.com/visualizations/infoposters-are-not-infographics/)
 * [Google News Lab](https://newslab.withgoogle.com/)
 * [Market Cafe Mag](https://www.marketcafemag.com/); een papieren magazine
+* [Nightingale](https://nightingaledvs.com/); papieren magazine
+* [Het verhaal van 5 jaar Pixelpillow](https://5jaar.pixelpillow.nl/)
+* [Day of data](https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/day-data-rockets-nasa-stem-partnership); datavisualisatie in de klas

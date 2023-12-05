@@ -6,10 +6,10 @@ tags:
     - post
 ---
 
-Datavisualisatie kan middels grafieken, maar je kan ook gebruik maken van kaarten. Het laat middels een kaart zien waar de te visualiseren onderwerp te zien is of welk gebied het gaat waarover het gaat. Dit kan veel duidelijk maken over de spreiding in een gebied, land, werelddeel.
+Datavisualisatie kan middels grafieken, maar je kan ook gebruik maken van kaarten. Het laat middels een kaart zien waar het te visualiseren onderwerp te zien is of welk gebied het over gaat. Dit kan veel duidelijk maken over de spreiding in een gebied, land, werelddeel.
 Er zijn verschillende type kaarten, om meer te weten te komen over kaarten kan je het artikel van [Map School](https://mapschool.io/index.nl.html) lezen.
 
-Voor het werken met datavisualisaties en kaarten zijn er meerdere tools beschikbaar. Ik heb LeafLet en D3 een beetje getest waarbij ik D3 heb gebruikt voor een kaart in het dashboard dat ik aan het bouwen ben.
+Voor het werken met datavisualisaties en kaarten zijn er meerdere tools beschikbaar. Ik heb LeafLet en D3 een beetje getest waarbij ik D3 heb gebruikt voor een kaart in het dashboard dat ik voor de VoorzieningenWijzer aan het bouwen was.
 Ik schrijf hier kort over beide tools en heb een opsomming met interessante links over het onderwerp datavisualisatie en kaarten.
 
 
@@ -25,10 +25,11 @@ Je zal verschillende websites tegenkomen die LeafLet gebruiken, zoals de website
 D3 is de tool voor het bouwen van custom datavisualisaties. Je kan D3 ook gebruiken voor een datavisualisatie met kaarten en dan vooral statische kaarten. Hoeft er vanuit de gebruiker geen interactie plaats te vinden, is D3 een goede optie om te gebruiken.
 D3 heeft verschillende functies ingebouwd die je kan gebruiken: [D3 API](https://github.com/d3/d3/blob/master/API.md).
 
+## Interessante bronnen
 
 ### Tools:
 - [Leaflet](http://leafletjs.com/)
-- [D3](https://github.com/d3/d3/blob/master/API.md#geographies-d3-geo)
+- [D3 geo](https://d3js.org/d3-geo)
 - [Mapbox](https://www.mapbox.com/)
 - [Google Maps](https://developers.google.com/maps/documentation/javascript/)
 - [HERE Maps](https://developer.here.com/develop/javascript-api)
@@ -39,18 +40,16 @@ D3 heeft verschillende functies ingebouwd die je kan gebruiken: [D3 API](https:/
 - [Get Latitude and Longitude](https://www.latlong.net/)
 
 ### Meetups:
-- [Maptime Utrecht](https://www.meetup.com/nl-NL/Maptime030-Utrecht/)
 - [Maptime Amsterdam](https://www.meetup.com/nl-NL/Maptime-AMS/)
 
 
 ### Workshops/tutorials:
 - [Webmapping for beginners](https://github.com/NieneB/Webmapping_for_beginners/wiki)
 - [Leaflet tutorials](http://leafletjs.com/examples.html)
-- [Mapping D3.js Course ](https://www.dashingd3js.com/mapping-d3-course), kost geld
 
 ### Bedrijven:
 - [Webmapper](http://webmapper.net/)
-
+- [Wolfmaps: maak interactieve kaarten die overal werken](https://wolfmaps.nl/)
 
 ### Kaarten:
 - [Kaart van gemeenten in Nederland](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data)

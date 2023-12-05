@@ -64,7 +64,7 @@ Om het verhaal te verduidelijken gebruik hiervoor elementen van een tabel of gra
 - Gebruik kleuren om verschil te laten zien
 
 Dashboard design:
-Dashboard is een exploratory manier van data disualisatie. Er is data om door heen te gaan en te kijken wat deze zegt of zou kunnen zeggen. 
+Dashboard is een exploratory manier van datavisualisatie. Er is data om door heen te gaan en te kijken wat deze zegt of zou kunnen zeggen. 
 
 Krijg duidelijk welke data de bezoeker van het dashborad nodig heeft. 
 Kijk hoe je deze data op een zo effectieve, maar simpele manier kan tonen. 
