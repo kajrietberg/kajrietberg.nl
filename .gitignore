@@ -10,5 +10,4 @@ package copy.json
 
 # Local Netlify folder
 .netlify
-package copy.json
-package copy.json
+.DS_Store

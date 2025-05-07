@@ -1,6 +1,6 @@
 {
   "name": "kajrietberg.nl",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Website of Kaj Rietberg, Front-end dev",
   "scripts": {
     "start": "ELEVENTY_ENV=dev eleventy --serve",
