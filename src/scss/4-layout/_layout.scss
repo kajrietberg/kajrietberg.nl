@@ -18,7 +18,7 @@ article {
 
     @include media-query(palm-and-up) {
         max-width: $max-width;
-        padding: 30px 60px 60px;
+        padding: 30px 60px;
     }
 }
 
