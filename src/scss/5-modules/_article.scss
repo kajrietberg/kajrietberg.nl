@@ -9,8 +9,6 @@
  */
  
 time {
-	display: block;
-	margin-bottom: $spacing;
 }
 
 
@@ -21,4 +19,9 @@ time {
 	margin-bottom: 1.25em;
 	padding: 3px 5px;
 	overflow-y: scroll;
+}
+
+.datum {
+	font-size: $font-size-10;
+	font-weight: 100;
 }
