@@ -1,37 +1,34 @@
-
-@import
-
 // Settings
-"1-settings/_settings", // Set up your settings and variables first
+@use "1-settings/_settings"; // Set up your settings and variables first
 
 
 //Tools: mixins, functions, extends, etc.
-"2-tools/_responsive",
+// @use "2-tools/_responsive";
 
 
 //Base: base styling from html elements, normalize, etc.
-"3-base/_base",
+@use "3-base/_base";
 
 
 //Layout; classes that layout the page and/or classes that have layout on them
-"4-layout/_layout",
+@use "4-layout/_layout";
 
 
 //Modules; components that can be used through the whole website
-"5-modules/_article",
-"5-modules/_code",
-"5-modules/_footer",
-"5-modules/_header",
-"5-modules/_headers-titles",
-"5-modules/_page",
-"5-modules/_post-tagline",
-"5-modules/_quote",
-"5-modules/_webmentions",
+@use "5-modules/_article";
+@use "5-modules/_code";
+@use "5-modules/_footer";
+@use "5-modules/_header";
+@use "5-modules/_headers-titles";
+@use "5-modules/_page";
+@use "5-modules/_post-tagline";
+@use "5-modules/_quote";
+@use "5-modules/_webmentions";
 
 
 //gui: specific styling on a page (what's only on that page)
-"6-gui/_home",
+@use "6-gui/_home";
 
 
 // Print
-"3-base/_print";
+@use "3-base/_print";

@@ -1,19 +1,20 @@
 /* ------------------------------------
    #POST-TAGLINE
    ------------------------------------*/
- 
 /**
  * Kort stukje over mij onder elk artikel
  *
  *
  */
 
+ @use "1-settings/_settings" as s;
+
 .post-tagline {
 	font-weight: 600;
 	background-color: #0c0c3e;
 	border-top-left-radius: 30px 20px;
 	border-bottom-right-radius: 20px 30px;
-	padding: 2*$spacing;
+	padding: 2*s.$spacing;
 	margin-bottom: 0;
 	margin-top: 3rem;
 }

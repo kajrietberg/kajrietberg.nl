@@ -8,6 +8,7 @@
  *
  */
 
+  @use "1-settings/_settings" as s;
 
 header {
     width: 100%;
@@ -26,18 +27,19 @@ header {
         a {
             text-decoration: none;
         }
-        
-        @include media-query(lap-and-up) {
+
+        @media screen and (min-width: 1024px) {
             width: 35%;
         }
+        
     }
 
     h3 {
-
-        @include media-query(lap-and-up) {
+        @media screen and (min-width: 1024px) {
             width: 65%;
             font-size: 1.7rem;
         }
+        
     }
 
 }

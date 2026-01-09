@@ -1,15 +1,16 @@
 /* ------------------------------------
    #PAGE
    ------------------------------------*/
- 
 /**
  * 
  *
  *
  */
 
+  @use "1-settings/_settings" as s;
+
   
 .page-title {
 	width: 100%;
-	margin-bottom: $spacing;
+	margin-bottom: s.$spacing;
 }

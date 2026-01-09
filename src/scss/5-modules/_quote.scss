@@ -1,18 +1,19 @@
 /* ------------------------------------
    #QUOTE
    ------------------------------------*/
- 
-/**
+   /**
  * 
  *
  *
  */
 
+ @use "1-settings/_settings" as s;
+
 blockquote {
     opacity: .9;
-    font: italic $font-size-40 Georgia, serif;
+    font: italic s.$font-size-40 Georgia, serif;
     line-height: 1.5em;
-    margin-bottom: $spacing;
+    margin-bottom: s.$spacing;
     padding: 0 0 0 2.5rem;
     position: relative;
     quotes: none;
@@ -28,7 +29,7 @@ blockquote {
 
     cite {
         display: block;
-        font-size: $font-size-20;
+        font-size: s.$font-size-20;
 
         &:before { content: "\2014 \0020"; }
     }

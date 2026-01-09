@@ -24,8 +24,10 @@
     "dotenv": "^16.0.3",
     "encoding": "^0.1.13",
     "fs": "^0.0.1-security",
+    "gulp-sass": "^6.0.1",
     "luxon": "^3.2.1",
-    "netlify-lambda": "^2.0.15"
+    "netlify-lambda": "^2.0.15",
+    "sass": "^1.97.0"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",

@@ -1,13 +1,15 @@
 /* ------------------------------------
    #LAYOUT
    ------------------------------------*/
- 
+
 /**
  * 
  *
  *
  */
 
+ @use "1-settings/_settings" as s;
+ 
 
 .wrapper,
 article {
@@ -15,10 +17,10 @@ article {
     width: 100%;
     margin: 0 auto;
     padding: 30px 30px 50px;
-
-    @include media-query(palm-and-up) {
-        max-width: $max-width;
-        padding: 30px 60px;
+    
+    @media screen and (min-width: 480px) {
+        max-width: s.$max-width;
+        padding: 30px 60px; 
     }
 }
 
@@ -38,9 +40,9 @@ article {
 
         div {
             width: 45%;
-            @include media-query(palm) {
+            @media screen and (max-width: 1023px) {
                 width: 100%;
-            }
+             }
         }
     }
 
@@ -58,10 +60,9 @@ section {
         flex-wrap: wrap;
 
         div {
-
-            @include media-query(palm-and-up) {
-                width: 45%;
-            }
+            @media screen and (min-width: 480px) {
+                widht: 45%
+             }
         }
     }
 }
