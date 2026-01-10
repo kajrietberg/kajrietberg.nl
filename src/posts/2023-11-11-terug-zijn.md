@@ -11,7 +11,7 @@ Om mijn collega's te helpen en omdat ik ze beter wil leren kennen had ik aangebo
 
 Ik heb het gevoel op de perfecte werkplek te zijn beland, ik werk op een creatieve plek waar ik hele lieve studenten mag lesgeven, met ze contact heb en kan tijdens de rekenlessen nog wel eens gebruik maken van mijn kennis van hun werkveld. En kan leuke cursussen volgen, die ik altijd al eens wilde doen.
 
-In afgelopen 2 weken kon ik de training <a href="https://www.cibapnext.nl/aanbod/adobe-illustrator-training/" title="Link de cursus Adobe Illistrator van Cibap Next">Adobe Illustrator bij Cibap Next</a> volgen. Dit was een cursus van 2 dagen, nu kon ik eindelijk ook Adobe Illustrator beter leren kennen. Vooral het anders kijken naar afbeeldingen zal mij bijblijven en dan gaat het om het zien van basisfiguren, driehoek, vierkant, rechthoek, etc., in de opbouw van figuren in een tekening. 
+In afgelopen 2 weken kon ik de training <a href="https://www.cibapnext.nl/aanbod/adobe-illustrator-training/" title="Link de cursus Adobe Illistrator van Cibap Next">Adobe Illustrator bij Cibap Next</a> volgen. Dit was een cursus van 2 dagen, nu kon ik eindelijk ook Adobe Illustrator beter leren kennen. Vooral het anders kijken naar afbeeldingen zal mij bijblijven en dan gaat het om het zien van basisfiguren, o.a. driehoek, vierkant, rechthoek, in de opbouw van figuren in een tekening. 
 
 Misschien zie je hier meteen de connectie van rekenen en design, die basisfiguren zijn ook een onderdeel van rekenen. Dus mijn hoofd begon gelijk te werken en na te denken over het gebruiken van Illustrator in een les. Rekenen toegepast in de directe praktijk van de studenten. Volgens mij kan je het qua onderwijs niet beter krijgen.
 

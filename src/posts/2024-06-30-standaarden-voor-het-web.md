@@ -1,6 +1,8 @@
 ---
 title: Standaarden in web ontwikkeling
-tags: ['front-end', 'HTML', 'CSS', 'page']
+tags: 
+    - standaarden
+    - post
 ---
 
 

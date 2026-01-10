@@ -2,10 +2,12 @@
 title: Datavisualisatie en rekenen
 tags: 
     - data-visualisatie
+    - data-storytelling
     - rekenen
+    - post
 ---
 
-We zien steeds meer datavisuals in websites of op televisie. Datavisuals kunnen al simpele grafiekjes zijn. Belangrijk is dus dat wij in het onderwijs onze studenten data vaardig maken, wat betekent dat als ze een visual (bijvoorbeeld een grafiek) zien weten wat daar precies gepresenteerd wordt en ook zien of het op een goede manier gebeurt. Dat laatste is namelijk niet altijd het geval en het is ook best lastig om te zien of de datavisual wel eerlijk is.
+We zien steeds meer datavisuals in websites of op televisie. Hiermee kan je verhalen vertellen met data, dus data storytelling. Datavisuals kunnen al simpele grafiekjes zijn. Belangrijk is dus dat wij in het onderwijs onze studenten data vaardig maken, wat betekent dat als ze een visual (bijvoorbeeld een grafiek) zien weten wat daar precies gepresenteerd wordt en ook zien of het op een goede manier gebeurt. Dat laatste is namelijk niet altijd het geval en het is ook best lastig om te zien of de datavisual wel eerlijk is.
 
 Bij het vak rekenen in het mbo krijgen de studenten een domein over 'Omgaan met kwantitatieve informatie'. Ze leren data halen uit grafieken, diagrammen, schema's, tabellen en daar berekeningen meedoen. We proberen de studenten data-vaardig te maken. Een rol van het onderwijs is studenten te leren kritisch te zijn op dat wat ze zien en zichzelf de vraag te stellen of het klopt wat ze daar zien. En helemaal mooi zou zijn als ze dan de stap kunnen maken hoe het beter zou kunnen.
 
