@@ -16,7 +16,7 @@ eleventyImport:
     En hopelijk hebben anderen er ook iets aan.
   </p>
 
-  <ul>
+  <ul class="artikelen-overzicht">
     {%- for post in collections.post | reverse -%}
     <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
     {%- endfor -%}
@@ -24,8 +24,8 @@ eleventyImport:
 
 <div>
   <h2>Schrijfsels ergens anders</h2>
-  <ul>
-    <li><a href="http://fronteers.nl/blog/2015/01/css-resets">CSS Resets</a> - Fronteers website</li>
-    <li><a href="https://www.bananenflanke.nl/groundhoppen-bratwurst-pommes-en-goed-voetbal-in-meppen">Groundhoppen: Bratwurst, Pommes en goed voetbal in Meppen</a> - Bananenflanke, verhalen over het Duitse voetbal</li>
+  <ul class="artikelen-overzicht">
+    <li><a href="http://fronteers.nl/blog/2015/01/css-resets">CSS Resets - Fronteers website</a></li>
+    <li><a href="https://www.bananenflanke.nl/groundhoppen-bratwurst-pommes-en-goed-voetbal-in-meppen">Groundhoppen: Bratwurst, Pommes en goed voetbal in Meppen - Bananenflanke, verhalen over het Duitse voetbal</a></li>
   </ul>
 </div>
